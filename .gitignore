@@ -2,6 +2,7 @@
 .python-version
 local_settings.ini
 .DS_Store
+output/
 bin/
 include/
 lib/

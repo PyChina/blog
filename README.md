@@ -20,21 +20,47 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
 ## organizer
 
-- lepture
 - KJ
 - Sting
 - Zoom.Quiet
 
-## usage
+# usage
 How to update the site contents
 
-main loop:
+depending:
+
+- Python
+- Pelican (auto included these)
+    - feedgenerator>=1.6
+    - jinja2>=2.7
+    - pygments
+    - docutils
+    - pytz>=0a
+    - blinker
+    - unidecode
+    - six
+    - markupsafe
+- git
+- fabric (auto included these)
+    - paramiko>=1.10.0
+    - pycrypto>=2.1
+    - ecdsa
+
+
+## main loop:
 
 1. git clone
 1. edit some .md in `content/`
-1. `fab rebuild` for test local
+1. `fab build` for test local
 1. git add->ci->push
-1. `fab deploy` published all
+1. `fab deploy2obp` published all
+
+in fact because github only embded Jekll,
+but we r PyChina.org, so play with pure Python tools!
+
+so, the site is generating in local, push into github,
+but be sync into pychina.qiniudn.com,
+publish as bind pychina.org  ;-)
 
 ### writing
 
@@ -78,9 +104,7 @@ main loop:
     Available commands:
 
         build       编译所有页面
-        clean       清除所有页面
-        deploy      向主机部署所有页面
-        rebuild     重编译所有页面
+        deploy2obp  从远程主机部署所有页面到7牛
         reserve     重编译所有页面再启动本地服务
         serve       启动本地服务 localhost:8000
 

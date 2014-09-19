@@ -4,9 +4,12 @@ import os
 
 # Local path configuration (can be absolute or relative to fabfile)
 env.input_path = 'content'
-
 env.deploy_path = 'output'
-DEPLOY_PATH = env.deploy_path
+#DEPLOY_PATH = env.deploy_path
+env.qiniu = '/opt/bin/7niu_package_darwin_amd64/qrsync'
+env.qiniu_conf = '../../7niu4pychina.json'
+#env.qiniu_path = '../7niu.pyconcn'
+
 # Remote server configuration
 #production = 'root@localhost:22'
 #dest_path = '/var/www'
@@ -24,6 +27,13 @@ DEPLOY_PATH = env.deploy_path
 def build():
     local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
 
+def put7niu():
+    build()
+    local('cd {deploy_path} && '
+            'pwd && '
+            '{qiniu} -skipsym {qiniu_conf}&& '
+            'pwd '.format(**env)
+          )
 #def rebuild():
 #    clean()    # for PyChina.github.io can not clean output/.git
 #    build()
@@ -70,3 +80,5 @@ def deploy2obp():
     with cd(code_dir):
         run('git pull')
         run('/opt/sbin/_package_linux_amd64/qrsync -skipsym /opt/sbin/7niu4pychina.json')
+
+

@@ -6,7 +6,7 @@ Author: Zoom.Quiet
 
 
 # StingChen(陈世欣)
-![](http://pyconcn.qiniudn.com/images/volunteer/chenshixin_2013.png)
+![chenshixin_2013](http://pyconcn.qiniudn.com/images/volunteer/chenshixin_2013.png)
 
 永泰红磡养老产业投资集团的信息技术总监
 
