@@ -89,6 +89,139 @@ CPyUG 列表可是聚集了 11K 行者哪!
 
 E文版本翻译也基于以上,一样的流程.
 
+#### 7牛 使用:
+参考:
+
+- [我们是如何使用7牛云储存的 | GDG Livin ZhuHai Life;-)](http://blog.zhgdg.org/2013-08/usage7niu/)
+    - [How to from Jekyll jump into Pelican |蠎周刊 |汇集全球蠎事儿 !-)](http://weekly.pychina.org/chaos/jekyll-to-pelican.html)
+- [qrsync 命令行同步工具 | 七牛云存储](http://developer.qiniu.com/docs/v6/tools/qrsync.html)
+
+背景:
+
+- `cn.pycon.org` 主机在国外
+- 相关配置为:
+
+```
+location ^~ /2014/ {
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header Host pyconcn.qiniudn.com;
+    proxy_pass  http://pyconcn.qiniudn.com/2014/ ;
+}
+```
+
+
+所以,7牛空间的协同思路:
+
+- 为发布 官网, 本地统一预留使用 `/2014` 目录链接为文档工程中的 `site`
+- 其它目录, 确保唯一即可
+- e.g. 在 7牛 空间中可以是:
+
+```
+http://pyconcn.qiniudn.com/
+    +- 2014/
+    +- zoomquiet/
+    |   +- 2011
+    |   +- 2012
+    |   +- 2013
+    |   +- ...
+    |   `- stuff14
+    +- [someone]
+    +- ...
+
+```
+
+
+- 但是,在不同的志愿者本地, 目录可以是:
+
+
+```
+http://pyconcn.qiniudn.com/
+    +- 2014/
+    `- [someone]
+        +- foto
+        +- logo
+        +- ...
+
+```
+
+
+- 因为, 7牛 不是 `Dropbox` 不是一种多点双向同步空间服务
+- 而是, `高速单向数据同步服务`
+- 实际上 7牛 是没有目录的概念的
+    - 比如: `http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/cmcm-logo.png`
+    - 其中 `zoomquiet/stuff14/logo/cmcm-logo.png` 即是数据对象 `ID`
+    - 所以, 我们想在 7牛空间中有文件索引可看,就要自个儿生成
+    - 即运行 `$ python gen4idx.py ./ footer-7niu.html 2014`
+    - 当然的,在本地 7牛 同步目录中
+
+综合上,对于协同志愿者,对 7牛 的启用应该是:
+
+- 安排好工作目录, 类似:
+
+```
+/path/2/ur/local/cn.pycon/
+    +- 7niu-pycon.json
+    +- 7niu.pyconcn/ 
+    |   +- 2014/ <~~~~~+
+    |   +- [someone]   |
+    |   +- ...         |
+    +- ...             |
+    +- MkDoc4PyCon/    |
+    |   +- .git/     ln -s
+    |   +- _theme/     |
+    |   +- docs/       |
+    |   +- site/ ~~~~~~+
+    |   +- .gitignore
+    |   +- fabfile.py
+    |   +- footer-7niu.html
+    |   +- gen4idx.py
+    |   +- mkdocs.yml
+    |   +- ...
+    +- ...
+
+```
+
+
+- 当然的,本地的目录名,不用完全和这里的一样,关键要确保 `fabric` 可运行成功就好
+- 对应的配置项可以自行根据需求变更 `fabfile.py`: 
+
+```
+env.qiniu = '/opt/bin/7niu_package_darwin_amd64/qrsync'
+env.qiniu_conf = '../7niu-pycon.json'
+env.qiniu_path = '../7niu.pyconcn'
+```
+
+- 当然的,这种本地配置,就不用同步到协同仓库,所以,提醒,进行了个性化配置后,增补 `.gitignore` 忽略修订,以免意外扩散给小伙伴们.
+- 为首次同步将 `footer-7niu.html`, `gen4idx.py` 复制到本地的 7牛目录中
+- 建立唯一的 `[someone]` 私人数据目录
+- 最好通过其它沟通渠道, 事先和小伙伴们明确 `[someone]` 在团队中的唯一
+- 否则,将造成 7牛 空间相同目录浏览时,文件看不到,但是,可以使用的现象 
+- 合理配置 `7niu-pycon.json`
+
+```
+{
+    "src":          "/path/2/your/sync_dir",
+    "dest":         "qiniu:access_key=<AccessKey>&secret_key=<SecretKey>&bucket=<Bucket>&key_prefix=<KeyPrefix>&threshold=<Threshold>",
+    "deletable":    0,
+    "debug_level":  1
+}
+```
+
+
+- 正常情况下, 嘦调整 `"src"` 的内容,指向本地目录,即可
+
+然后,可以手工在本地的 7牛 目录中,模拟 `fab pub2cafe` 的行为,运行:
+
+    $ python gen4idx.py ./ footer-7niu.html 2014
+    ...
+    $ /path/2/local/qrsync -skipsym ../7niu-pycon.json
+    ...
+
+明确一切正当, 在 `http://pyconcn.qiniudn.com/[someone]` 中可以看到期望的文件.
+
+表示一切 KO 了.
+
+
 ### 日常增进流程:
 指功能等非内容方面的改进.
 
@@ -132,6 +265,7 @@ E文版本翻译也基于以上,一样的流程.
 
 ## 版本
 
+- 140930 增补 7牛 空间的使用理解
 - 140919 增补ASCII 图谱
 - 140918 针对当前志愿者情况创立
 

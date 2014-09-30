@@ -6,6 +6,8 @@ from __future__ import unicode_literals
 ###############################################################
 AUTHOR = u'CPyUG'
 SITENAME = u'PyChina.org'
+SITESUBTITLE = u'蠎中国社区'
+
 SITEURL = 'http://pychina.org'
 DISQUS_SITENAME = u"pychinaorg" #填入你的Shortname
 
