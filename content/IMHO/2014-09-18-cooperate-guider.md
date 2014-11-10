@@ -5,6 +5,8 @@ Tags:  PyCon, guider, volunteer
 Slug: cooperate-guider
 Author: Zoom.Quiet
 
+[TOC]
+
 ## 背景
 参考: [PyCon2014China](http://cn.pycon.org/2014/) 官网
 
@@ -50,7 +52,7 @@ CPyUG 列表可是聚集了 11K 行者哪!
 
 成为 PyCon2014China 志愿者,要主动完成的流程:
 
-1. 填写 [志愿申请表单](http://cn.pycon.org/2014/volunteer/)
+1. `填写 [志愿申请表单]` (2014 志愿者已经足量,关闭申请表单,但是,依然可以通过代码贡献加入 ;-)
 2. 订阅 [CnPyCon-volunteer](cnpycon-volunteer@googlegroups.com)列表
 3. 注册 [gitcafe](https://gitcafe.com)
 
@@ -92,9 +94,9 @@ E文版本翻译也基于以上,一样的流程.
 #### 7牛 使用:
 参考:
 
-- [我们是如何使用7牛云储存的 | GDG Livin ZhuHai Life;-)](http://blog.zhgdg.org/2013-08/usage7niu/)
-    - [How to from Jekyll jump into Pelican |蠎周刊 |汇集全球蠎事儿 !-)](http://weekly.pychina.org/chaos/jekyll-to-pelican.html)
-- [qrsync 命令行同步工具 | 七牛云存储](http://developer.qiniu.com/docs/v6/tools/qrsync.html)
+- [我们是如何使用7牛云储存的](http://blog.zhgdg.org/2013-08/usage7niu/)
+    - [How to from Jekyll jump into Pelican-蠎周刊-汇集全球蠎事儿](http://weekly.pychina.org/chaos/jekyll-to-pelican.html)
+- [qrsync 命令行同步工具](http://developer.qiniu.com/docs/v6/tools/qrsync.html)
 
 背景:
 
@@ -265,6 +267,7 @@ env.qiniu_path = '../7niu.pyconcn'
 
 ## 版本
 
+- 141105 增补 志愿者申请关闭消息
 - 140930 增补 7牛 空间的使用理解
 - 140919 增补ASCII 图谱
 - 140918 针对当前志愿者情况创立

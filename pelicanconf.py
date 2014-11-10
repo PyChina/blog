@@ -29,8 +29,12 @@ FILENAME_METADATA = '(?P<slug>.*)'
 ###############################################################
 # Plugins 
 PLUGINS=['_plugins.sitemap'
+    , '_plugins.extract_toc'
     #, '_plugins.gzip_cache'
+    #, u"pelican.plugins.disqus_static"
     ]
+
+
 SITEMAP = {
     'format': 'xml',
     'priorities': {
