@@ -1,7 +1,7 @@
-Title: Zoom.Quiuet
+Title: Zoom.Quiet
 Date: 2013-11-17
 Tags: people
-Slug: zoom-quiet
+Slug: zoomquiet
 Author: Zoom.Quiet
 
 

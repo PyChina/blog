@@ -4,12 +4,14 @@ from __future__ import unicode_literals
 ###############################################################
 ###############################################################   Site abt.
 ###############################################################
-AUTHOR = u'CPyUG'
+AUTHOR = u'CPyUG Pythoneer'
 SITENAME = u'PyChina.org'
 SITESUBTITLE = u'蠎中国社区'
-
 SITEURL = 'http://pychina.org'
+
 DISQUS_SITENAME = u"pychinaorg" #填入你的Shortname
+
+SITELOGO = "http://pychina.qiniudn.com/theme/PyChina_logo_131217_zq_h60.png?imageView2/2/h/48"
 
 MARKUP = ('md', )#'rst', 'html', 
 #   TIMEZONE = 'Europe/Paris'
@@ -34,6 +36,12 @@ PLUGINS=['_plugins.sitemap'
     #, u"pelican.plugins.disqus_static"
     ]
 
+#   upgraded Pelican 3.3 must self open them
+MD_EXTENSIONS = (['codehilite(css_class=highlight)'
+    , 'extra', 'abbr', 'attr_list', 'def_list', 'fenced_code', 'smart_strong'
+    , 'admonition', 'meta', 'tables', 'sane_lists'
+    , 'toc'
+    ])
 
 SITEMAP = {
     'format': 'xml',
@@ -62,7 +70,8 @@ ADDTHIS_PROFILE = True
 
 #GITHUB_USER = "ZoomQuiet"
 MENUITEMS = (('PyConChina', 'http://cn.pycon.org')
-          ,('News', 'http://news.pychina.org')
+          ,('周刊', 'http://weekly.pychina.org')
+          ,('蠎营', 'http://camp.pychina.org')
           )
 
 # Feed generation is usually not desired when developing
@@ -71,14 +80,12 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 TRANSLATION_FEED_ATOM = None
 FEED_ALL_RSS = None
 CATEGORY_FEED_RSS= None
-SOCIAL = (('GitHub', 'https://github.com/PyConChina')
-        , ('Weekly', 'http://weekly.pychina.org')
-        , ('News', 'http://news.pychina.org')
+SOCIAL = (('gitcafe', 'https://gitcafe.com/PyConChina')
         , ('rss', SITEURL + '/' + FEED_ALL_ATOM)
-        , ('CPyUG', 'https://gitcafe.com/CPyUG')
-        , ('Wiki', 'http://wiki.woodpecker.org.cn/moin/CPUG')
         , ('weibo', 'http://weibo.com/pyconcn')
+        , ('CPyUG', 'http://wiki.woodpecker.org.cn/moin/CPUG')
         , ('O.B.P', 'http://weibo.com/openbookproject')
+        , ('News', 'http://news.pychina.org')
         )
 # Blogroll
 LINKS =  None

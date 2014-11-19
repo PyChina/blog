@@ -20,7 +20,6 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
 ## organizer
 
-- KJ
 - Sting
 - Zoom.Quiet
 
@@ -121,4 +120,5 @@ publish as bind pychina.org  ;-)
 
 ## changelog
 
+- 141119 upgrade as 3.5.0 base [issue #264](https://github.com/getpelican/pelican-plugins/issues/264) fixed sitemap.py 
 - 131218 base pelican build and through qiniu.com publish
