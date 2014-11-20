@@ -70,15 +70,4 @@ def reserve():
 #    )
 
 # Remote server configuration
-#   deploy in obp hosting
-env.hosts = ['cn.pycon.org']
-env.port = 9022
-env.user = 'pycon'
-code_dir = '/opt/www/PyChina'
-
-def deploy2obp():
-    with cd(code_dir):
-        run('git pull')
-        run('/opt/sbin/_package_linux_amd64/qrsync -skipsym /opt/sbin/7niu4pychina.json')
-
 

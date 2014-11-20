@@ -23,27 +23,24 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
 - Sting
 - Zoom.Quiet
 
+## volunteer
+cnpycon-volunteer <cnpycon-volunteer@googlegroups.com>
+
 # usage
-How to update the site contents
+How to update the site contents?
+
+as summary:
+
+- generating all pages in local by `Pelican`
+- usage `qrsync` push into pychina.qiniudn.com
+- finally Nginx+DNS publish as http://pychina.org/
 
 depending:
 
 - Python
-- Pelican (auto included these)
-    - feedgenerator>=1.6
-    - jinja2>=2.7
-    - pygments
-    - docutils
-    - pytz>=0a
-    - blinker
-    - unidecode
-    - six
-    - markupsafe
+- Pelican
 - git
-- fabric (auto included these)
-    - paramiko>=1.10.0
-    - pycrypto>=2.1
-    - ecdsa
+- fabric
 
 
 ## main loop:
@@ -51,8 +48,8 @@ depending:
 1. git clone
 1. edit some .md in `content/`
 1. `fab build` for test local
+1. `fab put7niu` published all
 1. git add->ci->push
-1. `fab deploy2obp` published all
 
 in fact because github only embded Jekll,
 but we r PyChina.org, so play with pure Python tools!
@@ -73,7 +70,7 @@ publish as bind pychina.org  ;-)
             +- Volunteer    ...志愿者
             +- _extra       扩展功能文件 e.g robots.txt
             +- _files       站内文件
-            +- _images      站内图片
+            +- _images      样式图片
             `- pages        类似 about 的导航栏文档
 
 #### 文章格式
@@ -94,6 +91,16 @@ publish as bind pychina.org  ;-)
         - 参考: [如何规划blog的标签（tag）和分类 - 心内求法 - 博客园](http://www.cnblogs.com/holbrook/archive/2012/11/05/2755268.html)
     - `Slug:` 是实际输出的页面文件名, 建议全部小写E文, 使用中划线, 不使用特殊符号
 
+`注意:`
+
+- 所有图片,应该事先发布到 7ni 空间中以便引用, 而不应该 push 到 git 仓库中
+- 参考: [我们是如何使用7牛云储存的](http://blog.zhgdg.org/2013-08/usage7niu/)
+- 自然的, 要加入协同编辑团队, 首先要获得 7niu 相关空间的配置文件
+- 获取流程:
+    + 注册 gitcafe 
+    + 针对 [CPyUG/PyChina - GitCafe](https://gitcafe.com/CPyUG/PyChina) 发起一个有效的 `pull-request` , 证明你懂的
+    + 向社区说明意愿 support@pychina.org
+    + 获得 `7niu4pychina.json`
 
 ### deploy
 
@@ -103,12 +110,12 @@ publish as bind pychina.org  ;-)
     Available commands:
 
         build       编译所有页面
-        deploy2obp  从远程主机部署所有页面到7牛
+        put7niu     本地完成编译,通过工具上传到 7niu
         reserve     重编译所有页面再启动本地服务
         serve       启动本地服务 localhost:8000
 
 
-`注意!` 向主机部署,需要有相关权限,并在本地配置好对应 SSH 信息
+参考: [qrsync 命令行同步工具 | 七牛云存储](http://developer.qiniu.com/docs/v6/tools/qrsync.html)
 
 ### design
 
@@ -120,5 +127,6 @@ publish as bind pychina.org  ;-)
 
 ## changelog
 
+- 141120 增补文档,明确协同流程
 - 141119 upgrade as 3.5.0 base [issue #264](https://github.com/getpelican/pelican-plugins/issues/264) fixed sitemap.py 
 - 131218 base pelican build and through qiniu.com publish
