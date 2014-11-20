@@ -42,6 +42,9 @@ depending:
 - git
 - fabric
 
+install:
+
+    $ pip install -r requirements.txt
 
 ## main loop:
 
