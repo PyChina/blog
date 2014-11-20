@@ -143,6 +143,7 @@ PS:
     - 当然的,根据老师的一贯习性,一定会整理开源出来的
     - 这种经典的 `#不折腾要死星人` 的行为,正是可以在没有 Python 用户的 花莲 折腾出 [logo](http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/hualienpy/cnimg/hualienpy_logo.jpg?imageView2/2/h/80) (http://hualien.python.org.tw/) 的根本所在呢...
     - 以往的推荐文章: [珠的自白:32 就是因為沒有用,學校才要教啊!](http://blog.zhgdg.org/2014-08/dm32-un-useless/); 参考: COSCUP2014 上的演讲 [录音](http://zoomq.qiniudn.com/ZHGDG/2014/140719_20-coscup/140720-H3-pm3-py4techer.MP3)
+    - `注意!` [tjwei/gh_show](https://github.com/tjwei/gh_show) 释放了!
 + 王安宇 ![s e e d](http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto/1-IMGP6869.JPG?imageView2/2/h/80) ~  软硬结合 For Pythoneer ;
     [幻灯](http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_presentations/pycon2014zhuhai-Seeed-intro.pdf)
     / [录音](http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141115zh-pm4-seedstudio.MP3)
@@ -261,3 +262,4 @@ PS:
 
 ![snaper](http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto/1-IMGP6703.JPG?imageView2/2/w/120) / ![snaper](http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto/1-IMGP6823.JPG?imageView2/2/w/120) / ![snaper](http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto/1-IMGP6968.JPG?imageView2/2/w/120) / ![snaper](http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto/1-IMGP6972.JPG?imageView2/2/w/120) / ![snaper](http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto/1-IMGP6975.JPG?imageView2/2/w/120) / ![snaper](http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto/1-IMGP6976.JPG?imageView2/2/w/120)
 
+原文: [PyCon2014China-珠海场 无负责报道 | GDG Livin ZhuHai Life;-)](http://blog.zhgdg.org/2014-11/et-pycon-zh/)
