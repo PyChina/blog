@@ -24,11 +24,18 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
 ## organizer
 
-- lepture
-- KJ
 - Sting
 - Zoom.Quiet
+- lepture
+
+## design
+
+- [PyChIna_logo_horizontal.svg](http://pyconcn.qiniudn.com/zoomquiet/res/logo/PyChIna_logo_131217_zq.svg)
+    + ![PyChina_logo_131217_zq_h80.png](http://pyconcn.qiniudn.com/zoomquiet/res/logo/PyChina_logo_131217_zq_h80.png)
+- [PyChIna_logo_verticality.svg](http://pyconcn.qiniudn.com/zoomquiet/res/logo/PyChIna_logo_H_131217_zq.svg)
+    - ![PyChina_logo_H_131217_zq_w80.png](http://pyconcn.qiniudn.com/zoomquiet/res/logo/PyChina_logo_H_131217_zq_w80.png)
 
 ## changelog
 
+- 141215 appended logo download links
 - 131218 base pelican build and through qiniu.com publish
