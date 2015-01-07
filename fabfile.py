@@ -10,64 +10,20 @@ env.qiniu = '/opt/bin/7niu_package_darwin_amd64/qrsync'
 env.qiniu_conf = '../../7niu4pychina.json'
 #env.qiniu_path = '../7niu.pyconcn'
 
-# Remote server configuration
-#production = 'root@localhost:22'
-#dest_path = '/var/www'
-
-# Rackspace Cloud Files configuration settings
-#env.cloudfiles_username = 'my_rackspace_username'
-#env.cloudfiles_api_key = 'my_rackspace_api_key'
-#env.cloudfiles_container = 'my_cloudfiles_container'
-
-#def clean():
-#    if os.path.isdir(DEPLOY_PATH):
-#        local('rm -rf {deploy_path}/*'.format(**env))
-#        #local('mkdir {deploy_path}'.format(**env))
-
-def build():
-    local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
-
 def put7niu():
     build()
     local('cd {deploy_path} && '
             'pwd && '
             '{qiniu} -skipsym {qiniu_conf}&& '
-            'pwd '.format(**env)
+            'date '.format(**env)
           )
-#def rebuild():
-#    clean()    # for PyChina.github.io can not clean output/.git
-#    build()
 
-#def regenerate():
-#    local('pelican -r -s pelicanconf.py')
-#
+def build():
+    local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
+
 def serve():
     local('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
 
 def reserve():
     build()
     serve()
-
-#def preview():
-#    local('pelican -s publishconf.py')
-
-#def cf_upload():
-#    rebuild()
-#    local('cd {deploy_path} && '
-#          'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
-#          '-U {cloudfiles_username} '
-#          '-K {cloudfiles_api_key} '
-#          'upload -c {cloudfiles_container} .'.format(**env))
-#
-#@hosts(production)
-#def publish():
-#    local('pelican -s publishconf.py')
-#    project.rsync_project(
-#        remote_dir=dest_path,
-#        exclude=".DS_Store",
-#        local_dir=DEPLOY_PATH.rstrip('/') + '/',
-#        delete=True
-#    )
-
-# Remote server configuration
-

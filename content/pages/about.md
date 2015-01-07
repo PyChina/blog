@@ -17,8 +17,8 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
 
     :::text
-    by Pythonner in China Operations
-    as Pythonner in China Deleloping
+    by Pythoneer in China Operations
+    as Pythoneer in China Developing
     for Pythonista in Global support events organizing srvice
 
 
