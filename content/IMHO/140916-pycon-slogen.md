@@ -21,7 +21,8 @@ Slug: 140916-pycon-slogen
 
 - 演化成了: `Life is short, use Python!` 
 - Gudio 那年也穿上了身
-[LpyAttachZoomq(JPEG 图像,800x533 像素)](http://wiki.woodpecker.org.cn/moin/ObpLovelyPython/LpyAttachZoomq?action=AttachFile&do=get&target=beginning-1-zeuux-fashion-guido.jpg)
+
+![LpyAttachZoomq(JPEG 图像,800x533 像素)](http://wiki.woodpecker.org.cn/moin/ObpLovelyPython/LpyAttachZoomq?action=AttachFile&do=get&target=beginning-1-zeuux-fashion-guido.jpg)
 
 然后,就没有然后了,,,因为 ZEUUX 的沉默,
 做到 2013年, PyConChina 才在北京/珠海场的纪念TEE 上重构了设计,并发布为:
