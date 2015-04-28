@@ -28,8 +28,12 @@ Slug: 140916-pycon-slogen
 做到 2013年, PyConChina 才在北京/珠海场的纪念TEE 上重构了设计,并发布为:
 
 ![BdUGedICAAAzki7](http://zoomq.qiniudn.com/CPyUG/PyCon2013China/140106-@gvanrossum-BdUGedICAAAzki7.jpg-large.jpg)
+
 [Guido老爹也上过身](https://twitter.com/gvanrossum/status/420249260961968128)
 
+以及最新的...
+
+![141201-guido-with-tee.png（PNG 图像，414x647 像素）](http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141201-guido-with-tee.png?imageView2/2/w/420)
 
 ## 激发
 今年呢? 依然有独家赞助可以重制,
