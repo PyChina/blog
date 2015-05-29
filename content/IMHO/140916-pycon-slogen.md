@@ -113,7 +113,11 @@ go pythonic, no pathetic... ..
 
 
 ## Changlog
+人生苦短，python当歌
 
+- 150529 开智 微信群讨论:
+    + `Life's pathetic, go Pythonic!`
+    + **人生苦短** Python当歌
 - 150428 Golang 微信群讨论:
     + 发现 Python 社区和 golgang 社区的成员高度重合,所以,一定要结合起来
     + 于是: `Life's pathetic, go Pythonic!`
