@@ -72,3 +72,4 @@ Slug: pycon2015china-bj
 5. python比较成熟的开源项目的应用分析,移植难点,以及它的协议(GPL or BSD, other?)是否扯上法务相关的事物,这个论题会帮助解决将python开源项目商业化时碰到的各种问题.
 
 
+
