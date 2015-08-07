@@ -10,6 +10,18 @@ env.qiniu = '/opt/bin/7niu_package_darwin_amd64/qrsync'
 env.qiniu_conf = '../../7niu4pychina.json'
 #env.qiniu_path = '../7niu.pyconcn'
 
+def build():
+    local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
+
+def pub2hub():
+    build()
+    local('cd {deploy_path} && '
+            'git status && '
+            'git add . && '
+            'git commit -am \'upgraded from local. by StaticPyCon\' && '
+            'git push origin gitcafe-pages'.format(**env)
+          )
+
 def put7niu():
     build()
     local('cd {deploy_path} && '
@@ -17,9 +29,6 @@ def put7niu():
             '{qiniu} {qiniu_conf}&& '
             'date '.format(**env)
           )
-
-def build():
-    local('pelican {input_path} -o {deploy_path} -s pelicanconf.py'.format(**env))
 
 def serve():
     local('cd {deploy_path} && python -m SimpleHTTPServer'.format(**env))
