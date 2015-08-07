@@ -113,7 +113,10 @@ go pythonic, no pathetic... ..
 
 
 ## Changlog
-人生苦短，python当歌
+
+    Life's pathetic, go Pythonic!
+    人生苦短
+    Python当歌
 
 - 150529 开智 微信群讨论:
     + `Life's pathetic, go Pythonic!`

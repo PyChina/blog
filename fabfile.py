@@ -14,7 +14,7 @@ def put7niu():
     build()
     local('cd {deploy_path} && '
             'pwd && '
-            '{qiniu} -skipsym {qiniu_conf}&& '
+            '{qiniu} {qiniu_conf}&& '
             'date '.format(**env)
           )
 
