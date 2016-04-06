@@ -104,11 +104,18 @@ STATIC_PATHS = ['_images', '_files'
     , '_extra/robots.txt'
     , '_extra/favicon.ico'
     , '_extra/README.md'
+    , '_extra/LICENSE'
+    , '_extra/CNAME'
+    , '_extra/.nojekyll'
+    
     ]
-
-EXTRA_PATH_METADATA = { '_extra/favicon.ico': {'path': 'favicon.ico'}
-    ,'_extra/robots.txt': {'path': 'robots.txt'}
-    , '_extra/README.md': {'path': 'README.md'},
+    
+EXTRA_PATH_METADATA = {'_extra/robots.txt': {'path': 'robots.txt'}
+    , '_extra/favicon.ico': {'path': 'favicon.ico'}
+    , '_extra/LICENSE': {'path': 'LICENSE'}
+    , '_extra/README.md': {'path': 'README.md'}
+    , '_extra/CNAME': {'path': 'CNAME'}
+    , '_extra/.nojekyll': {'path': '.nojekyll'}
     }
 
 ARTICLE_URL = '{category}/{slug}.html'
