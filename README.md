@@ -1,4 +1,4 @@
-# PyChina.org
+# PyChina.github.io
 
 in fact from 2003 there is CZUG.org ~ the 1st(and only one) focus Zope tech community be set up;
 
@@ -9,7 +9,7 @@ like as: perl-china/ruby-china etc.
 
 so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
-![](PyChina_logo_131217_zq_h200.png)
+![PyChina_logo_131217_zq_h200](PyChina_logo_131217_zq_h200.png)
 
 ## goal
 
@@ -20,46 +20,24 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
 ## organizer
 
+- lepture
+- KJ
 - Sting
+- twinsant
 - Zoom.Quiet
 
-## volunteer
-cnpycon-volunteer <cnpycon-volunteer@googlegroups.com>
+## usage
+How to update the site contents
 
-# usage
-How to update the site contents?
+main loop:
 
-as summary:
-
-- generating all pages in local by `Pelican`
-- usage `qrsync` push into pychina.qiniudn.com
-- finally Nginx+DNS publish as http://pychina.org/
-
-depending:
-
-- Python
-- Pelican
-- git
-- fabric
-
-install:
-
-    $ pip install -r requirements.txt
-
-## main loop:
-
-1. git clone
+1. git clone git@github.com:PyChina/CPyUG.git
 1. edit some .md in `content/`
 1. `fab build` for test local
-1. `fab put7niu` published all
-1. git add->ci->push
-
-in fact because github only embded Jekll,
-but we r PyChina.org, so play with pure Python tools!
-
-so, the site is generating in local, push into github,
-but be sync into pychina.qiniudn.com,
-publish as bind pychina.org  ;-)
+1. `git` add->ci->push 
+1. `fab deploy2obp` published through `obp` into pychina.u.qiniudn.com
+1. `cd output`
+1. `git` add->ci->push published as pychina.github.io
 
 ### writing
 
@@ -73,7 +51,7 @@ publish as bind pychina.org  ;-)
             +- Volunteer    ...志愿者
             +- _extra       扩展功能文件 e.g robots.txt
             +- _files       站内文件
-            +- _images      样式图片
+            +- _images      站内图片
             `- pages        类似 about 的导航栏文档
 
 #### 文章格式
@@ -94,16 +72,6 @@ publish as bind pychina.org  ;-)
         - 参考: [如何规划blog的标签（tag）和分类 - 心内求法 - 博客园](http://www.cnblogs.com/holbrook/archive/2012/11/05/2755268.html)
     - `Slug:` 是实际输出的页面文件名, 建议全部小写E文, 使用中划线, 不使用特殊符号
 
-`注意:`
-
-- 所有图片,应该事先发布到 7ni 空间中以便引用, 而不应该 push 到 git 仓库中
-- 参考: [我们是如何使用7牛云储存的](http://blog.zhgdg.org/2013-08/usage7niu/)
-- 自然的, 要加入协同编辑团队, 首先要获得 7niu 相关空间的配置文件
-- 获取流程:
-    + 注册 gitcafe 
-    + 针对 [CPyUG/PyChina - GitCafe](https://gitcafe.com/CPyUG/PyChina) 发起一个有效的 `pull-request` , 证明你懂的
-    + 向社区说明意愿 support@pychina.org
-    + 获得 `7niu4pychina.json`
 
 ### deploy
 
@@ -113,12 +81,13 @@ publish as bind pychina.org  ;-)
     Available commands:
 
         build       编译所有页面
-        put7niu     本地完成编译,通过工具上传到 7niu
+        deploy      向主机部署所有页面
+        rebuild     重编译所有页面
         reserve     重编译所有页面再启动本地服务
         serve       启动本地服务 localhost:8000
 
 
-参考: [qrsync 命令行同步工具 | 七牛云存储](http://developer.qiniu.com/docs/v6/tools/qrsync.html)
+`注意!` 向主机部署,需要有相关权限,并在本地配置好对应 SSH 信息
 
 ### design
 
@@ -130,6 +99,5 @@ publish as bind pychina.org  ;-)
 
 ## changelog
 
-- 141120 增补文档,明确协同流程
-- 141119 upgrade as 3.5.0 base [issue #264](https://github.com/getpelican/pelican-plugins/issues/264) fixed sitemap.py 
+- 140102 re-publish into https://github.com/PyChina/PyChina.github.io
 - 131218 base pelican build and through qiniu.com publish
