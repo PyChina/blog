@@ -49,6 +49,7 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
 ## changelog
 
+- 170301 开始迁入 UPYUN
 - 141216 增补中文关键资料
 - 141215 appended logo download links
 - 131218 base pelican build and through qiniu.com publish
