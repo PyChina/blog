@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PyChina.org</title><link href="http://pychina.org/" rel="alternate"></link><link href="http://pychina.org/feeds/imho.atom.xml" rel="self"></link><id>http://pychina.org/</id><updated>2014-09-18T19:19:00+08:00</updated><entry><title>PyCon2014China 志愿者协同手册</title><link href="http://pychina.org/imho/cooperate-guider.html" rel="alternate"></link><updated>2014-09-18T19:19:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:pychina.org,2014-09-18:imho/cooperate-guider.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyChina.org</title><link href="http://pychina.org/" rel="alternate"></link><link href="http://pychina.org/feeds/imho.atom.xml" rel="self"></link><id>http://pychina.org/</id><updated>2014-09-18T19:19:00+08:00</updated><entry><title>PyCon2014China 志愿者协同手册</title><link href="http://pychina.org/imho/cooperate-guider.html" rel="alternate"></link><published>2014-09-18T19:19:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:pychina.org,2014-09-18:imho/cooperate-guider.html</id><summary type="html">
 &lt;h2 id="_1"&gt;背景&lt;/h2&gt;
 &lt;p&gt;参考: &lt;a href="http://cn.pycon.org/2014/"&gt;PyCon2014China&lt;/a&gt; 官网&lt;/p&gt;
 &lt;p&gt;PyCon 中国到今年是第四届了,以往志愿者基本只负责了现场会务,
@@ -237,7 +237,7 @@ $ /path/2/local/qrsync -skipsym ../7niu-pycon.json
 &lt;li&gt;140930 增补 7牛 空间的使用理解&lt;/li&gt;
 &lt;li&gt;140919 增补ASCII 图谱&lt;/li&gt;
 &lt;li&gt;140918 针对当前志愿者情况创立&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="PyCon"></category><category term="guider"></category><category term="volunteer"></category></entry><entry><title>Pythonic口号的Pivot</title><link href="http://pychina.org/imho/140916-pycon-slogen.html" rel="alternate"></link><updated>2014-09-16T19:42:42+08:00</updated><author><name>CPyUG Pythoneer</name></author><id>tag:pychina.org,2014-09-16:imho/140916-pycon-slogen.html</id><summary type="html">
+&lt;/ul&gt;</summary><category term="PyCon"></category><category term="guider"></category><category term="volunteer"></category></entry><entry><title>Pythonic口号的Pivot</title><link href="http://pychina.org/imho/140916-pycon-slogen.html" rel="alternate"></link><published>2014-09-16T19:42:42+08:00</published><author><name>CPyUG Pythoneer</name></author><id>tag:pychina.org,2014-09-16:imho/140916-pycon-slogen.html</id><summary type="html">
 &lt;p&gt;&lt;img alt="SimpleIsBeautiful(PNG 图像,731x681 像素)" src="http://wiki.woodpecker.org.cn/moin/SimpleIsBeautiful?action=AttachFile&amp;amp;do=get&amp;amp;target=130416-zq-simple-is-beautiful.png"/&gt;&lt;/p&gt;
 &lt;p&gt;可记得去年的&lt;a href="http://python-china.org/topic/544#reply5"&gt;蠎年蠎衫(PythonisT-shirt)设计大赛! — Python China&lt;/a&gt;
 ?&lt;/p&gt;
