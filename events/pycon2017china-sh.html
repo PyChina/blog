@@ -3,7 +3,7 @@
       xmlns:og="http://ogp.me/ns#"
       xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-        <title>从 gitcafe 迁移回 github 
+        <title>PyCon2017中国大会议题征集 
              PyChina.org | 蠎中国社区</title>
 
     <!-- Using the latest rendering mode for IE -->
@@ -14,9 +14,9 @@
     <!-- Open Graph tags -->
 
             <meta property="og:type" content="article"/>
-            <meta property="og:title" content="从 gitcafe 迁移回 github"/>
-            <meta property="og:url" content="http://pychina.org/handbook/cafe2hub.html"/>
-            <meta property="og:description" content="gitcafe 2 GitHub [TOC] processing UserName/Organization site https://github.com/DevRela/devrela.github.io 这种比较简单: 追加 CNAME ~ devrel.info DNSPod 修订 CNAME @ ~ devrela.github.io KO Project site https://github.com/zoom-quiet/wiki 这种,也就多一步: 建立分支 git co -b hg_pages 复制为 output 目录 定制 fab 事务 ~ wiki/fabfile.py …"/>
+            <meta property="og:title" content="PyCon2017中国大会议题征集"/>
+            <meta property="og:url" content="http://pychina.org/events/pycon2017china-sh.html"/>
+            <meta property="og:description" content="[TOC] 第6届了 今年，IEEE Spectrum 发布了第四届顶级编程语言排行榜，Python高居首位。 谁会成为AI 和大数据时代的第一开发语言？ 在Facebook 开源了 PyTorch 之后， Python 作为 AI 时代头牌语言的位置基本确立。 Python也被称为大数据全栈式开发语言。 因为Python在云基础设施， DevOps，大数据处理等领域都是炙手可热的语言。 在区块链领域，更有人用50行代码做出一个原型，充分体现了Python的高效。 Python 也早就成为Web 开发、游戏脚本、计算机视觉、物联网管理和机器人开发的主流语言之一， Python 用户在超预期的增长中，也越来越多元化。 所以 2017年，PyConChina将在北京和上海举办大会，用高质量的直播让更多人远程参与。 具体讲什么呢？期待各类Python技术高手们的分享，尤其是代表了AI、大数据和区块链等新领域的主题，让更多人了解未来Python的应用发展趋势。 申报+门票 主题申报: https://jinshuju …"/>
 
     <!-- Bootstrap -->
         <link rel="stylesheet" href="http://pychina.org/theme/css/bootstrap.readable.min.css" type="text/css"/>
@@ -69,96 +69,47 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="http://pychina.org/handbook/cafe2hub.html"
+                    <a href="http://pychina.org/events/pycon2017china-sh.html"
                        rel="bookmark"
-                       title="Permalink to 从 gitcafe 迁移回 github">
-                        从 gitcafe 迁移回 github
+                       title="Permalink to PyCon2017中国大会议题征集">
+                        PyCon2017中国大会议题征集
                     </a>
                 </h1>
             </header>
             <div class="entry-content">
 
 
-                <h1>gitcafe 2 GitHub</h1>
-<p>[TOC]</p>
-<h2>processing</h2>
-<h3>UserName/Organization site</h3>
-<p>https://github.com/DevRela/devrela.github.io</p>
-<p>这种比较简单:</p>
-<ul>
-<li>追加 <code>CNAME</code> ~ <code>devrel.info</code></li>
-<li>DNSPod 修订 CNAME<ul>
-<li><code>@</code> ~ <code>devrela.github.io</code></li>
-</ul>
-</li>
-<li><code>KO</code></li>
-</ul>
-<h3>Project site</h3>
-<p>https://github.com/zoom-quiet/wiki</p>
-<p>这种,也就多一步:</p>
-<ul>
-<li>建立分支 <code>git co -b hg_pages</code></li>
-<li>复制为 <code>output</code> 目录</li>
-<li>定制 <code>fab</code> 事务 ~ <a href="https://github.com/zoom-quiet/wiki/blob/master/fabfile.py#L44">wiki/fabfile.py at master · zoom-quiet/wiki</a><ul>
-<li>自动化这么几件事儿:<ul>
-<li>用 <code>markdoc</code> 工具编译</li>
-<li>将 <code>CNAME</code> 复制到 <code>output</code></li>
-<li>切换到 <code>output</code> 中将新编译结果用 <code>git</code> 命令推送到 github</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>思路上参考: <a href="http://blog.zoomquiet.io/jekyll-to-pelican.html">jekyll-to-pelican | #是也乎# | ZoomQuiet.io</a></li>
-</ul>
-<h2>points</h2>
-<p>~ 最关键的几点</p>
-<p><img alt="gh_pages_settings" src="http://zoomq.qiniudn.com/ZQCollection/snap/pages/gh_pages_settings.png?imageView2/2/w/420"></p>
-<p>如果见到以上提示, 说明一切 <code>安好</code> ;-)</p>
-<h3>DNSPod</h3>
-<ul>
-<li>使用一致的快速简洁的域名配置管理界面非常节省心力</li>
-<li>DNSPod 的确是国内用户首选</li>
-</ul>
-<p>完解析后的情景</p>
-<div class="highlight"><pre>༆  dig wiki.zhgdg.org
-
-<span class="p">;</span> <span class="o">&lt;&lt;&gt;&gt;</span> DiG <span class="m">9.8.3</span><span class="o">-</span>P1 <span class="o">&lt;&lt;&gt;&gt;</span> wiki.zhgdg.org
-<span class="p">;;</span> global options<span class="o">:</span> <span class="o">+</span>cmd
-<span class="p">;;</span> Got answer<span class="o">:</span>
-<span class="p">;;</span> <span class="o">-&gt;&gt;</span>HEADER<span class="o">&lt;&lt;-</span> opcode<span class="o">:</span> QUERY<span class="p">,</span> status<span class="o">:</span> NOERROR<span class="p">,</span> id<span class="o">:</span> <span class="m">61427</span>
-<span class="p">;;</span> flags<span class="o">:</span> qr rd ra<span class="p">;</span> QUERY<span class="o">:</span> <span class="m">1</span><span class="p">,</span> ANSWER<span class="o">:</span> <span class="m">3</span><span class="p">,</span> AUTHORITY<span class="o">:</span> <span class="m">0</span><span class="p">,</span> ADDITIONAL<span class="o">:</span> <span class="m">0</span>
-
-<span class="p">;;</span> QUESTION SECTION<span class="o">:</span>
-<span class="p">;</span>wiki.zhgdg.org.            IN  A
-
-<span class="p">;;</span> ANSWER SECTION<span class="o">:</span>
-wiki.zhgdg.org.     <span class="m">600</span> IN  CNAME   zhgdg.github.io.
-zhgdg.github.io.    <span class="m">3600</span>    IN  CNAME   github.map.fastly.net.
-github.map.fastly.net.  <span class="m">27</span>  IN  A   <span class="m">23.235.44.133</span>
+                <p>[TOC]</p>
+<h1>第6届了</h1>
+<p>今年，IEEE Spectrum 发布了第四届顶级编程语言排行榜，Python高居首位。</p>
+<p>谁会成为AI 和大数据时代的第一开发语言？ </p>
+<div class="highlight"><pre><span class="err">在</span><span class="n">Facebook</span> <span class="err">开源了</span> <span class="n">PyTorch</span> <span class="err">之后，</span>
+<span class="n">Python</span> <span class="err">作为</span> <span class="n">AI</span> <span class="err">时代头牌语言的位置基本确立。</span>
 </pre></div>
 
 
-<h3>coding</h3>
+<p>Python也被称为大数据全栈式开发语言。</p>
+<div class="highlight"><pre><span class="err">因为</span><span class="n">Python</span><span class="err">在云基础设施，</span>
+<span class="n">DevOps</span><span class="err">，大数据处理等领域都是炙手可热的语言。</span>
+</pre></div>
+
+
+<p>在区块链领域，更有人用50行代码做出一个原型，充分体现了Python的高效。</p>
+<p>Python 也早就成为Web 开发、游戏脚本、计算机视觉、物联网管理和机器人开发的主流语言之一，</p>
+<p>Python 用户在超预期的增长中，也越来越多元化。</p>
+<h2>所以</h2>
+<p>2017年，PyConChina将在北京和上海举办大会，用高质量的直播让更多人远程参与。
+具体讲什么呢？期待各类Python技术高手们的分享，尤其是代表了AI、大数据和区块链等新领域的主题，让更多人了解未来Python的应用发展趋势。</p>
+<h2>申报+门票</h2>
 <ul>
-<li>这次 gitcafe 合并入 coding 是好事儿</li>
-<li>但是, pages 服务毕竟不是 coding 的核心业务</li>
-<li>参考: <a href="http://docs.coding.io/">Coding 演示平台</a><ul>
-<li>其操作/自动化 都非常初级</li>
-<li>和 gitcafe 当初的配置界面实在无法相比</li>
+<li>主题申报: <ul>
+<li><strong>https://jinshuju.net/f/2ag6QB</strong></li>
 </ul>
 </li>
+<li>门票购买:<ul>
+<li>http://www.huodongxing.com/event/3403439712600?td=8211933664158</li>
 </ul>
-<p><img alt="404 gitcafe pages" src="http://zoomq.qiniudn.com/ZQCollection/snap/404-500/404_gitcafe_pages.png?imageView2/2/w/420"></p>
-<p>果断弃疗 ;-( </p>
-<h3>ghp-import</h3>
-<p>~ <a href="https://github.com/davisp/ghp-import">ghp-import</a></p>
-<p>神器! 配合 pelican 的静态网站发布更加简洁</p>
-<h2>bg.</h2>
-<p><img alt="404 gitcafe forever" src="http://zoomq.qiniudn.com/ZQCollection/snap/404-500/404_gitcafe_160401.png?imageView2/2/w/420"></p>
-<h2>(￣▽￣)</h2>
-<ul>
-<li>160406 大妈 记要</li>
-<li>160401 大妈 启动</li>
+</li>
 </ul>
             </div>
             <!-- /.entry-content -->
@@ -168,21 +119,21 @@ github.map.fastly.net.  <span class="m">27</span>  IN  A   <span class="m">23.23
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="icon-calendar"></i>2016-04-01 19:19
+        <i class="icon-calendar"></i>2017-09-11 11:11
     </span>
 
 
     <span class="label label-default">Category</span>
-    <a href="http://pychina.org/handbook/index.html">handbook</a>
+    <a href="http://pychina.org/events/index.html">events</a>
 
 
 
 	<span class="label label-default">Tags</span>
-		<a href="http://pychina.org/tag/gitcafe.html">gitcafe</a>
+		<a href="http://pychina.org/tag/gdg.html">gdg</a>
 	        /
-		<a href="http://pychina.org/tag/guider.html">guider</a>
+		<a href="http://pychina.org/tag/pycon.html">PyCon</a>
 	        /
-		<a href="http://pychina.org/tag/pages.html">pages</a>
+		<a href="http://pychina.org/tag/event.html">event</a>
 </footer><!-- /.post-info -->                    </div>
                 </div>
     <hr />
@@ -210,8 +161,8 @@ var jiathis_config = {data_track_clickback:'true'};
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
             var disqus_shortname = 'pychinaorg'; // required: replace example with your forum shortname
-            var disqus_identifier = 'handbook/16-04-01-cafe2hub';
-            var disqus_url = 'http://pychina.org/handbook/cafe2hub.html';
+            var disqus_identifier = 'events/17-09-11-pycon2017china-sh';
+            var disqus_url = 'http://pychina.org/events/pycon2017china-sh.html';
 
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function () {

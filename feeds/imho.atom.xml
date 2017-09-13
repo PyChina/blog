@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PyChina.org</title><link href="http://pychina.org/" rel="alternate"></link><link href="http://pychina.org/feeds/imho.atom.xml" rel="self"></link><id>http://pychina.org/</id><updated>2014-09-18T19:19:00+08:00</updated><entry><title>PyCon2014China 志愿者协同手册</title><link href="http://pychina.org/imho/cooperate-guider.html" rel="alternate"></link><published>2014-09-18T19:19:00+08:00</published><author><name>Zoom.Quiet</name></author><id>tag:pychina.org,2014-09-18:imho/cooperate-guider.html</id><summary type="html">
-&lt;h2 id="_1"&gt;背景&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyChina.org - IMHO</title><link href="http://pychina.org/" rel="alternate"></link><link href="http://pychina.org/feeds/imho.atom.xml" rel="self"></link><id>http://pychina.org/</id><updated>2014-09-18T19:19:00+08:00</updated><entry><title>PyCon2014China 志愿者协同手册</title><link href="http://pychina.org/imho/cooperate-guider.html" rel="alternate"></link><published>2014-09-18T19:19:00+08:00</published><updated>2014-09-18T19:19:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:pychina.org,2014-09-18:/imho/cooperate-guider.html</id><summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2&gt;背景&lt;/h2&gt;
 &lt;p&gt;参考: &lt;a href="http://cn.pycon.org/2014/"&gt;PyCon2014China&lt;/a&gt; 官网&lt;/p&gt;
 &lt;p&gt;PyCon 中国到今年是第四届了,以往志愿者基本只负责了现场会务,
 而更加复杂长期的赞助/官网/宣传... 基本都是号称志愿者,实为义务组织者的少数人在支撑,
 这不科学!&lt;/p&gt;
 &lt;p&gt;CPyUG 列表可是聚集了 11K 行者哪!&lt;/p&gt;
 &lt;p&gt;所以,今年求上进!&lt;/p&gt;
-&lt;h2 id="_2"&gt;任务&lt;/h2&gt;
+&lt;h2&gt;任务&lt;/h2&gt;
 &lt;p&gt;筹备期间,最要紧的任务有:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;官网日常内容增补&lt;/li&gt;
@@ -22,7 +22,36 @@
 &lt;li&gt;成果检验&lt;/li&gt;
 &lt;li&gt;任务管理&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="_3"&gt;方案&lt;/h2&gt;
+&lt;h2&gt;方案&lt;/h2&gt;
+&lt;p&gt;参考: &lt;a href="http://producingoss.com/zh/"&gt;制造开源软件&lt;/a&gt; ~ 如何成功运营自由软件项目&lt;/p&gt;
+&lt;p&gt;将一次大会视作一个标准的开源软件项目来管理的话,
+自然的形成了常见的工具链:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;创建 &lt;a href="cnpycon-volunteer@googlegroups.com"&gt;CnPyCon-volunteer&lt;/a&gt; ~ 中国PyCon-志愿者 列表, 进行日常讨论&lt;/li&gt;
+&lt;li&gt;创建 &lt;a href="https://gitcafe.com/PyConChina"&gt;PyConChina …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2&gt;背景&lt;/h2&gt;
+&lt;p&gt;参考: &lt;a href="http://cn.pycon.org/2014/"&gt;PyCon2014China&lt;/a&gt; 官网&lt;/p&gt;
+&lt;p&gt;PyCon 中国到今年是第四届了,以往志愿者基本只负责了现场会务,
+而更加复杂长期的赞助/官网/宣传... 基本都是号称志愿者,实为义务组织者的少数人在支撑,
+这不科学!&lt;/p&gt;
+&lt;p&gt;CPyUG 列表可是聚集了 11K 行者哪!&lt;/p&gt;
+&lt;p&gt;所以,今年求上进!&lt;/p&gt;
+&lt;h2&gt;任务&lt;/h2&gt;
+&lt;p&gt;筹备期间,最要紧的任务有:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;官网日常内容增补&lt;/li&gt;
+&lt;li&gt;官网E文版本翻译&lt;/li&gt;
+&lt;li&gt;宣传/纪念品设计&lt;/li&gt;
+&lt;li&gt;CSDN 等媒体合作渠道每周文案起草&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;而任务的并行解决,需要有完备/统一/固定的:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;任务说明&lt;/li&gt;
+&lt;li&gt;执行支持&lt;/li&gt;
+&lt;li&gt;成果检验&lt;/li&gt;
+&lt;li&gt;任务管理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;方案&lt;/h2&gt;
 &lt;p&gt;参考: &lt;a href="http://producingoss.com/zh/"&gt;制造开源软件&lt;/a&gt; ~ 如何成功运营自由软件项目&lt;/p&gt;
 &lt;p&gt;将一次大会视作一个标准的开源软件项目来管理的话,
 自然的形成了常见的工具链:&lt;/p&gt;
@@ -32,9 +61,9 @@
 &lt;li&gt;开辟 &lt;a href="https://trello.com/b/TLsl0TM7/pycon2014china"&gt;PyCon2014China筹办 | Trello&lt;/a&gt; 故事板, 追踪长期任务&lt;/li&gt;
 &lt;li&gt;实施 &lt;code&gt;AKA&lt;/code&gt; (All Know All) 原则,鼓励主动创建/认领/完成 任务&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="_4"&gt;细则&lt;/h2&gt;
+&lt;h2&gt;细则&lt;/h2&gt;
 &lt;p&gt;随着协同的范围扩大,以下细则将持续增补&lt;/p&gt;
-&lt;h3 id="_5"&gt;加入&lt;/h3&gt;
+&lt;h3&gt;加入&lt;/h3&gt;
 &lt;p&gt;成为 PyCon2014China 志愿者,要主动完成的流程:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;填写 [志愿申请表单]&lt;/code&gt; (2014 志愿者已经足量,关闭申请表单,但是,依然可以通过代码贡献加入 ;-)&lt;/li&gt;
@@ -46,8 +75,8 @@
 &lt;li&gt;志愿担当的领域任务&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gitcafe.com"&gt;gitcafe&lt;/a&gt; 帐号&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="_6"&gt;官网运维&lt;/h2&gt;
-&lt;h3 id="_7"&gt;小组加入流程:&lt;/h3&gt;
+&lt;h2&gt;官网运维&lt;/h2&gt;
+&lt;h3&gt;小组加入流程:&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;参考 &lt;a href="https://gitcafe.com/PyConChina/MkDoc4PyCon/blob/master/README.md"&gt;README.md&lt;/a&gt; 在本地部署成功&lt;/li&gt;
 &lt;li&gt;截屏,在 &lt;a href="cnpycon-volunteer@googlegroups.com"&gt;列表&lt;/a&gt; 发送邮件说明:&lt;ul&gt;
@@ -63,7 +92,7 @@
 &lt;li&gt;主动加入 &lt;code&gt;cn.pycon 志愿运维组&lt;/code&gt; 微信群&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;至此,获得官网维护的所有配置资源,进入实时维护状态 ;-)&lt;/p&gt;
-&lt;h3 id="_8"&gt;日常运维流程:&lt;/h3&gt;
+&lt;h3&gt;日常运维流程:&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;关注 &lt;a href="cnpycon-volunteer@googlegroups.com"&gt;列表&lt;/a&gt; / 微信群 中的信息更新&lt;/li&gt;
 &lt;li&gt;在有关协同文档中增补信息&lt;ul&gt;
@@ -81,7 +110,7 @@
 &lt;li&gt;检查官网内容变化, 进行必须的修订&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;E文版本翻译也基于以上,一样的流程.&lt;/p&gt;
-&lt;h4 id="7"&gt;7牛 使用:&lt;/h4&gt;
+&lt;h4&gt;7牛 使用:&lt;/h4&gt;
 &lt;p&gt;参考:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://blog.zhgdg.org/2013-08/usage7niu/"&gt;我们是如何使用7牛云储存的&lt;/a&gt;&lt;ul&gt;
@@ -95,39 +124,45 @@
 &lt;li&gt;&lt;code&gt;cn.pycon.org&lt;/code&gt; 主机在国外&lt;/li&gt;
 &lt;li&gt;相关配置为:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;location&lt;/span&gt; &lt;span class="o"&gt;^~&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nt"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;location&lt;/span&gt; &lt;span class="o"&gt;^~&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="n"&gt;proxy_set_header&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;Forwarded&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;For&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;proxy_add_x_forwarded_for&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="n"&gt;proxy_set_header&lt;/span&gt; &lt;span class="n"&gt;Host&lt;/span&gt; &lt;span class="n"&gt;pyconcn&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniudn&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="n"&gt;proxy_pass&lt;/span&gt;  &lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="o"&gt;://&lt;/span&gt;&lt;span class="n"&gt;pyconcn&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniudn&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="m"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;proxy_set_header&lt;/span&gt; &lt;span class="n"&gt;Host&lt;/span&gt; &lt;span class="n"&gt;pyconcn&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniudn&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="n"&gt;proxy_pass&lt;/span&gt;  &lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//pyconcn.qiniudn.com/2014/ ;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;所以,7牛空间的协同思路:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;为发布 官网, 本地统一预留使用 &lt;code&gt;/2014&lt;/code&gt; 目录链接为文档工程中的 &lt;code&gt;site&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;其它目录, 确保唯一即可&lt;/li&gt;
 &lt;li&gt;e.g. 在 7牛 空间中可以是:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;http://pyconcn.qiniudn.com/
-    +- 2014/
-    +- zoomquiet/
-    |   +- 2011
-    |   +- 2012
-    |   +- 2013
-    |   +- ...
-    |   `- stuff14
-    +- [someone]
-    +- ...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nl"&gt;http:&lt;/span&gt;&lt;span class="c1"&gt;//pyconcn.qiniudn.com/&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;zoomquiet&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;2011&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;2012&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;2013&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="err"&gt;`&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;stuff14&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;someone&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;ul&gt;
 &lt;li&gt;但是,在不同的志愿者本地, 目录可以是:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;http://pyconcn.qiniudn.com/
-    +- 2014/
-    `- [someone]
-        +- foto
-        +- logo
-        +- ...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nl"&gt;http:&lt;/span&gt;&lt;span class="c1"&gt;//pyconcn.qiniudn.com/&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+    &lt;span class="err"&gt;`&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;someone&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+        &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;foto&lt;/span&gt;
+        &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;logo&lt;/span&gt;
+        &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;ul&gt;
 &lt;li&gt;因为, 7牛 不是 &lt;code&gt;Dropbox&lt;/code&gt; 不是一种多点双向同步空间服务&lt;/li&gt;
 &lt;li&gt;而是, &lt;code&gt;高速单向数据同步服务&lt;/code&gt;&lt;/li&gt;
@@ -144,34 +179,38 @@
 &lt;ul&gt;
 &lt;li&gt;安排好工作目录, 类似:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/path/2/ur/local/cn.pycon/
-    +- 7niu-pycon.json
-    +- 7niu.pyconcn/ 
-    |   +- 2014/ &amp;lt;~~~~~+
-    |   +- [someone]   |
-    |   +- ...         |
-    +- ...             |
-    +- MkDoc4PyCon/    |
-    |   +- .git/     ln -s
-    |   +- _theme/     |
-    |   +- docs/       |
-    |   +- site/ ~~~~~~+
-    |   +- .gitignore
-    |   +- fabfile.py
-    |   +- footer-7niu.html
-    |   +- gen4idx.py
-    |   +- mkdocs.yml
-    |   +- ...
-    +- ...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;ur&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;local&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;cn&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pycon&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pycon&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pyconcn&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt; 
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;~~~~~+&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;someone&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;         &lt;span class="o"&gt;|&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;             &lt;span class="o"&gt;|&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;MkDoc4PyCon&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;     &lt;span class="n"&gt;ln&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;_theme&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;docs&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;       &lt;span class="o"&gt;|&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;site&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="o"&gt;~~~~~~+&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;gitignore&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;fabfile&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;footer&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;gen4idx&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;mkdocs&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;yml&lt;/span&gt;
+    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;
+    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;ul&gt;
 &lt;li&gt;当然的,本地的目录名,不用完全和这里的一样,关键要确保 &lt;code&gt;fabric&lt;/code&gt; 可运行成功就好&lt;/li&gt;
 &lt;li&gt;对应的配置项可以自行根据需求变更 &lt;code&gt;fabfile.py&lt;/code&gt;: &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;env.qiniu = '/opt/bin/7niu_package_darwin_amd64/qrsync'
-env.qiniu_conf = '../7niu-pycon.json'
-env.qiniu_path = '../7niu.pyconcn'
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;env&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniu&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;opt&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;bin&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu_package_darwin_amd64&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;qrsync&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;env&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniu_conf&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pycon&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;env&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniu_path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pyconcn&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;ul&gt;
 &lt;li&gt;当然的,这种本地配置,就不用同步到协同仓库,所以,提醒,进行了个性化配置后,增补 &lt;code&gt;.gitignore&lt;/code&gt; 忽略修订,以免意外扩散给小伙伴们.&lt;/li&gt;
 &lt;li&gt;为首次同步将 &lt;code&gt;footer-7niu.html&lt;/code&gt;, &lt;code&gt;gen4idx.py&lt;/code&gt; 复制到本地的 7牛目录中&lt;/li&gt;
@@ -180,25 +219,29 @@ env.qiniu_path = '../7niu.pyconcn'
 &lt;li&gt;否则,将造成 7牛 空间相同目录浏览时,文件看不到,但是,可以使用的现象 &lt;/li&gt;
 &lt;li&gt;合理配置 &lt;code&gt;7niu-pycon.json&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;{
-    "src":          "/path/2/your/sync_dir",
-    "dest":         "qiniu:access_key=&amp;lt;AccessKey&amp;gt;&amp;amp;secret_key=&amp;lt;SecretKey&amp;gt;&amp;amp;bucket=&amp;lt;Bucket&amp;gt;&amp;amp;key_prefix=&amp;lt;KeyPrefix&amp;gt;&amp;amp;threshold=&amp;lt;Threshold&amp;gt;",
-    "deletable":    0,
-    "debug_level":  1
-}
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;src&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;          &lt;span class="s2"&gt;&amp;quot;/path/2/your/sync_dir&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;dest&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;         &lt;span class="s2"&gt;&amp;quot;qiniu:access_key=&amp;lt;AccessKey&amp;gt;&amp;amp;secret_key=&amp;lt;SecretKey&amp;gt;&amp;amp;bucket=&amp;lt;Bucket&amp;gt;&amp;amp;key_prefix=&amp;lt;KeyPrefix&amp;gt;&amp;amp;threshold=&amp;lt;Threshold&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;deletable&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;    &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+    &lt;span class="s2"&gt;&amp;quot;debug_level&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;  &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;ul&gt;
 &lt;li&gt;正常情况下, 嘦调整 &lt;code&gt;"src"&lt;/code&gt; 的内容,指向本地目录,即可&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;然后,可以手工在本地的 7牛 目录中,模拟 &lt;code&gt;fab pub2cafe&lt;/code&gt; 的行为,运行:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ python gen4idx.py ./ footer-7niu.html 2014
-...
-$ /path/2/local/qrsync -skipsym ../7niu-pycon.json
-...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt; &lt;span class="n"&gt;gen4idx&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;footer&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt; &lt;span class="mi"&gt;2014&lt;/span&gt;
+&lt;span class="p"&gt;...&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;local&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;qrsync&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;skipsym&lt;/span&gt; &lt;span class="p"&gt;..&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pycon&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;
+&lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;明确一切正当, 在 &lt;code&gt;http://pyconcn.qiniudn.com/[someone]&lt;/code&gt; 中可以看到期望的文件.&lt;/p&gt;
 &lt;p&gt;表示一切 KO 了.&lt;/p&gt;
-&lt;h3 id="_9"&gt;日常增进流程:&lt;/h3&gt;
+&lt;h3&gt;日常增进流程:&lt;/h3&gt;
 &lt;p&gt;指功能等非内容方面的改进.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;在 &lt;a href="https://gitcafe.com/PyConChina/MkDoc4PyCon/tickets"&gt;工单 · PyConChina/MkDoc4PyCon - GitCafe&lt;/a&gt; 描述想法&lt;/li&gt;
@@ -210,39 +253,41 @@ $ /path/2/local/qrsync -skipsym ../7niu-pycon.json
 &lt;/li&gt;
 &lt;li&gt;关闭对应 &lt;a href="https://gitcafe.com/PyConChina/MkDoc4PyCon/tickets"&gt;工单&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id="_10"&gt;约定&lt;/h3&gt;
+&lt;h3&gt;约定&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;请参考:&lt;a href="http://developer.qiniu.com/docs/v6/api/reference/fop/image/imageview2.html"&gt;图片处理（imageView2） | 七牛云存储&lt;/a&gt; 应用在 md 代码的图片引用中,统一大小&lt;/li&gt;
 &lt;li&gt;暂时没有收到合适头像的,统一使用&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="nopic" src="http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif"/&gt;&lt;/p&gt;
-&lt;h2 id="_11"&gt;小结&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="nopic" src="http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif"&gt;&lt;/p&gt;
+&lt;h2&gt;小结&lt;/h2&gt;
 &lt;p&gt;所以,整体上,目前的协同,非常简洁&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;wechat|列表
-~~~~~~~~~~  内部讨论|提醒
- ^      \
- |       +- gitcafe     协同平台                  
- |            |  \
- |            |   +- Repo.  制品管理
- |            |         \
- |            |          +- MkDocs  生成工具
- |            |                 \
- |            |                  +- 7niu    发布空间
- |            `- Issues     提案追踪
-  \_______________/
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;wechat&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="err"&gt;列表&lt;/span&gt;
+&lt;span class="o"&gt;~~~~~~~~~~&lt;/span&gt;  &lt;span class="err"&gt;内部讨论&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="err"&gt;提醒&lt;/span&gt;
+ &lt;span class="o"&gt;^&lt;/span&gt;      \
+ &lt;span class="o"&gt;|&lt;/span&gt;       &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;gitcafe&lt;/span&gt;     &lt;span class="err"&gt;协同平台&lt;/span&gt;                  
+ &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;  \
+ &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;Repo&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;  &lt;span class="err"&gt;制品管理&lt;/span&gt;
+ &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;         \
+ &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;MkDocs&lt;/span&gt;  &lt;span class="err"&gt;生成工具&lt;/span&gt;
+ &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;                 \
+ &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;                  &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;    &lt;span class="err"&gt;发布空间&lt;/span&gt;
+ &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="err"&gt;`&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;Issues&lt;/span&gt;     &lt;span class="err"&gt;提案追踪&lt;/span&gt;
+  &lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;_______________&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id="_12"&gt;版本&lt;/h2&gt;
+
+
+&lt;h2&gt;版本&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;141105 增补 志愿者申请关闭消息&lt;/li&gt;
 &lt;li&gt;140930 增补 7牛 空间的使用理解&lt;/li&gt;
 &lt;li&gt;140919 增补ASCII 图谱&lt;/li&gt;
 &lt;li&gt;140918 针对当前志愿者情况创立&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="PyCon"></category><category term="guider"></category><category term="volunteer"></category></entry><entry><title>Pythonic口号的Pivot</title><link href="http://pychina.org/imho/140916-pycon-slogen.html" rel="alternate"></link><published>2014-09-16T19:42:42+08:00</published><author><name>CPyUG Pythoneer</name></author><id>tag:pychina.org,2014-09-16:imho/140916-pycon-slogen.html</id><summary type="html">
-&lt;p&gt;&lt;img alt="SimpleIsBeautiful(PNG 图像,731x681 像素)" src="http://wiki.woodpecker.org.cn/moin/SimpleIsBeautiful?action=AttachFile&amp;amp;do=get&amp;amp;target=130416-zq-simple-is-beautiful.png"/&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><category term="PyCon"></category><category term="guider"></category><category term="volunteer"></category></entry><entry><title>Pythonic口号的Pivot</title><link href="http://pychina.org/imho/140916-pycon-slogen.html" rel="alternate"></link><published>2014-09-16T19:42:42+08:00</published><updated>2014-09-16T19:42:42+08:00</updated><author><name>CPyUG Pythoneer</name></author><id>tag:pychina.org,2014-09-16:/imho/140916-pycon-slogen.html</id><summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;&lt;img alt="SimpleIsBeautiful(PNG 图像,731x681 像素)" src="http://wiki.woodpecker.org.cn/moin/SimpleIsBeautiful?action=AttachFile&amp;amp;do=get&amp;amp;target=130416-zq-simple-is-beautiful.png"&gt;&lt;/p&gt;
 &lt;p&gt;可记得去年的&lt;a href="http://python-china.org/topic/544#reply5"&gt;蠎年蠎衫(PythonisT-shirt)设计大赛! — Python China&lt;/a&gt;
 ?&lt;/p&gt;
 &lt;p&gt;今年又来尝试了....&lt;/p&gt;
-&lt;h2 id="_1"&gt;背景&lt;/h2&gt;
+&lt;h2&gt;背景&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://sebsauvage.net/python/"&gt;"Life is short
 (You need Python)"~sebsauvage.net - Python&lt;/a&gt;&lt;/li&gt;
@@ -253,78 +298,110 @@ $ /path/2/local/qrsync -skipsym ../7niu-pycon.json
 &lt;li&gt;演化成了: &lt;code&gt;Life is short, use Python!&lt;/code&gt; &lt;/li&gt;
 &lt;li&gt;Gudio 那年也穿上了身&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="LpyAttachZoomq(JPEG 图像,800x533 像素)" src="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython/LpyAttachZoomq?action=AttachFile&amp;amp;do=get&amp;amp;target=beginning-1-zeuux-fashion-guido.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="LpyAttachZoomq(JPEG 图像,800x533 像素)" src="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython/LpyAttachZoomq?action=AttachFile&amp;amp;do=get&amp;amp;target=beginning-1-zeuux-fashion-guido.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;然后,就没有然后了,,,因为 ZEUUX 的沉默,
+做到 2013年, PyConChina 才在北京 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;p&gt;&lt;img alt="SimpleIsBeautiful(PNG 图像,731x681 像素)" src="http://wiki.woodpecker.org.cn/moin/SimpleIsBeautiful?action=AttachFile&amp;amp;do=get&amp;amp;target=130416-zq-simple-is-beautiful.png"&gt;&lt;/p&gt;
+&lt;p&gt;可记得去年的&lt;a href="http://python-china.org/topic/544#reply5"&gt;蠎年蠎衫(PythonisT-shirt)设计大赛! — Python China&lt;/a&gt;
+?&lt;/p&gt;
+&lt;p&gt;今年又来尝试了....&lt;/p&gt;
+&lt;h2&gt;背景&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://sebsauvage.net/python/"&gt;"Life is short
+(You need Python)"~sebsauvage.net - Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.zhihu.com/question/20830223"&gt;"Life is short, use Python" 最初是谁在什么情况下说的? - 知乎&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;是的,一句无意间的代码注释,在 2007年,演化为 CPyUG 社区纪念TEE 的设计出处:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;演化成了: &lt;code&gt;Life is short, use Python!&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;Gudio 那年也穿上了身&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="LpyAttachZoomq(JPEG 图像,800x533 像素)" src="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython/LpyAttachZoomq?action=AttachFile&amp;amp;do=get&amp;amp;target=beginning-1-zeuux-fashion-guido.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;然后,就没有然后了,,,因为 ZEUUX 的沉默,
 做到 2013年, PyConChina 才在北京/珠海场的纪念TEE 上重构了设计,并发布为:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="BdUGedICAAAzki7" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/140106-@gvanrossum-BdUGedICAAAzki7.jpg-large.jpg"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="BdUGedICAAAzki7" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/140106-@gvanrossum-BdUGedICAAAzki7.jpg-large.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://twitter.com/gvanrossum/status/420249260961968128"&gt;Guido老爹也上过身&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;以及最新的...&lt;/p&gt;
-&lt;p&gt;&lt;img alt="141201-guido-with-tee.png（PNG 图像，414x647 像素）" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141201-guido-with-tee.png?imageView2/2/w/420"/&gt;&lt;/p&gt;
-&lt;h2 id="_2"&gt;激发&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="141201-guido-with-tee.png（PNG 图像，414x647 像素）" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/141201-guido-with-tee.png?imageView2/2/w/420"&gt;&lt;/p&gt;
+&lt;h2&gt;激发&lt;/h2&gt;
 &lt;p&gt;今年呢? 依然有独家赞助可以重制,
 虽然当初 ZEUUX 承诺绝版设计,永不复刻...&lt;/p&gt;
 &lt;p&gt;但是, &lt;code&gt;不折腾要死星人们&lt;/code&gt; 是无法被阻止的!&lt;/p&gt;
 &lt;p&gt;首轮讨论记要如下:&lt;/p&gt;
-&lt;h3 id="140916"&gt;140916 京蠎活动群&lt;/h3&gt;
+&lt;h3&gt;140916 京蠎活动群&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;@ZoomQuiet&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;2007-&amp;gt; Life is short, use Python!
-2013-&amp;gt; Life is shit,go Pythonic!
-2014-&amp;gt; Life is short,suck Python!
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;2007&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;use&lt;/span&gt; &lt;span class="n"&gt;Python&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;span class="mi"&gt;2013&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;shit&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;go&lt;/span&gt; &lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;suck&lt;/span&gt; &lt;span class="n"&gt;Python&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
 
-今年 PyCon 纪念 TEE 的文案,修订为:
-Life such short,be Pythonic !
-有妺纸说,人生苦短应该翻译为
-Life such suck
-很认同,但是,不敢用,,,
+&lt;span class="err"&gt;今年&lt;/span&gt; &lt;span class="n"&gt;PyCon&lt;/span&gt; &lt;span class="err"&gt;纪念&lt;/span&gt; &lt;span class="n"&gt;TEE&lt;/span&gt; &lt;span class="err"&gt;的文案&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="err"&gt;修订为&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+&lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;such&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;Pythonic&lt;/span&gt; &lt;span class="o"&gt;!&lt;/span&gt;
+&lt;span class="err"&gt;有妺纸说&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="err"&gt;人生苦短应该翻译为&lt;/span&gt;
+&lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;such&lt;/span&gt; &lt;span class="n"&gt;suck&lt;/span&gt;
+&lt;span class="err"&gt;很认同&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="err"&gt;但是&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="err"&gt;不敢用&lt;/span&gt;&lt;span class="p"&gt;,,,&lt;/span&gt;
 
-Life is short,be Pythonic!
-人生苦短 得Pythonic?
+&lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;span class="err"&gt;人生苦短&lt;/span&gt; &lt;span class="err"&gt;得&lt;/span&gt;&lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="o"&gt;?&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;@AlbertLee&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Life is short, suck py
-I never stopped pythonic, I just stop showing it
-If you don't python,you don't python
-Pythonic than pythonic 
-    定要难受死处女座的...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;suck&lt;/span&gt; &lt;span class="n"&gt;py&lt;/span&gt;
+&lt;span class="n"&gt;I&lt;/span&gt; &lt;span class="n"&gt;never&lt;/span&gt; &lt;span class="n"&gt;stopped&lt;/span&gt; &lt;span class="n"&gt;pythonic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;I&lt;/span&gt; &lt;span class="n"&gt;just&lt;/span&gt; &lt;span class="n"&gt;stop&lt;/span&gt; &lt;span class="n"&gt;showing&lt;/span&gt; &lt;span class="n"&gt;it&lt;/span&gt;
+&lt;span class="n"&gt;If&lt;/span&gt; &lt;span class="n"&gt;you&lt;/span&gt; &lt;span class="n"&gt;don&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt; &lt;span class="n"&gt;don&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt;
+&lt;span class="n"&gt;Pythonic&lt;/span&gt; &lt;span class="n"&gt;than&lt;/span&gt; &lt;span class="n"&gt;pythonic&lt;/span&gt; 
+    &lt;span class="err"&gt;定要难受死处女座的&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;@Lothar&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;life's pathetic, let's pythonic
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;life&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;pathetic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;let&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;pythonic&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;@Adam:&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;go pythonic, no pathetic... ..
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;go&lt;/span&gt; &lt;span class="n"&gt;pythonic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;no&lt;/span&gt; &lt;span class="n"&gt;pathetic&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt; &lt;span class="p"&gt;..&lt;/span&gt;
 
-人生苦短 Pythonic欢
-苦海无涯,python是岸
-人生苦短 Pythonic绽
-总是我就是强迫症想押韵..
+&lt;span class="err"&gt;人生苦短&lt;/span&gt; &lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="err"&gt;欢&lt;/span&gt;
+&lt;span class="err"&gt;苦海无涯&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="err"&gt;是岸&lt;/span&gt;
+&lt;span class="err"&gt;人生苦短&lt;/span&gt; &lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="err"&gt;绽&lt;/span&gt;
+&lt;span class="err"&gt;总是我就是强迫症想押韵&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;ul&gt;
 &lt;li&gt;为什么python程序员都这么短命... 还都这么痛苦... (逃)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="_3"&gt;暂定&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    life's pathetic, let's pythonic
-    人生苦短 得Pythonic?
+&lt;h2&gt;暂定&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;    &lt;span class="n"&gt;life&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;pathetic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;let&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;pythonic&lt;/span&gt;
+    &lt;span class="err"&gt;人生苦短&lt;/span&gt; &lt;span class="err"&gt;得&lt;/span&gt;&lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="o"&gt;?&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id="_4"&gt;思考&lt;/h2&gt;
+
+
+&lt;h2&gt;思考&lt;/h2&gt;
 &lt;p&gt;为什么 程序猿 就是如此纠结呢? 一个单词就可以引发这么多的情绪?
 果断那谁无意间道出了真相?&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;为什么python程序员
-都这么短命... 
-还都这么痛苦...
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;为什么&lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="err"&gt;程序员&lt;/span&gt;
+&lt;span class="err"&gt;都这么短命&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt; 
+&lt;span class="err"&gt;还都这么痛苦&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id="changlog"&gt;Changlog&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Life's pathetic, go Pythonic!
-人生苦短
-Python当歌
+
+
+&lt;h2&gt;Changlog&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Life&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;pathetic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;go&lt;/span&gt; &lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;span class="err"&gt;人生苦短&lt;/span&gt;
+&lt;span class="n"&gt;Python&lt;/span&gt;&lt;span class="err"&gt;当歌&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;ul&gt;
 &lt;li&gt;150529 开智 微信群讨论:&lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Life's pathetic, go Pythonic!&lt;/code&gt;&lt;/li&gt;
@@ -348,4 +425,4 @@ Python当歌
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;140916 微信群引发&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="DAMA"></category><category term="Pythoneer"></category><category term="PyCon"></category></entry></feed>
+&lt;/ul&gt;</content><category term="DAMA"></category><category term="Pythoneer"></category><category term="PyCon"></category></entry></feed>
