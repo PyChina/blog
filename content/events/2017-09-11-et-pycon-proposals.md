@@ -4,7 +4,6 @@ Categories: Events
 Tags:  gdg, PyCon, event, 
 Slug: pycon2017china-sh
 
-[TOC]
 
 # 第6届了
 今年，IEEE Spectrum 发布了第四届顶级编程语言排行榜，Python高居首位。
@@ -27,14 +26,17 @@ Python 用户在超预期的增长中，也越来越多元化。
 
 ## 所以
 
-2017年，PyConChina将在北京和上海举办大会，用高质量的直播让更多人远程参与。
-具体讲什么呢？期待各类Python技术高手们的分享，尤其是代表了AI、大数据和区块链等新领域的主题，让更多人了解未来Python的应用发展趋势。
+2017年，PyConChina将于10月22日在上海和杭州举办大会，
+用高质量的直播让更多人远程参与。
+
+具体讲什么呢？
+期待各类Python技术高手们的分享，尤其是代表了AI、大数据和区块链等新领域的主题，让更多人了解未来Python的应用发展趋势。
 
 ## 申报+门票
+~ 关键链接
 
-- 主题申报: 
-    + **https://jinshuju.net/f/2ag6QB**
-- 门票购买:
-    + http://www.huodongxing.com/event/3403439712600?td=8211933664158
+- **[--> 主题申报](https://jinshuju.net/f/2ag6QB)** 
+- [---> 门票购买](http://www.huodongxing.com/event/3403439712600?td=8211933664158)
+
 
 
