@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PyChina.org - events</title><link href="http://pychina.org/" rel="alternate"></link><link href="http://pychina.org/feeds/events.atom.xml" rel="self"></link><id>http://pychina.org/</id><updated>2017-09-11T11:11:11+08:00</updated><entry><title>PyCon2017中国大会议题征集</title><link href="http://pychina.org/events/pycon2017china-sh.html" rel="alternate"></link><published>2017-09-11T11:11:11+08:00</published><updated>2017-09-11T11:11:11+08:00</updated><author><name>CPyUG Pythoneer</name></author><id>tag:pychina.org,2017-09-11:/events/pycon2017china-sh.html</id><summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h1&gt;第6届了&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PyChina.org - events</title><link href="http://pychina.org/" rel="alternate"></link><link href="http://pychina.org/feeds/events.atom.xml" rel="self"></link><id>http://pychina.org/</id><updated>2017-09-11T11:11:11+08:00</updated><entry><title>PyCon2017中国大会议题征集</title><link href="http://pychina.org/events/pycon2017china-sh.html" rel="alternate"></link><published>2017-09-11T11:11:11+08:00</published><updated>2017-09-11T11:11:11+08:00</updated><author><name>CPyUG Pythoneer</name></author><id>tag:pychina.org,2017-09-11:/events/pycon2017china-sh.html</id><summary type="html">&lt;h1&gt;第6届了&lt;/h1&gt;
 &lt;p&gt;今年，IEEE Spectrum 发布了第四届顶级编程语言排行榜，Python高居首位。&lt;/p&gt;
 &lt;p&gt;谁会成为AI 和大数据时代的第一开发语言？ &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;在&lt;/span&gt;&lt;span class="n"&gt;Facebook&lt;/span&gt; &lt;span class="err"&gt;开源了&lt;/span&gt; &lt;span class="n"&gt;PyTorch&lt;/span&gt; &lt;span class="err"&gt;之后，&lt;/span&gt;
@@ -18,13 +17,16 @@
 &lt;p&gt;Python 也早就成为Web 开发、游戏脚本、计算机视觉、物联网管理和机器人开发的主流语言之一，&lt;/p&gt;
 &lt;p&gt;Python 用户在超预期的增长中，也越来越多元化。&lt;/p&gt;
 &lt;h2&gt;所以&lt;/h2&gt;
-&lt;p&gt;2017年，PyConChina将在北京和上海举办大会，用高质量的直播让更多人远程参与。
-具体讲什么呢？期待各类Python技术高手们的分享，尤其是代表了AI、大数据和区块链等新领域的主题，让更多人了解未来Python的应用发展趋势。&lt;/p&gt;
+&lt;p&gt;2017年，PyConChina将于10月22日在上海和杭州举办大会，
+用高质量的直播让更多人远程参与。&lt;/p&gt;
+&lt;p&gt;具体讲什么呢？
+期待各类Python技术高手们的分享，尤其是代表了AI、大数据和区块链等新领域的主题，让更多人了解未来Python的应用发展趋势。&lt;/p&gt;
 &lt;h2&gt;申报+门票&lt;/h2&gt;
+&lt;p&gt;~ 关键链接&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;主题申报: &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;https://jinshuju …&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h1&gt;第6届了&lt;/h1&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://jinshuju.net/f/2ag6QB"&gt;--&amp;gt; 主题申报&lt;/a&gt;&lt;/strong&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.huodongxing.com/event/3403439712600?td=8211933664158"&gt;---&amp;gt; 门票购买&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;第6届了&lt;/h1&gt;
 &lt;p&gt;今年，IEEE Spectrum 发布了第四届顶级编程语言排行榜，Python高居首位。&lt;/p&gt;
 &lt;p&gt;谁会成为AI 和大数据时代的第一开发语言？ &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;在&lt;/span&gt;&lt;span class="n"&gt;Facebook&lt;/span&gt; &lt;span class="err"&gt;开源了&lt;/span&gt; &lt;span class="n"&gt;PyTorch&lt;/span&gt; &lt;span class="err"&gt;之后，&lt;/span&gt;
@@ -42,18 +44,15 @@
 &lt;p&gt;Python 也早就成为Web 开发、游戏脚本、计算机视觉、物联网管理和机器人开发的主流语言之一，&lt;/p&gt;
 &lt;p&gt;Python 用户在超预期的增长中，也越来越多元化。&lt;/p&gt;
 &lt;h2&gt;所以&lt;/h2&gt;
-&lt;p&gt;2017年，PyConChina将在北京和上海举办大会，用高质量的直播让更多人远程参与。
-具体讲什么呢？期待各类Python技术高手们的分享，尤其是代表了AI、大数据和区块链等新领域的主题，让更多人了解未来Python的应用发展趋势。&lt;/p&gt;
+&lt;p&gt;2017年，PyConChina将于10月22日在上海和杭州举办大会，
+用高质量的直播让更多人远程参与。&lt;/p&gt;
+&lt;p&gt;具体讲什么呢？
+期待各类Python技术高手们的分享，尤其是代表了AI、大数据和区块链等新领域的主题，让更多人了解未来Python的应用发展趋势。&lt;/p&gt;
 &lt;h2&gt;申报+门票&lt;/h2&gt;
+&lt;p&gt;~ 关键链接&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;主题申报: &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;https://jinshuju.net/f/2ag6QB&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;门票购买:&lt;ul&gt;
-&lt;li&gt;http://www.huodongxing.com/event/3403439712600?td=8211933664158&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://jinshuju.net/f/2ag6QB"&gt;--&amp;gt; 主题申报&lt;/a&gt;&lt;/strong&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.huodongxing.com/event/3403439712600?td=8211933664158"&gt;---&amp;gt; 门票购买&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><category term="gdg"></category><category term="PyCon"></category><category term="event"></category></entry><entry><title>PyCon2015中国大会议题征集</title><link href="http://pychina.org/events/pycon2015china-bj.html" rel="alternate"></link><published>2015-07-14T14:05:06+08:00</published><updated>2015-07-14T14:05:06+08:00</updated><author><name>CPyUG Pythoneer</name></author><id>tag:pychina.org,2015-07-14:/events/pycon2015china-bj.html</id><summary type="html">&lt;p&gt;一年一度的PyCon2015即将召开, 目前已经有3座城市举办时间已定:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;9.12 @上海;&lt;/li&gt;
