@@ -118,6 +118,9 @@ go pythonic, no pathetic... ..
     人生苦短
     Python当歌
 
+- 170924 after have a bath
+    + `Life never perfect,but can pythonic!`
+    + **人生苦短** 但能 Pythonic
 - 150529 开智 微信群讨论:
     + `Life's pathetic, go Pythonic!`
     + **人生苦短** Python当歌
