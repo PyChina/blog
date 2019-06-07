@@ -5,21 +5,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://pychina.org/index.html</loc>
-<lastmod>2019-06-07T14:24:53-00:00</lastmod>
+<lastmod>2019-06-07T14:26:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://pychina.org/archives.html</loc>
-<lastmod>2019-06-07T14:24:53-00:00</lastmod>
+<lastmod>2019-06-07T14:26:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://pychina.org/categories.html</loc>
-<lastmod>2019-06-07T14:24:53-00:00</lastmod>
+<lastmod>2019-06-07T14:26:38-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
