@@ -11,7 +11,7 @@ SITEURL = 'http://pychina.org'
 
 DISQUS_SITENAME = u"pychinaorg" #填入你的Shortname
 
-SITELOGO = "http://pychina.qiniudn.com/theme/PyChina_logo_131217_zq_h60.png?imageView2/2/h/48"
+SITELOGO = "http://pychina.zoomquiet.top/theme/PyChina_logo_131217_zq_h60.png?imageView2/2/h/48"
 
 MARKUP = ('md', )#'rst', 'html', 
 #   TIMEZONE = 'Europe/Paris'
@@ -69,9 +69,10 @@ DISPLAY_CATEGORIES_ON_MENU = None      # 分类标签是否显示在导航
 ADDTHIS_PROFILE = True
 
 #GITHUB_USER = "ZoomQuiet"
-MENUITEMS = (('PyCon中国', 'http://cn.pycon.org')
-          ,('周刊', 'http://weekly.pychina.org')
-          ,('蠎营', 'http://camp.pychina.org')
+MENUITEMS = (('PyCon中国大会', 'http://cn.pycon.org')
+          ,('蠎周刊', 'http://weekly.pychina.org')
+          ,('苦短衫', 'http://pychina.org/imho/140916-pycon-slogen.html')
+          ,('蠎营', 'http://101.camp')
           )
 
 # Feed generation is usually not desired when developing
@@ -80,12 +81,12 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 TRANSLATION_FEED_ATOM = None
 FEED_ALL_RSS = None
 CATEGORY_FEED_RSS= None
-SOCIAL = (('gitcafe', 'https://gitcafe.com/CPyUG/PyChina')
+SOCIAL = (('GitHub', 'https://github.com/PyChina')
         , ('rss', SITEURL + '/' + FEED_ALL_ATOM)
         , ('weibo', 'http://weibo.com/pyconcn')
         , ('CPyUG', 'http://wiki.woodpecker.org.cn/moin/CPUG')
         , ('O.B.P', 'http://weibo.com/openbookproject')
-        , ('News', 'http://news.pychina.org')
+        #, ('News', 'http://news.pychina.org')
         )
 # Blogroll
 LINKS =  None
