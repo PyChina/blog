@@ -130,6 +130,7 @@ publish as bind pychina.org  ;-)
 
 ## changelog
 
+- 190818 ZQ ++ CNZZ WA support
 - 141120 增补文档,明确协同流程
 - 141119 upgrade as 3.5.0 base [issue #264](https://github.com/getpelican/pelican-plugins/issues/264) fixed sitemap.py 
 - 131218 base pelican build and through qiniu.com publish
