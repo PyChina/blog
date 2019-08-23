@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>PyChina.org - Zoom.Quiet</title><link href="http://pychina.org/" rel="alternate"></link><link href="http://pychina.org/feeds/zoomquiet.atom.xml" rel="self"></link><id>http://pychina.org/</id><updated>2016-04-01T19:19:00+08:00</updated><entry><title>从 gitcafe 迁移回 github</title><link href="http://pychina.org/handbook/cafe2hub.html" rel="alternate"></link><published>2016-04-01T19:19:00+08:00</published><updated>2016-04-01T19:19:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:pychina.org,2016-04-01:/handbook/cafe2hub.html</id><summary type="html">&lt;h1&gt;gitcafe 2 GitHub&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>blog.PyChina.org - Zoom.Quiet</title><link href="http://blog.pychina.org/" rel="alternate"></link><link href="http://blog.pychina.org/feeds/zoomquiet.atom.xml" rel="self"></link><id>http://blog.pychina.org/</id><updated>2016-04-01T19:19:00+08:00</updated><entry><title>从 gitcafe 迁移回 github</title><link href="http://blog.pychina.org/handbook/cafe2hub.html" rel="alternate"></link><published>2016-04-01T19:19:00+08:00</published><updated>2016-04-01T19:19:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:blog.pychina.org,2016-04-01:/handbook/cafe2hub.html</id><summary type="html">&lt;h1&gt;gitcafe 2 GitHub&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h2&gt;processing&lt;/h2&gt;
 &lt;h3&gt;UserName/Organization site&lt;/h3&gt;
@@ -99,7 +99,7 @@ github.map.fastly.net.  &lt;span class="m"&gt;27&lt;/span&gt;  IN  A   &lt;span 
 &lt;ul&gt;
 &lt;li&gt;160406 大妈 记要&lt;/li&gt;
 &lt;li&gt;160401 大妈 启动&lt;/li&gt;
-&lt;/ul&gt;</content><category term="gitcafe"></category><category term="guider"></category><category term="pages"></category></entry><entry><title>PyCon2014China 志愿者协同手册</title><link href="http://pychina.org/imho/cooperate-guider.html" rel="alternate"></link><published>2014-09-18T19:19:00+08:00</published><updated>2014-09-18T19:19:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:pychina.org,2014-09-18:/imho/cooperate-guider.html</id><summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;/ul&gt;</content><category term="gitcafe"></category><category term="guider"></category><category term="pages"></category></entry><entry><title>PyCon2014China 志愿者协同手册</title><link href="http://blog.pychina.org/imho/cooperate-guider.html" rel="alternate"></link><published>2014-09-18T19:19:00+08:00</published><updated>2014-09-18T19:19:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:blog.pychina.org,2014-09-18:/imho/cooperate-guider.html</id><summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h2&gt;背景&lt;/h2&gt;
 &lt;p&gt;参考: &lt;a href="http://cn.pycon.org/2014/"&gt;PyCon2014China&lt;/a&gt; 官网&lt;/p&gt;
 &lt;p&gt;PyCon 中国到今年是第四届了,以往志愿者基本只负责了现场会务,
@@ -382,7 +382,7 @@ github.map.fastly.net.  &lt;span class="m"&gt;27&lt;/span&gt;  IN  A   &lt;span 
 &lt;li&gt;140930 增补 7牛 空间的使用理解&lt;/li&gt;
 &lt;li&gt;140919 增补ASCII 图谱&lt;/li&gt;
 &lt;li&gt;140918 针对当前志愿者情况创立&lt;/li&gt;
-&lt;/ul&gt;</content><category term="PyCon"></category><category term="guider"></category><category term="volunteer"></category></entry><entry><title>PyCon2013China 珠海场小结</title><link href="http://pychina.org/events/pycon2013china-zh.html" rel="alternate"></link><published>2013-12-09T00:00:00+08:00</published><updated>2013-12-09T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:pychina.org,2013-12-09:/events/pycon2013china-zh.html</id><summary type="html">&lt;h1&gt;PyCon2013CHina 珠海场 小结&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="PyCon"></category><category term="guider"></category><category term="volunteer"></category></entry><entry><title>PyCon2013China 珠海场小结</title><link href="http://blog.pychina.org/events/pycon2013china-zh.html" rel="alternate"></link><published>2013-12-09T00:00:00+08:00</published><updated>2013-12-09T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:blog.pychina.org,2013-12-09:/events/pycon2013china-zh.html</id><summary type="html">&lt;h1&gt;PyCon2013CHina 珠海场 小结&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="131209_pyconzh_bigpic.png" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131209_pyconzh_bigpic.png"&gt;&lt;/p&gt;
 &lt;p&gt;活动关键数据:&lt;/p&gt;
 &lt;ul&gt;
@@ -763,7 +763,7 @@ PS:真人照片,不是星爷!&lt;/p&gt;
 &lt;li&gt;G+ 社群: &lt;a href="http://gplus.to/zhGDG"&gt;ZhuHai GDG&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;微博: &lt;a href="http://weibo.com/gdgzh"&gt;@GDG珠海&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;微信: GDG珠海 &lt;img alt="qrcode_for_gh_5e32c47b5b23_258.jpg" src="http://zoomq.qiniudn.com/ZHGDG/design/qrcode_for_gh_5e32c47b5b23_258.jpg"&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="gdg"></category><category term="PyCon"></category><category term="event"></category><category term="summary"></category></entry><entry><title>Sting Chen</title><link href="http://pychina.org/volunteer/sting_chen.html" rel="alternate"></link><published>2013-12-09T00:00:00+08:00</published><updated>2013-12-09T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:pychina.org,2013-12-09:/volunteer/sting_chen.html</id><summary type="html">&lt;h1&gt;StingChen(陈世欣)&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="gdg"></category><category term="PyCon"></category><category term="event"></category><category term="summary"></category></entry><entry><title>Sting Chen</title><link href="http://blog.pychina.org/volunteer/sting_chen.html" rel="alternate"></link><published>2013-12-09T00:00:00+08:00</published><updated>2013-12-09T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:blog.pychina.org,2013-12-09:/volunteer/sting_chen.html</id><summary type="html">&lt;h1&gt;StingChen(陈世欣)&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="chenshixin_2013" src="http://pyconcn.qiniudn.com/images/volunteer/chenshixin_2013.png"&gt;&lt;/p&gt;
 &lt;p&gt;永泰红磡养老产业投资集团的信息技术总监&lt;/p&gt;
 &lt;p&gt;在14年的互联网生涯后，投身到到永泰红磡养老产业投资集团做夕阳事业，跨界发展。&lt;/p&gt;
@@ -781,7 +781,7 @@ PS:真人照片,不是星爷!&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;博客：http://sting.topgeek.org/&lt;/li&gt;
 &lt;li&gt;微博：http://weibo.com/stingchen&lt;/li&gt;
-&lt;/ul&gt;</content><category term="people"></category></entry><entry><title>Zoom.Quiet</title><link href="http://pychina.org/volunteer/zoomquiet.html" rel="alternate"></link><published>2013-11-17T00:00:00+08:00</published><updated>2013-11-17T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:pychina.org,2013-11-17:/volunteer/zoomquiet.html</id><summary type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="people"></category></entry><entry><title>Zoom.Quiet</title><link href="http://blog.pychina.org/volunteer/zoomquiet.html" rel="alternate"></link><published>2013-11-17T00:00:00+08:00</published><updated>2013-11-17T00:00:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:blog.pychina.org,2013-11-17:/volunteer/zoomquiet.html</id><summary type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="ZQ" src="http://pyconcn.qiniudn.com/images/volunteer/zhouqi.png"&gt;&lt;/p&gt;
 &lt;p&gt;Python中文社区创始人(之一) / 管理员,
 热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";&lt;/p&gt;
