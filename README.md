@@ -20,7 +20,6 @@ so after PyCon2013China, some `old` Chinese Pythonista together and building:
 
 ## organizer
 
-- Sting
 - Zoom.Quiet
 
 ## volunteer
@@ -45,6 +44,84 @@ depending:
 install:
 
     $ pip install -r requirements.txt
+
+
+## flow
+> 配置好环境
+
+- 安装 fabric 1.0
+- 将本地目录按照这样部署:
+
+
+path/2/PyChina.org/blog༽
+
+    ༄  git br -a
+    * master
+      remotes/origin/HEAD -> origin/master
+      remotes/origin/gh-pages
+      remotes/origin/gitcafe-pages
+      remotes/origin/master
+
+    ༄  ll
+    total 48
+    -rw-r--r--  1 zoomq staff 3758  8  7  2015 Makefile
+    -rw-r--r--  1 zoomq staff 4280  9 15 09:41 README.md
+    ...
+    lrwxr-xr-x  1 zoomq staff   12  8 23 21:59 output -> ../blog_ghp/
+    ...
+
+
+path/2/PyChina.org/blog_ghp༽
+
+    ༄  git br -a
+    * gh-pages
+      master
+      remotes/origin/HEAD -> origin/master
+      remotes/origin/gh-pages
+      remotes/origin/master
+
+然后, 想编译发布时:
+
+    ༄  fab pub
+    [localhost] local: pelican content -o output -s pelicanconf.py
+    WARNING: MD_EXTENSIONS is deprecated use MARKDOWN instead. Falling back to the default.
+    ERROR: Skipping _extra/README.md: could not find information about 'title'
+    Done: Processed 11 articles, 0 drafts, 1 page and 0 hidden pages in 2.15 seconds.
+    [localhost] local: cd output && pwd && git st && git add --all . && git ci -am "re-build from local by markdoc @MBP111216ZQ" && git pu && date
+    /Users/zoomq/Sites/PyChina.org/blog/output
+    On branch gh-pages
+    Your branch is up-to-date with 'origin/gh-pages'.
+
+    ...
+
+
+    Delta compression using up to 4 threads.
+    Compressing objects: 100% (46/46), done.
+    Writing objects: 100% (46/46), 21.91 KiB | 1.15 MiB/s, done.
+    Total 46 (delta 42), reused 0 (delta 0)
+    remote: Resolving deltas: 100% (42/42), completed with 22 local objects.
+    To github.com:PyChina/blog.git
+       82e099c..7954fee  gh-pages -> gh-pages
+    日  9 15 09:38:25 CST 2019
+
+
+当前内置的运营指令:
+
+    ༄  fab ?
+
+    Warning: Command(s) not found:
+        ?
+
+    Available commands:
+
+        build
+        gh_pages
+        pub
+        reserve
+        serve
+
+
+
 
 ## main loop:
 
@@ -134,3 +211,5 @@ publish as bind pychina.org  ;-)
 - 141120 增补文档,明确协同流程
 - 141119 upgrade as 3.5.0 base [issue #264](https://github.com/getpelican/pelican-plugins/issues/264) fixed sitemap.py 
 - 131218 base pelican build and through qiniu.com publish
+
+

@@ -5,11 +5,11 @@ from __future__ import unicode_literals
 ###############################################################   Site abt.
 ###############################################################
 AUTHOR = u'CPyUG Pythoneer'
-SITENAME = u'PyChina.org'
-SITESUBTITLE = u'蠎中国社区'
-SITEURL = 'http://pychina.org'
+SITENAME = u'blog.PyChina.org'
+SITESUBTITLE = u'蠎中国社区 blog'
+SITEURL = 'http://blog.pychina.org'
 
-DISQUS_SITENAME = u"pychinaorg" #填入你的Shortname
+#DISQUS_SITENAME = u"pychinaorg" #填入你的Shortname
 
 SITELOGO = "http://pychina.zoomquiet.top/theme/PyChina_logo_131217_zq_h60.png?imageView2/2/h/48"
 
@@ -70,9 +70,10 @@ ADDTHIS_PROFILE = True
 
 #GITHUB_USER = "ZoomQuiet"
 MENUITEMS = (('PyCon中国大会', 'http://cn.pycon.org')
-          ,('蠎周刊', 'http://weekly.pychina.org')
-          ,('苦短衫', 'http://pychina.org/imho/140916-pycon-slogen.html')
-          ,('蠎营', 'http://101.camp')
+          , ('蠎中国', 'http://pychina.org')
+          , ('蠎周刊', 'http://weekly.pychina.org')
+          , ('苦短衫', 'http://blog.pychina.org/imho/140916-pycon-slogen.html')
+          , ('蠎营', 'http://101.camp')
           )
 
 # Feed generation is usually not desired when developing
