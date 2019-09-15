@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>blog.PyChina.org - events</title><link href="http://blog.pychina.org/" rel="alternate"></link><link href="http://blog.pychina.org/feeds/events.atom.xml" rel="self"></link><id>http://blog.pychina.org/</id><updated>2017-09-11T11:11:11+08:00</updated><entry><title>PyCon2017中国大会议题征集</title><link href="http://blog.pychina.org/events/pycon2017china-sh.html" rel="alternate"></link><published>2017-09-11T11:11:11+08:00</published><updated>2017-09-11T11:11:11+08:00</updated><author><name>CPyUG Pythoneer</name></author><id>tag:blog.pychina.org,2017-09-11:/events/pycon2017china-sh.html</id><summary type="html">&lt;h1&gt;第6届了&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>blog.PyChina.org - events</title><link href="http://blog.pychina.org/" rel="alternate"></link><link href="http://blog.pychina.org/feeds/events.atom.xml" rel="self"></link><id>http://blog.pychina.org/</id><updated>2019-09-15T11:11:11+08:00</updated><entry><title>欢迎参加 PyCon China 2019！</title><link href="http://blog.pychina.org/events/pycon2019china-sh.html" rel="alternate"></link><published>2019-09-15T11:11:11+08:00</published><updated>2019-09-15T11:11:11+08:00</updated><author><name>Grey Li</name></author><id>tag:blog.pychina.org,2019-09-15:/events/pycon2019china-sh.html</id><summary type="html">&lt;h2&gt;第九届 Python 中国开发者大会（PyCon China）&lt;/h2&gt;
+&lt;p&gt;1989 年圣诞，Guido van Rossum 为了打发无聊的圣诞假期，决定找点事来做。他选择实现一门编程语言。这门编程语言就是 Python。&lt;/p&gt;
+&lt;p&gt;2000年10月16日，Python 2.0 发布。&lt;/p&gt;
+&lt;p&gt;2008年12月3日，Python 3.0 发布。&lt;/p&gt;
+&lt;p&gt;从创立之初到现在，在整整三十年的时间里，Python一步步的成长到现在，被广泛的应用于计算机行业之中。服务开发，运维，科学计算，理论模拟等等。越来越多的人爱上 Python，并用自己的形式回馈 Python 社区。可能 Guido 他自己都没想到，当时的一时兴起所创造的语言，会在这么多的领域得到应用。某种意义上来讲，他所创造的这门语言，在一定程度上改变了计算机世界。&lt;/p&gt;
+&lt;p&gt;2019 年，Python 诞生三十周年之际 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;第九届 Python 中国开发者大会（PyCon China）&lt;/h2&gt;
+&lt;p&gt;1989 年圣诞，Guido van Rossum 为了打发无聊的圣诞假期，决定找点事来做。他选择实现一门编程语言。这门编程语言就是 Python。&lt;/p&gt;
+&lt;p&gt;2000年10月16日，Python 2.0 发布。&lt;/p&gt;
+&lt;p&gt;2008年12月3日，Python 3.0 发布。&lt;/p&gt;
+&lt;p&gt;从创立之初到现在，在整整三十年的时间里，Python一步步的成长到现在，被广泛的应用于计算机行业之中。服务开发，运维，科学计算，理论模拟等等。越来越多的人爱上 Python，并用自己的形式回馈 Python 社区。可能 Guido 他自己都没想到，当时的一时兴起所创造的语言，会在这么多的领域得到应用。某种意义上来讲，他所创造的这门语言，在一定程度上改变了计算机世界。&lt;/p&gt;
+&lt;p&gt;2019 年，Python 诞生三十周年之际。我们将举行 PyCon China 2019 活动来庆祝这一门伟大语言的生日。今年的大会的主会场将设立在上海，同时在北京、杭州、深圳等地设立分会场。&lt;/p&gt;
+&lt;h2&gt;议题和志愿者申请开放中&lt;/h2&gt;
+&lt;p&gt;无论你是服务端开发，亦或是运维，还是大数据，人工智能等领域的专家，如果你有任何想分享给全国 Python 开发者的经验，欢迎报名参加我们的主题演讲/闪电演讲！如果你想参与我们大会的组织和筹备，欢迎加入我们的志愿者团队！&lt;/p&gt;
+&lt;h2&gt;购票参与&lt;/h2&gt;
+&lt;p&gt;今年的 PyCon China，我们邀请到了多位重量级嘉宾，比如《流畅的 Python》作者 Luciano Ramalho、Flask 作者 Armin Ronacher、Python 核心开发者 Giampaolo Rodola 等。除此之外，我们还新加入了闪电演讲、Tutorial（大会第二天）、Workshop 等环节，期待你的参与~&lt;/p&gt;
+&lt;h2&gt;重要链接&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://jinshuju.net/f/BH2z26"&gt;演讲报名&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://jinshuju.net/f/ibpDI3"&gt;志愿者报名链接&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.bagevent.com/event/5293611"&gt;购票链接及详细日程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pyconchina.org.cn/"&gt;大会网站&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pychina.org#gh"&gt;官方公众号&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="PyCon"></category><category term="event"></category></entry><entry><title>PyCon2017中国大会议题征集</title><link href="http://blog.pychina.org/events/pycon2017china-sh.html" rel="alternate"></link><published>2017-09-11T11:11:11+08:00</published><updated>2017-09-11T11:11:11+08:00</updated><author><name>CPyUG Pythoneer</name></author><id>tag:blog.pychina.org,2017-09-11:/events/pycon2017china-sh.html</id><summary type="html">&lt;h1&gt;第6届了&lt;/h1&gt;
 &lt;p&gt;今年，IEEE Spectrum 发布了第四届顶级编程语言排行榜，Python高居首位。&lt;/p&gt;
 &lt;p&gt;谁会成为AI 和大数据时代的第一开发语言？ &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;在&lt;/span&gt;&lt;span class="n"&gt;Facebook&lt;/span&gt; &lt;span class="err"&gt;开源了&lt;/span&gt; &lt;span class="n"&gt;PyTorch&lt;/span&gt; &lt;span class="err"&gt;之后，&lt;/span&gt;
