@@ -68,26 +68,29 @@
     <div class="row">
         <div class="col-lg-9">
             <article>
-                <h2><a href="http://blog.pychina.org/events/pycon2015china-bj.html">PyCon2015中国大会议题征集</a></h2>
-                <div class="summary"><p>一年一度的PyCon2015即将召开, 目前已经有3座城市举办时间已定:</p>
+                <h2><a href="http://blog.pychina.org/handbook/cafe2hub.html">从 gitcafe 迁移回 github</a></h2>
+                <div class="summary"><h1>gitcafe 2 GitHub</h1>
+<p>[TOC]</p>
+<h2>processing</h2>
+<h3>UserName/Organization site</h3>
+<p>https://github.com/DevRela/devrela.github.io</p>
+<p>这种比较简单:</p>
 <ul>
-<li>9.12 @上海;</li>
-<li>9.13 @广州;</li>
-<li>9.19 @北京;</li>
+<li>追加 <code>CNAME</code> ~ <code>devrel.info</code></li>
+<li>DNSPod 修订 CNAME<ul>
+<li><code>@</code> ~ <code>devrela.github.io</code></li>
 </ul>
-<p>过往四届,总是有对分享主题不够干货的报怨. 所以,今年大会将<strong>强化议题评审.</strong>
-提前两个月公开征集议题,分享一年来的 Pythonic 体验.</p>
-<ul>
-<li>2015年, 互联网+, 大数据, 云计算.. Python无处不在, 最佳实践成功案例却鲜为人知,</li>
-<li>2015年, 年度最具争议的话题Python2 还是Python3? Python3到底是不是毁掉了Python?</li>
-<li>2015年, 虚拟现实, 人工智能火遍全球, Python从中起到什么作用?</li>
-<li>当然, 还有官方建议话题参考 <a href="#1-">附录1</a></li>
-<li>其他与Python有关的主题, 想法, 创意</li>
+</li>
+<li><code>KO</code></li>
 </ul>
-<p>如果你对上述话题有足矣自得的见解, 当然最好符合从业者的心声 <a href="#2-">附录2</a>, 请向大会提交主题/工作坊:</p>
+<h3>Project site</h3>
+<p>https://github.com/zoom-quiet/wiki</p>
+<p>这种,也就多一步:</p>
 <ul>
-<li>栽培: 2015.8.15 23 …</li></ul>
-                    <a class="btn btn-default btn-xs" href="http://blog.pychina.org/events/pycon2015china-bj.html">more ...</a>
+<li>建立分支 <code>git co -b hg_pages</code></li>
+<li>复制为 <code>output</code> 目录</li>
+<li>定制 <code>fab</code> 事务 ~ <a href="https://github.com/zoom-quiet/wiki/blob/master/fabfile.py#L44">wiki/fabfile.py …</a></li></ul>
+                    <a class="btn btn-default btn-xs" href="http://blog.pychina.org/handbook/cafe2hub.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -117,6 +120,8 @@
                         href="http://blog.pychina.org/index10.html">10</a></li>
                 <li class=""><a
                         href="http://blog.pychina.org/index11.html">11</a></li>
+                <li class=""><a
+                        href="http://blog.pychina.org/index12.html">12</a></li>
                 <li class="next"><a
                         href="http://blog.pychina.org/index5.html">&raquo;</a></li>
         </ul>

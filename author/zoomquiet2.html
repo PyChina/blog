@@ -68,38 +68,29 @@
     <div class="row">
         <div class="col-lg-9">
             <article>
-                <h2><a href="http://blog.pychina.org/imho/cooperate-guider.html">PyCon2014China 志愿者协同手册</a></h2>
-                <div class="summary"><p>[TOC]</p>
-<h2>背景</h2>
-<p>参考: <a href="http://cn.pycon.org/2014/">PyCon2014China</a> 官网</p>
-<p>PyCon 中国到今年是第四届了,以往志愿者基本只负责了现场会务,
-而更加复杂长期的赞助/官网/宣传... 基本都是号称志愿者,实为义务组织者的少数人在支撑,
-这不科学!</p>
-<p>CPyUG 列表可是聚集了 11K 行者哪!</p>
-<p>所以,今年求上进!</p>
-<h2>任务</h2>
-<p>筹备期间,最要紧的任务有:</p>
-<ol>
-<li>官网日常内容增补</li>
-<li>官网E文版本翻译</li>
-<li>宣传/纪念品设计</li>
-<li>CSDN 等媒体合作渠道每周文案起草</li>
-</ol>
-<p>而任务的并行解决,需要有完备/统一/固定的:</p>
+                <h2><a href="http://blog.pychina.org/handbook/cafe2hub.html">从 gitcafe 迁移回 github</a></h2>
+                <div class="summary"><h1>gitcafe 2 GitHub</h1>
+<p>[TOC]</p>
+<h2>processing</h2>
+<h3>UserName/Organization site</h3>
+<p>https://github.com/DevRela/devrela.github.io</p>
+<p>这种比较简单:</p>
 <ul>
-<li>任务说明</li>
-<li>执行支持</li>
-<li>成果检验</li>
-<li>任务管理</li>
+<li>追加 <code>CNAME</code> ~ <code>devrel.info</code></li>
+<li>DNSPod 修订 CNAME<ul>
+<li><code>@</code> ~ <code>devrela.github.io</code></li>
 </ul>
-<h2>方案</h2>
-<p>参考: <a href="http://producingoss.com/zh/">制造开源软件</a> ~ 如何成功运营自由软件项目</p>
-<p>将一次大会视作一个标准的开源软件项目来管理的话,
-自然的形成了常见的工具链:</p>
+</li>
+<li><code>KO</code></li>
+</ul>
+<h3>Project site</h3>
+<p>https://github.com/zoom-quiet/wiki</p>
+<p>这种,也就多一步:</p>
 <ul>
-<li>创建 <a href="cnpycon-volunteer@googlegroups.com">CnPyCon-volunteer</a> ~ 中国PyCon-志愿者 列表, 进行日常讨论</li>
-<li>创建 <a href="https://gitcafe.com/PyConChina">PyConChina …</a></li></ul>
-                    <a class="btn btn-default btn-xs" href="http://blog.pychina.org/imho/cooperate-guider.html">more ...</a>
+<li>建立分支 <code>git co -b hg_pages</code></li>
+<li>复制为 <code>output</code> 目录</li>
+<li>定制 <code>fab</code> 事务 ~ <a href="https://github.com/zoom-quiet/wiki/blob/master/fabfile.py#L44">wiki/fabfile.py …</a></li></ul>
+                    <a class="btn btn-default btn-xs" href="http://blog.pychina.org/handbook/cafe2hub.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -117,6 +108,8 @@
                         href="http://blog.pychina.org/author/zoomquiet4.html">4</a></li>
                 <li class=""><a
                         href="http://blog.pychina.org/author/zoomquiet5.html">5</a></li>
+                <li class=""><a
+                        href="http://blog.pychina.org/author/zoomquiet6.html">6</a></li>
                 <li class="next"><a
                         href="http://blog.pychina.org/author/zoomquiet3.html">&raquo;</a></li>
         </ul>
