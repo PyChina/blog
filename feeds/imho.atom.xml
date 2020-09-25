@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>blog.PyChina.org - IMHO</title><link href="http://blog.pychina.org/" rel="alternate"></link><link href="http://blog.pychina.org/feeds/imho.atom.xml" rel="self"></link><id>http://blog.pychina.org/</id><updated>2014-09-18T19:19:00+08:00</updated><entry><title>PyCon2014China 志愿者协同手册</title><link href="http://blog.pychina.org/imho/cooperate-guider.html" rel="alternate"></link><published>2014-09-18T19:19:00+08:00</published><updated>2014-09-18T19:19:00+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:blog.pychina.org,2014-09-18:/imho/cooperate-guider.html</id><summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>blog.PyChina.org - IMHO</title><link href="http://blog.pychina.org/" rel="alternate"></link><link href="http://blog.pychina.org/feeds/imho.atom.xml" rel="self"></link><id>http://blog.pychina.org/</id><updated>2018-12-10T21:23:02+08:00</updated><subtitle>蠎中国社区 blog</subtitle><entry><title>PyCon2014China 志愿者协同手册</title><link href="http://blog.pychina.org/imho/cooperate-guider.html" rel="alternate"></link><published>2014-09-18T19:19:00+08:00</published><updated>2015-08-07T12:08:11+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:blog.pychina.org,2014-09-18:/imho/cooperate-guider.html</id><summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h2&gt;背景&lt;/h2&gt;
 &lt;p&gt;参考: &lt;a href="http://cn.pycon.org/2014/"&gt;PyCon2014China&lt;/a&gt; 官网&lt;/p&gt;
 &lt;p&gt;PyCon 中国到今年是第四届了,以往志愿者基本只负责了现场会务,
@@ -124,12 +124,12 @@
 &lt;li&gt;&lt;code&gt;cn.pycon.org&lt;/code&gt; 主机在国外&lt;/li&gt;
 &lt;li&gt;相关配置为:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;location&lt;/span&gt; &lt;span class="o"&gt;^~&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="n"&gt;proxy_set_header&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;Forwarded&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;For&lt;/span&gt; &lt;span class="err"&gt;$&lt;/span&gt;&lt;span class="n"&gt;proxy_add_x_forwarded_for&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="n"&gt;proxy_set_header&lt;/span&gt; &lt;span class="n"&gt;Host&lt;/span&gt; &lt;span class="n"&gt;pyconcn&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniudn&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="n"&gt;proxy_pass&lt;/span&gt;  &lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;//pyconcn.qiniudn.com/2014/ ;&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;location ^~ /2014/ {&lt;/span&gt;
+&lt;span class="err"&gt;    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;&lt;/span&gt;
+&lt;span class="err"&gt;    proxy_set_header Host pyconcn.qiniudn.com;&lt;/span&gt;
+&lt;span class="err"&gt;    proxy_pass  http://pyconcn.qiniudn.com/2014/ ;&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;所以,7牛空间的协同思路:&lt;/p&gt;
@@ -138,29 +138,29 @@
 &lt;li&gt;其它目录, 确保唯一即可&lt;/li&gt;
 &lt;li&gt;e.g. 在 7牛 空间中可以是:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nl"&gt;http:&lt;/span&gt;&lt;span class="c1"&gt;//pyconcn.qiniudn.com/&lt;/span&gt;
-    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
-    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;zoomquiet&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;2011&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;2012&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;2013&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="err"&gt;`&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;stuff14&lt;/span&gt;
-    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;someone&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nl"&gt;http&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;pyconcn&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniudn&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;zoomquiet&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2011&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2012&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2013&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="err"&gt;`&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;stuff14&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;someone&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;但是,在不同的志愿者本地, 目录可以是:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nl"&gt;http:&lt;/span&gt;&lt;span class="c1"&gt;//pyconcn.qiniudn.com/&lt;/span&gt;
-    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
-    &lt;span class="err"&gt;`&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;someone&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-        &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;foto&lt;/span&gt;
-        &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;logo&lt;/span&gt;
-        &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nl"&gt;http&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;pyconcn&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniudn&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="err"&gt;`&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;someone&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;foto&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;logo&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
@@ -179,36 +179,36 @@
 &lt;ul&gt;
 &lt;li&gt;安排好工作目录, 类似:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;ur&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;local&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;cn&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pycon&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
-    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pycon&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;
-    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pyconcn&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt; 
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;~~~~~+&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;someone&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;   &lt;span class="o"&gt;|&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;         &lt;span class="o"&gt;|&lt;/span&gt;
-    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;             &lt;span class="o"&gt;|&lt;/span&gt;
-    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;MkDoc4PyCon&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;    &lt;span class="o"&gt;|&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;     &lt;span class="n"&gt;ln&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;_theme&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;     &lt;span class="o"&gt;|&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;docs&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;       &lt;span class="o"&gt;|&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;site&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="o"&gt;~~~~~~+&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;gitignore&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;fabfile&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;footer&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;gen4idx&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;mkdocs&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;yml&lt;/span&gt;
-    &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;
-    &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="p"&gt;...&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;ur&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;local&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;cn&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pycon&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pycon&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pyconcn&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;~~~~~+&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="n"&gt;someone&lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt;         &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt;             &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;MkDoc4PyCon&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt;     &lt;/span&gt;&lt;span class="k"&gt;ln&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;_theme&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt;     &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;docs&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt;       &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;site&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;~~~~~~+&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;gitignore&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;fabfile&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;footer&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;gen4idx&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;mkdocs&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;yml&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;当然的,本地的目录名,不用完全和这里的一样,关键要确保 &lt;code&gt;fabric&lt;/code&gt; 可运行成功就好&lt;/li&gt;
 &lt;li&gt;对应的配置项可以自行根据需求变更 &lt;code&gt;fabfile.py&lt;/code&gt;: &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;env&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniu&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;opt&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;bin&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu_package_darwin_amd64&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;qrsync&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
-&lt;span class="n"&gt;env&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniu_conf&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pycon&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
-&lt;span class="n"&gt;env&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniu_path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pyconcn&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;env.qiniu = &amp;#39;/opt/bin/7niu_package_darwin_amd64/qrsync&amp;#39;&lt;/span&gt;
+&lt;span class="err"&gt;env.qiniu_conf = &amp;#39;../7niu-pycon.json&amp;#39;&lt;/span&gt;
+&lt;span class="err"&gt;env.qiniu_path = &amp;#39;../7niu.pyconcn&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
@@ -219,24 +219,24 @@
 &lt;li&gt;否则,将造成 7牛 空间相同目录浏览时,文件看不到,但是,可以使用的现象 &lt;/li&gt;
 &lt;li&gt;合理配置 &lt;code&gt;7niu-pycon.json&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;src&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;          &lt;span class="s2"&gt;&amp;quot;/path/2/your/sync_dir&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;dest&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;         &lt;span class="s2"&gt;&amp;quot;qiniu:access_key=&amp;lt;AccessKey&amp;gt;&amp;amp;secret_key=&amp;lt;SecretKey&amp;gt;&amp;amp;bucket=&amp;lt;Bucket&amp;gt;&amp;amp;key_prefix=&amp;lt;KeyPrefix&amp;gt;&amp;amp;threshold=&amp;lt;Threshold&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;deletable&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;    &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;debug_level&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;  &lt;span class="mi"&gt;1&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;{&lt;/span&gt;
+&lt;span class="err"&gt;    &amp;quot;src&amp;quot;:          &amp;quot;/path/2/your/sync_dir&amp;quot;,&lt;/span&gt;
+&lt;span class="err"&gt;    &amp;quot;dest&amp;quot;:         &amp;quot;qiniu:access_key=&amp;lt;AccessKey&amp;gt;&amp;amp;secret_key=&amp;lt;SecretKey&amp;gt;&amp;amp;bucket=&amp;lt;Bucket&amp;gt;&amp;amp;key_prefix=&amp;lt;KeyPrefix&amp;gt;&amp;amp;threshold=&amp;lt;Threshold&amp;gt;&amp;quot;,&lt;/span&gt;
+&lt;span class="err"&gt;    &amp;quot;deletable&amp;quot;:    0,&lt;/span&gt;
+&lt;span class="err"&gt;    &amp;quot;debug_level&amp;quot;:  1&lt;/span&gt;
+&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;正常情况下, 嘦调整 &lt;code&gt;"src"&lt;/code&gt; 的内容,指向本地目录,即可&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;然后,可以手工在本地的 7牛 目录中,模拟 &lt;code&gt;fab pub2cafe&lt;/code&gt; 的行为,运行:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt; &lt;span class="n"&gt;gen4idx&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;footer&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt; &lt;span class="mi"&gt;2014&lt;/span&gt;
-&lt;span class="p"&gt;...&lt;/span&gt;
-&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;local&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;qrsync&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;skipsym&lt;/span&gt; &lt;span class="p"&gt;..&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;pycon&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;
-&lt;span class="p"&gt;...&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ python gen4idx.py ./ footer-7niu.html &lt;span class="m"&gt;2014&lt;/span&gt;
+...
+$ /path/2/local/qrsync -skipsym ../7niu-pycon.json
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;明确一切正当, 在 &lt;code&gt;http://pyconcn.qiniudn.com/[someone]&lt;/code&gt; 中可以看到期望的文件.&lt;/p&gt;
@@ -261,19 +261,19 @@
 &lt;p&gt;&lt;img alt="nopic" src="http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif"&gt;&lt;/p&gt;
 &lt;h2&gt;小结&lt;/h2&gt;
 &lt;p&gt;所以,整体上,目前的协同,非常简洁&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;wechat&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="err"&gt;列表&lt;/span&gt;
-&lt;span class="o"&gt;~~~~~~~~~~&lt;/span&gt;  &lt;span class="err"&gt;内部讨论&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="err"&gt;提醒&lt;/span&gt;
- &lt;span class="o"&gt;^&lt;/span&gt;      \
- &lt;span class="o"&gt;|&lt;/span&gt;       &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;gitcafe&lt;/span&gt;     &lt;span class="err"&gt;协同平台&lt;/span&gt;                  
- &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;  \
- &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;   &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;Repo&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;  &lt;span class="err"&gt;制品管理&lt;/span&gt;
- &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;         \
- &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;          &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="n"&gt;MkDocs&lt;/span&gt;  &lt;span class="err"&gt;生成工具&lt;/span&gt;
- &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;                 \
- &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="o"&gt;|&lt;/span&gt;                  &lt;span class="o"&gt;+-&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="n"&gt;niu&lt;/span&gt;    &lt;span class="err"&gt;发布空间&lt;/span&gt;
- &lt;span class="o"&gt;|&lt;/span&gt;            &lt;span class="err"&gt;`&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;Issues&lt;/span&gt;     &lt;span class="err"&gt;提案追踪&lt;/span&gt;
-  &lt;span class="err"&gt;\&lt;/span&gt;&lt;span class="n"&gt;_______________&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;wechat|列表&lt;/span&gt;
+&lt;span class="err"&gt;~~~~~~~~~~  内部讨论|提醒&lt;/span&gt;
+&lt;span class="err"&gt; ^      \&lt;/span&gt;
+&lt;span class="err"&gt; |       +- gitcafe     协同平台                  &lt;/span&gt;
+&lt;span class="err"&gt; |            |  \&lt;/span&gt;
+&lt;span class="err"&gt; |            |   +- Repo.  制品管理&lt;/span&gt;
+&lt;span class="err"&gt; |            |         \&lt;/span&gt;
+&lt;span class="err"&gt; |            |          +- MkDocs  生成工具&lt;/span&gt;
+&lt;span class="err"&gt; |            |                 \&lt;/span&gt;
+&lt;span class="err"&gt; |            |                  +- 7niu    发布空间&lt;/span&gt;
+&lt;span class="err"&gt; |            `- Issues     提案追踪&lt;/span&gt;
+&lt;span class="err"&gt;  \_______________/&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;版本&lt;/h2&gt;
@@ -282,7 +282,7 @@
 &lt;li&gt;140930 增补 7牛 空间的使用理解&lt;/li&gt;
 &lt;li&gt;140919 增补ASCII 图谱&lt;/li&gt;
 &lt;li&gt;140918 针对当前志愿者情况创立&lt;/li&gt;
-&lt;/ul&gt;</content><category term="PyCon"></category><category term="guider"></category><category term="volunteer"></category></entry><entry><title>Pythonic口号的Pivot</title><link href="http://blog.pychina.org/imho/140916-pycon-slogen.html" rel="alternate"></link><published>2014-09-16T19:42:42+08:00</published><updated>2014-09-16T19:42:42+08:00</updated><author><name>CPyUG Pythoneer</name></author><id>tag:blog.pychina.org,2014-09-16:/imho/140916-pycon-slogen.html</id><summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;/ul&gt;</content><category term="IMHO"></category><category term="PyCon"></category><category term="guider"></category><category term="volunteer"></category></entry><entry><title>Pythonic口号的Pivot</title><link href="http://blog.pychina.org/imho/140916-pycon-slogen.html" rel="alternate"></link><published>2014-09-16T19:42:42+08:00</published><updated>2018-12-10T21:23:02+08:00</updated><author><name>CPyUG Pythoneer</name></author><id>tag:blog.pychina.org,2014-09-16:/imho/140916-pycon-slogen.html</id><summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
 &lt;p&gt;&lt;img alt="SimpleIsBeautiful(PNG 图像,731x681 像素)" src="http://wiki.woodpecker.org.cn/moin/SimpleIsBeautiful?action=AttachFile&amp;amp;do=get&amp;amp;target=130416-zq-simple-is-beautiful.png"&gt;&lt;/p&gt;
 &lt;p&gt;可记得去年的&lt;a href="http://python-china.org/topic/544#reply5"&gt;蠎年蠎衫(PythonisT-shirt)设计大赛! — Python China&lt;/a&gt;
 ?&lt;/p&gt;
@@ -332,74 +332,74 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;@ZoomQuiet&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="mi"&gt;2007&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;use&lt;/span&gt; &lt;span class="n"&gt;Python&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
-&lt;span class="mi"&gt;2013&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="n"&gt;shit&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;go&lt;/span&gt; &lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
-&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;suck&lt;/span&gt; &lt;span class="n"&gt;Python&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="mi"&gt;2007&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Life&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;is&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;use&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Python&lt;/span&gt;&lt;span class="err"&gt;!&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="mi"&gt;2013&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Life&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;is&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;shit&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="k"&gt;go&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="err"&gt;!&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;-&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Life&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;is&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;suck&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Python&lt;/span&gt;&lt;span class="err"&gt;!&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-&lt;span class="err"&gt;今年&lt;/span&gt; &lt;span class="n"&gt;PyCon&lt;/span&gt; &lt;span class="err"&gt;纪念&lt;/span&gt; &lt;span class="n"&gt;TEE&lt;/span&gt; &lt;span class="err"&gt;的文案&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="err"&gt;修订为&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-&lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;such&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;Pythonic&lt;/span&gt; &lt;span class="o"&gt;!&lt;/span&gt;
-&lt;span class="err"&gt;有妺纸说&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="err"&gt;人生苦短应该翻译为&lt;/span&gt;
-&lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;such&lt;/span&gt; &lt;span class="n"&gt;suck&lt;/span&gt;
-&lt;span class="err"&gt;很认同&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="err"&gt;但是&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="err"&gt;不敢用&lt;/span&gt;&lt;span class="p"&gt;,,,&lt;/span&gt;
+&lt;span class="n"&gt;今年&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;PyCon&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;纪念&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;TEE&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;的文案&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="nl"&gt;修订为&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;Life&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;such&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;be&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;!&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;有妺纸说&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;人生苦短应该翻译为&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;Life&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;such&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;suck&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;很认同&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;但是&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;不敢用&lt;/span&gt;&lt;span class="p"&gt;,,,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-&lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;be&lt;/span&gt; &lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
-&lt;span class="err"&gt;人生苦短&lt;/span&gt; &lt;span class="err"&gt;得&lt;/span&gt;&lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="o"&gt;?&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;span class="n"&gt;Life&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;is&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;be&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="err"&gt;!&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;人生苦短&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;得Pythonic&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;@AlbertLee&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Life&lt;/span&gt; &lt;span class="n"&gt;is&lt;/span&gt; &lt;span class="kt"&gt;short&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;suck&lt;/span&gt; &lt;span class="n"&gt;py&lt;/span&gt;
-&lt;span class="n"&gt;I&lt;/span&gt; &lt;span class="n"&gt;never&lt;/span&gt; &lt;span class="n"&gt;stopped&lt;/span&gt; &lt;span class="n"&gt;pythonic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;I&lt;/span&gt; &lt;span class="n"&gt;just&lt;/span&gt; &lt;span class="n"&gt;stop&lt;/span&gt; &lt;span class="n"&gt;showing&lt;/span&gt; &lt;span class="n"&gt;it&lt;/span&gt;
-&lt;span class="n"&gt;If&lt;/span&gt; &lt;span class="n"&gt;you&lt;/span&gt; &lt;span class="n"&gt;don&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;you&lt;/span&gt; &lt;span class="n"&gt;don&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt;
-&lt;span class="n"&gt;Pythonic&lt;/span&gt; &lt;span class="n"&gt;than&lt;/span&gt; &lt;span class="n"&gt;pythonic&lt;/span&gt; 
-    &lt;span class="err"&gt;定要难受死处女座的&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;Life is short, suck py&lt;/span&gt;
+&lt;span class="err"&gt;I never stopped pythonic, I just stop showing it&lt;/span&gt;
+&lt;span class="err"&gt;If you don&amp;#39;t python,you don&amp;#39;t python&lt;/span&gt;
+&lt;span class="err"&gt;Pythonic than pythonic &lt;/span&gt;
+&lt;span class="err"&gt;    定要难受死处女座的...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;@Lothar&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;life&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;pathetic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;let&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;pythonic&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;life&amp;#39;s pathetic, let&amp;#39;s pythonic&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;@Adam:&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;go&lt;/span&gt; &lt;span class="n"&gt;pythonic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;no&lt;/span&gt; &lt;span class="n"&gt;pathetic&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt; &lt;span class="p"&gt;..&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;go&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pythonic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;no&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pathetic&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-&lt;span class="err"&gt;人生苦短&lt;/span&gt; &lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="err"&gt;欢&lt;/span&gt;
-&lt;span class="err"&gt;苦海无涯&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="err"&gt;是岸&lt;/span&gt;
-&lt;span class="err"&gt;人生苦短&lt;/span&gt; &lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="err"&gt;绽&lt;/span&gt;
-&lt;span class="err"&gt;总是我就是强迫症想押韵&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;span class="n"&gt;人生苦短&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Pythonic欢&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;苦海无涯&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;python是岸&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;人生苦短&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Pythonic绽&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;总是我就是强迫症想押韵&lt;/span&gt;&lt;span class="p"&gt;..&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;为什么python程序员都这么短命... 还都这么痛苦... (逃)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;暂定&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;    &lt;span class="n"&gt;life&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;pathetic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;let&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;pythonic&lt;/span&gt;
-    &lt;span class="err"&gt;人生苦短&lt;/span&gt; &lt;span class="err"&gt;得&lt;/span&gt;&lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="o"&gt;?&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;    life&amp;#39;s pathetic, let&amp;#39;s pythonic&lt;/span&gt;
+&lt;span class="err"&gt;    人生苦短 得Pythonic?&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;思考&lt;/h2&gt;
 &lt;p&gt;为什么 程序猿 就是如此纠结呢? 一个单词就可以引发这么多的情绪?
 果断那谁无意间道出了真相?&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="err"&gt;为什么&lt;/span&gt;&lt;span class="n"&gt;python&lt;/span&gt;&lt;span class="err"&gt;程序员&lt;/span&gt;
-&lt;span class="err"&gt;都这么短命&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt; 
-&lt;span class="err"&gt;还都这么痛苦&lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;为什么python程序员&lt;/span&gt;
+&lt;span class="err"&gt;都这么短命... &lt;/span&gt;
+&lt;span class="err"&gt;还都这么痛苦...&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;Changlog&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Life&lt;/span&gt;&lt;span class="err"&gt;&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;pathetic&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;go&lt;/span&gt; &lt;span class="n"&gt;Pythonic&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;Life&amp;#39;s pathetic, go Pythonic!&lt;/span&gt;
 &lt;span class="err"&gt;人生苦短&lt;/span&gt;
-&lt;span class="n"&gt;Python&lt;/span&gt;&lt;span class="err"&gt;当歌&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;span class="err"&gt;Python当歌&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;ul&gt;
@@ -430,4 +430,4 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;140916 微信群引发&lt;/li&gt;
-&lt;/ul&gt;</content><category term="DAMA"></category><category term="Pythoneer"></category><category term="PyCon"></category></entry></feed>
+&lt;/ul&gt;</content><category term="IMHO"></category><category term="DAMA"></category><category term="Pythoneer"></category><category term="PyCon"></category></entry></feed>

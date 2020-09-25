@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>blog.PyChina.org - Grey Li</title><link href="http://blog.pychina.org/" rel="alternate"></link><link href="http://blog.pychina.org/feeds/grey-li.atom.xml" rel="self"></link><id>http://blog.pychina.org/</id><updated>2019-09-15T11:11:11+08:00</updated><entry><title>欢迎参加 PyCon China 2019！</title><link href="http://blog.pychina.org/events/pycon2019china-sh.html" rel="alternate"></link><published>2019-09-15T11:11:11+08:00</published><updated>2019-09-15T11:11:11+08:00</updated><author><name>Grey Li</name></author><id>tag:blog.pychina.org,2019-09-15:/events/pycon2019china-sh.html</id><summary type="html">&lt;h2&gt;第九届 Python 中国开发者大会（PyCon China）&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>blog.PyChina.org - Grey Li</title><link href="http://blog.pychina.org/" rel="alternate"></link><link href="http://blog.pychina.org/feeds/grey-li.atom.xml" rel="self"></link><id>http://blog.pychina.org/</id><updated>2019-09-15T11:11:11+08:00</updated><subtitle>蠎中国社区 blog</subtitle><entry><title>欢迎参加 PyCon China 2019！</title><link href="http://blog.pychina.org/events/pycon2019china-sh.html" rel="alternate"></link><published>2019-09-15T11:11:11+08:00</published><updated>2019-09-15T09:37:42+08:00</updated><author><name>Grey Li</name></author><id>tag:blog.pychina.org,2019-09-15:/events/pycon2019china-sh.html</id><summary type="html">&lt;h2&gt;第九届 Python 中国开发者大会（PyCon China）&lt;/h2&gt;
 &lt;p&gt;1989 年圣诞，Guido van Rossum 为了打发无聊的圣诞假期，决定找点事来做。他选择实现一门编程语言。这门编程语言就是 Python。&lt;/p&gt;
 &lt;p&gt;2000年10月16日，Python 2.0 发布。&lt;/p&gt;
 &lt;p&gt;2008年12月3日，Python 3.0 发布。&lt;/p&gt;
@@ -21,4 +21,4 @@
 &lt;li&gt;&lt;a href="https://www.bagevent.com/event/5293611"&gt;购票链接及详细日程&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://pyconchina.org.cn/"&gt;大会网站&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://pychina.org#gh"&gt;官方公众号&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="PyCon"></category><category term="event"></category></entry></feed>
+&lt;/ul&gt;</content><category term="events"></category><category term="PyCon"></category><category term="event"></category></entry></feed>

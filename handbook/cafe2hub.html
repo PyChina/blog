@@ -122,22 +122,22 @@
 <li>DNSPod 的确是国内用户首选</li>
 </ul>
 <p>完解析后的情景</p>
-<div class="highlight"><pre>༆  dig wiki.zhgdg.org
+<div class="highlight"><pre><span></span><code><span class="err">༆</span>  <span class="nt">dig</span> <span class="nt">wiki</span><span class="p">.</span><span class="nc">zhgdg</span><span class="p">.</span><span class="nc">org</span>
 
-<span class="p">;</span> <span class="o">&lt;&lt;&gt;&gt;</span> DiG <span class="m">9.8.3</span><span class="o">-</span>P1 <span class="o">&lt;&lt;&gt;&gt;</span> wiki.zhgdg.org
-<span class="p">;;</span> global options<span class="o">:</span> <span class="o">+</span>cmd
-<span class="p">;;</span> Got answer<span class="o">:</span>
-<span class="p">;;</span> <span class="o">-&gt;&gt;</span>HEADER<span class="o">&lt;&lt;-</span> opcode<span class="o">:</span> QUERY<span class="p">,</span> status<span class="o">:</span> NOERROR<span class="p">,</span> id<span class="o">:</span> <span class="m">61427</span>
-<span class="p">;;</span> flags<span class="o">:</span> qr rd ra<span class="p">;</span> QUERY<span class="o">:</span> <span class="m">1</span><span class="p">,</span> ANSWER<span class="o">:</span> <span class="m">3</span><span class="p">,</span> AUTHORITY<span class="o">:</span> <span class="m">0</span><span class="p">,</span> ADDITIONAL<span class="o">:</span> <span class="m">0</span>
+<span class="o">;</span> <span class="o">&lt;&lt;&gt;&gt;</span> <span class="nt">DiG</span> <span class="nt">9</span><span class="p">.</span><span class="nc">8</span><span class="p">.</span><span class="nc">3-P1</span> <span class="o">&lt;&lt;&gt;&gt;</span> <span class="nt">wiki</span><span class="p">.</span><span class="nc">zhgdg</span><span class="p">.</span><span class="nc">org</span>
+<span class="o">;;</span> <span class="nt">global</span> <span class="nt">options</span><span class="o">:</span> <span class="o">+</span><span class="nt">cmd</span>
+<span class="o">;;</span> <span class="nt">Got</span> <span class="nt">answer</span><span class="o">:</span>
+<span class="o">;;</span> <span class="nt">-</span><span class="o">&gt;&gt;</span><span class="nt">HEADER</span><span class="o">&lt;&lt;</span><span class="nt">-</span> <span class="nt">opcode</span><span class="o">:</span> <span class="nt">QUERY</span><span class="o">,</span> <span class="nt">status</span><span class="o">:</span> <span class="nt">NOERROR</span><span class="o">,</span> <span class="nt">id</span><span class="o">:</span> <span class="nt">61427</span>
+<span class="o">;;</span> <span class="nt">flags</span><span class="o">:</span> <span class="nt">qr</span> <span class="nt">rd</span> <span class="nt">ra</span><span class="o">;</span> <span class="nt">QUERY</span><span class="o">:</span> <span class="nt">1</span><span class="o">,</span> <span class="nt">ANSWER</span><span class="o">:</span> <span class="nt">3</span><span class="o">,</span> <span class="nt">AUTHORITY</span><span class="o">:</span> <span class="nt">0</span><span class="o">,</span> <span class="nt">ADDITIONAL</span><span class="o">:</span> <span class="nt">0</span>
 
-<span class="p">;;</span> QUESTION SECTION<span class="o">:</span>
-<span class="p">;</span>wiki.zhgdg.org.            IN  A
+<span class="o">;;</span> <span class="nt">QUESTION</span> <span class="nt">SECTION</span><span class="o">:</span>
+<span class="o">;</span><span class="nt">wiki</span><span class="p">.</span><span class="nc">zhgdg</span><span class="p">.</span><span class="nc">org</span><span class="o">.</span>            <span class="nt">IN</span>  <span class="nt">A</span>
 
-<span class="p">;;</span> ANSWER SECTION<span class="o">:</span>
-wiki.zhgdg.org.     <span class="m">600</span> IN  CNAME   zhgdg.github.io.
-zhgdg.github.io.    <span class="m">3600</span>    IN  CNAME   github.map.fastly.net.
-github.map.fastly.net.  <span class="m">27</span>  IN  A   <span class="m">23.235.44.133</span>
-</pre></div>
+<span class="o">;;</span> <span class="nt">ANSWER</span> <span class="nt">SECTION</span><span class="o">:</span>
+<span class="nt">wiki</span><span class="p">.</span><span class="nc">zhgdg</span><span class="p">.</span><span class="nc">org</span><span class="o">.</span>     <span class="nt">600</span> <span class="nt">IN</span>  <span class="nt">CNAME</span>   <span class="nt">zhgdg</span><span class="p">.</span><span class="nc">github</span><span class="p">.</span><span class="nc">io</span><span class="o">.</span>
+<span class="nt">zhgdg</span><span class="p">.</span><span class="nc">github</span><span class="p">.</span><span class="nc">io</span><span class="o">.</span>    <span class="nt">3600</span>    <span class="nt">IN</span>  <span class="nt">CNAME</span>   <span class="nt">github</span><span class="p">.</span><span class="nc">map</span><span class="p">.</span><span class="nc">fastly</span><span class="p">.</span><span class="nc">net</span><span class="o">.</span>
+<span class="nt">github</span><span class="p">.</span><span class="nc">map</span><span class="p">.</span><span class="nc">fastly</span><span class="p">.</span><span class="nc">net</span><span class="o">.</span>  <span class="nt">27</span>  <span class="nt">IN</span>  <span class="nt">A</span>   <span class="nt">23</span><span class="p">.</span><span class="nc">235</span><span class="p">.</span><span class="nc">44</span><span class="p">.</span><span class="nc">133</span>
+</code></pre></div>
 
 
 <h3>coding</h3>
@@ -207,28 +207,61 @@ var jiathis_config = {data_track_clickback:'true'};
 
 <hr/>
 
-<h3>蟒营®编程思维提高班 Python版/<b>第11期</b> 正在报名</h3>
-<h4>精品小班/ 每期<42人</h4>
+<h3>蟒营®编程思维提高班 Python版/<b>第13期</b> 正在报名</h3>
+<h4>精品小班/ 永久答疑</h4>
 
 <blockquote><p>
     
 <ul>
     <li>
-    开始报名: <b>2020.8.30</b> </li>
+    开始报名: <b>2020.9.28</b> </li>
     <li>
-    报名截止: <b>2020.9.21</b> </li>
+    报名截止: <b>2020.10.19</b> </li>
     <li>
-    正式开课: <b>2020.9.27</b> </li>
+    正式开课: <b>2020.10.25</b> </li>
     <li>
-    课程结束: <b>2020.11.8</b> </li>
+    课程结束: <b>2020.12.13</b> </li>
 
     <li>
     介绍文章:  
     <ul>
         <li>
-        <a href="https://mp.weixin.qq.com/s/vwcrt8q9UtNiyGcgdoDmcA">
+<a href="https://blog.101.camp/nc/200816-ZoomQuiet-wtf-online-course/">蟒营®/ 什么是网课?</a>
+        </li>
+
+        <li>
+<a href="https://blog.101.camp/nc/200908-zoomquiet-fake-learnning/">蟒营®/ 伪编程学习?</a>
+        </li>
+
+        <li>
+<a href="https://blog.101.camp/nc/200915-zoomquiet-3not-see/">蟒营®/ 视而不见</a>
+        </li>
+
+        <li>
+<a href="https://blog.101.camp/nc/200917-zoomquiet-3not-ask/">蟒营®/ 惑而不问</a>
+        </li>
+
+        <li>
+<a href="https://blog.101.camp/nc/200918-zoomquiet-3not-learn/">蟒营®/ 思而不学</a>
+        </li>
+
+        <li>
+        <a href="https://blog.101.camp/dm/200824-ZoomQuiet-Shanti-Bhavan-4u/">
             拙见/ 唤醒自己的天命之女
         </a>
+        </li>
+        <li>
+        <a href="https://blog.101.camp/dm/200828-ZoomQuiet-understand-understand/">
+            拙见/ 理解理解
+        </a>
+        </li>
+        <li>
+        <a href="https://blog.101.camp/dm/200829-ZoomQuiet-learn-learn/">
+            拙见/ 学习学习
+        </a>
+        </li>
+        <li>
+...
         </li>
     </ul>
     </li>
@@ -261,9 +294,8 @@ var jiathis_config = {data_track_clickback:'true'};
 
 <b>扫描</b>报名:
 
-<img alt="101camp12py" 
-    src="http://ydlj.zoomquiet.top/ipic/2020-08-26-200816-reg-zip.jpg"/>
-
+<img alt="101camp13py" 
+    src="http://ydlj.zoomquiet.top/ipic/2020-09-25-reg-zip.jpg"/>
 
 </p></blockquote>
 
