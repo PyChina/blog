@@ -5,35 +5,7 @@
 &lt;p&gt;(幸好, 休息时, 大妈专门回访了一下小朋友们, 都表示听不懂...)&lt;/p&gt;
 &lt;h3&gt;流水帐:&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;按照时间顺序, 回忆现场内容...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;暖场&lt;ul&gt;
-&lt;li&gt;录音: &lt;a href="http://pychina.up.zoomquiet.top/PyCon2019China/191026pyconnn/191026-00-start-133849.MP3"&gt;191026-00-start-133849.MP3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;习惯性开场, 唠叨点儿常规声明&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;自我介绍:&lt;ul&gt;
-&lt;li&gt;录音:&lt;a href="http://pychina.up.zoomquiet.top/PyCon2019China/191026pyconnn/191026-01-introself-134231.MP3"&gt;191026-01-introself-134231.MP3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;提前到场参与者福利 ;-)&lt;/li&gt;
-&lt;li&gt;基本都是程序猿, 可见南宁作为省会 IT 行业足够体量了&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt="room" src="http://ydlj.zoomquiet.top/ipic/2019-10-29-ScreenShot%202019-10-29%2021.23.21.jpg"&gt;
-(赞助商提供的房间不大, 但是设备非常好, 大家报名也积极, 完全填满了)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;主持人:&lt;ul&gt;
-&lt;li&gt;录音: &lt;a href="http://pychina.up.zoomquiet.top/PyCon2019China/191026pyconnn/191026-03-openning-135716.MP3"&gt;191026-03-openning-135716.MP3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;首次担当公开大型活动主持的 river&lt;/li&gt;
-&lt;li&gt;好在也创业多年, 开发团队领导发言也非常习惯&lt;/li&gt;
-&lt;li&gt;稳定完成...各种介绍&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;使用 Pytorch 和 Yolo 进行人流量分析&lt;ul&gt;
-&lt;li&gt;姜原, 优趣天下研发工程师 &lt;/li&gt;
-&lt;li&gt;录音: &lt;a href="http://pychina.up.zoomquiet.top/PyCon2019China/191026pyconnn/191026-04-yolo-141104.MP3"&gt;191026-04-yolo-141104.MP3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;自称非专业新鲜产品转换角色过来的程序猿 …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2&gt;成功举行&lt;/h2&gt;
+&lt;p&gt;按照时间顺序, 回忆现场 …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;h2&gt;成功举行&lt;/h2&gt;
 &lt;p&gt;现场的气氛...很有压力:
 &lt;img alt="kids" src="http://ydlj.zoomquiet.top/ipic/2019-10-29-ScreenShot%202019-10-29%2021.22.53.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;(幸好, 休息时, 大妈专门回访了一下小朋友们, 都表示听不懂...)&lt;/p&gt;
@@ -162,11 +134,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;NN 3815&lt;/p&gt;
 &lt;/blockquote&gt;</content><category term="events"></category><category term="PyCon"></category><category term="event"></category><category term="dama"></category></entry><entry><title>欢迎参加 PyCon China 2019！</title><link href="http://blog.pychina.org/events/pycon2019china-sh.html" rel="alternate"></link><published>2019-09-15T11:11:11+08:00</published><updated>2019-09-15T09:37:42+08:00</updated><author><name>Grey Li</name></author><id>tag:blog.pychina.org,2019-09-15:/events/pycon2019china-sh.html</id><summary type="html">&lt;h2&gt;第九届 Python 中国开发者大会（PyCon China）&lt;/h2&gt;
-&lt;p&gt;1989 年圣诞，Guido van Rossum 为了打发无聊的圣诞假期，决定找点事来做。他选择实现一门编程语言。这门编程语言就是 Python。&lt;/p&gt;
-&lt;p&gt;2000年10月16日，Python 2.0 发布。&lt;/p&gt;
-&lt;p&gt;2008年12月3日，Python 3.0 发布。&lt;/p&gt;
-&lt;p&gt;从创立之初到现在，在整整三十年的时间里，Python一步步的成长到现在，被广泛的应用于计算机行业之中。服务开发，运维，科学计算，理论模拟等等。越来越多的人爱上 Python，并用自己的形式回馈 Python 社区。可能 Guido 他自己都没想到，当时的一时兴起所创造的语言，会在这么多的领域得到应用。某种意义上来讲，他所创造的这门语言，在一定程度上改变了计算机世界。&lt;/p&gt;
-&lt;p&gt;2019 年，Python 诞生三十周年之际 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;第九届 Python 中国开发者大会（PyCon China）&lt;/h2&gt;
+&lt;p&gt;1989 年圣诞，Guido van Rossum 为了打发无聊的圣诞假期，决定找点事来做。他选择实现一门编程语言。这 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;第九届 Python 中国开发者大会（PyCon China）&lt;/h2&gt;
 &lt;p&gt;1989 年圣诞，Guido van Rossum 为了打发无聊的圣诞假期，决定找点事来做。他选择实现一门编程语言。这门编程语言就是 Python。&lt;/p&gt;
 &lt;p&gt;2000年10月16日，Python 2.0 发布。&lt;/p&gt;
 &lt;p&gt;2008年12月3日，Python 3.0 发布。&lt;/p&gt;
@@ -183,19 +151,20 @@
 &lt;li&gt;&lt;a href="https://www.bagevent.com/event/5293611"&gt;购票链接及详细日程&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://pyconchina.org.cn/"&gt;大会网站&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://pychina.org#gh"&gt;官方公众号&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="events"></category><category term="PyCon"></category><category term="event"></category></entry><entry><title>PyCon2017中国大会议题征集</title><link href="http://blog.pychina.org/events/pycon2017china-sh.html" rel="alternate"></link><published>2017-09-11T11:11:11+08:00</published><updated>2017-09-14T08:46:56+08:00</updated><author><name>CPyUG Pythoneer</name></author><id>tag:blog.pychina.org,2017-09-11:/events/pycon2017china-sh.html</id><content type="html">&lt;h1&gt;第6届了&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="events"></category><category term="PyCon"></category><category term="event"></category></entry><entry><title>PyCon2017中国大会议题征集</title><link href="http://blog.pychina.org/events/pycon2017china-sh.html" rel="alternate"></link><published>2017-09-11T11:11:11+08:00</published><updated>2017-09-14T08:46:56+08:00</updated><author><name>CPyUG Pythoneer</name></author><id>tag:blog.pychina.org,2017-09-11:/events/pycon2017china-sh.html</id><summary type="html">&lt;h1&gt;第6届了&lt;/h1&gt;
 &lt;p&gt;今年，IEEE Spectrum 发布了第四届顶级编程语言排行榜，Python高居首位。&lt;/p&gt;
 &lt;p&gt;谁会成为AI 和大数据时代的第一开发语言？ &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;在Facebook 开源了 PyTorch 之后，&lt;/span&gt;
-&lt;span class="err"&gt;Python 作为 AI 时代头牌语言的位置基本确立。&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;在Facebook 开源 …&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;第6届了&lt;/h1&gt;
+&lt;p&gt;今年，IEEE Spectrum 发布了第四届顶级编程语言排行榜，Python高居首位。&lt;/p&gt;
+&lt;p&gt;谁会成为AI 和大数据时代的第一开发语言？ &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;在Facebook 开源了 PyTorch 之后，
+Python 作为 AI 时代头牌语言的位置基本确立。
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Python也被称为大数据全栈式开发语言。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;因为Python在云基础设施，&lt;/span&gt;
-&lt;span class="err"&gt;DevOps，大数据处理等领域都是炙手可热的语言。&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;因为Python在云基础设施，
+DevOps，大数据处理等领域都是炙手可热的语言。
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;在区块链领域，更有人用50行代码做出一个原型，充分体现了Python的高效。&lt;/p&gt;
 &lt;p&gt;Python 也早就成为Web 开发、游戏脚本、计算机视觉、物联网管理和机器人开发的主流语言之一，&lt;/p&gt;
@@ -216,18 +185,7 @@
 &lt;li&gt;9.13 @广州;&lt;/li&gt;
 &lt;li&gt;9.19 @北京;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;过往四届,总是有对分享主题不够干货的报怨. 所以,今年大会将&lt;strong&gt;强化议题评审.&lt;/strong&gt;
-提前两个月公开征集议题,分享一年来的 Pythonic 体验.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2015年, 互联网+, 大数据, 云计算.. Python无处不在, 最佳实践成功案例却鲜为人知,&lt;/li&gt;
-&lt;li&gt;2015年, 年度最具争议的话题Python2 还是Python3? Python3到底是不是毁掉了Python?&lt;/li&gt;
-&lt;li&gt;2015年, 虚拟现实, 人工智能火遍全球, Python从中起到什么作用?&lt;/li&gt;
-&lt;li&gt;当然, 还有官方建议话题参考 &lt;a href="#1-"&gt;附录1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;其他与Python有关的主题, 想法, 创意&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;如果你对上述话题有足矣自得的见解, 当然最好符合从业者的心声 &lt;a href="#2-"&gt;附录2&lt;/a&gt;, 请向大会提交主题/工作坊:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;栽培: 2015.8.15 23 …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;一年一度的PyCon2015即将召开, 目前已经有3座城市举办时间已定:&lt;/p&gt;
+&lt;p&gt;过往四届,总是有对分享主题不 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;一年一度的PyCon2015即将召开, 目前已经有3座城市举办时间已定:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;9.12 @上海;&lt;/li&gt;
 &lt;li&gt;9.13 @广州;&lt;/li&gt;
@@ -296,21 +254,7 @@
 但素, PyConChina 怎么能放弃 "帝都" 呢?!
 141124-pyconbj-bigpic.png
 所以, 大妈代表组委会~ &lt;code&gt;倡议&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;真诚回答: &lt;a href="http://www.zhihu.com/question/26764444"&gt;如何在北京办好 PyCon2015China 大会? - 知乎&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;针对 PyCon2014China 北京场 的各种问题&lt;/li&gt;
-&lt;li&gt;请在以上 知乎 专用问题中回复,给出合理化建议&lt;/li&gt;
-&lt;li&gt;要求给出尽可能详细的执行说明和相关资源描述和接口人&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!--more--&gt;
-
-&lt;p&gt;截止 12/12 前,最有可行性的, 点赞最多的, top 4.2 个回复,奖励:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2014版 苦短衫一件&lt;/li&gt;
-&lt;li&gt;2015北京场 VIP 门票一张&lt;/li&gt;
-&lt;li&gt;Python 技术图书一册&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;倡议报名 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="bj-all-0.jpg(JPEG 图像,636x200 像素)" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto_bj/bj-all-0.jpg?imageView2/2/h/200"&gt;&lt;/p&gt;
+&lt;p&gt;真诚回答: &lt;a href="http://www.zhihu.com/question/26764444"&gt;如何在北京 …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="bj-all-0.jpg(JPEG 图像,636x200 像素)" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto_bj/bj-all-0.jpg?imageView2/2/h/200"&gt;&lt;/p&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;p&gt;DMMA    亲, 又一年 "帝都" 场,又被大规模吐糟了,
 但素, PyConChina 怎么能放弃 "帝都" 呢?!
@@ -379,16 +323,14 @@
 &lt;/ul&gt;
 &lt;h2&gt;持续沟通&lt;/h2&gt;
 &lt;p&gt;任何 意见/建议/倡议/反馈 随时邮件吼我们:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;support@zhgdg.org&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;support&lt;/span&gt;&lt;span class="nv"&gt;@zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;org&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;或是订阅大会讨论列表:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;pyconchinese@googlegroups.com&lt;/span&gt;
-&lt;span class="err"&gt;(发送空白邮件到 pyconchinese+subscribe@googlegroups.com&lt;/span&gt;
-&lt;span class="err"&gt;    即完成订阅)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;pyconchinese&lt;/span&gt;&lt;span class="nv"&gt;@googlegroups&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;发送空白邮件到&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;pyconchinese&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;subscribe&lt;/span&gt;&lt;span class="nv"&gt;@googlegroups&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;即完成订阅&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;&lt;img alt="PyCon2013CHIna_logo_w200-h150.png" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/design/PyCon2013CHIna_logo_w200-h150.png"&gt;&lt;/p&gt;
 &lt;h2&gt;大会资源:&lt;/h2&gt;
@@ -405,22 +347,7 @@
 &lt;li&gt;参会人数: &lt;code&gt;133&lt;/code&gt; , 其中:&lt;ul&gt;
 &lt;li&gt;报名 159 位&lt;/li&gt;
 &lt;li&gt;赠票 2 位&lt;/li&gt;
-&lt;li&gt;实到 109 位 (现场报名3人)&lt;/li&gt;
-&lt;li&gt;讲师 9+1 位 (线上一位台湾弟兄 ;-)&lt;/li&gt;
-&lt;li&gt;志愿者 15 人&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;时间: 9:30~18:07&lt;/li&gt;
-&lt;li&gt;地点: 金山软件大厦 f1 会议厅&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!--more--&gt;
-
-&lt;p&gt;所谓: &lt;a href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet/NullDutyPublish"&gt;"无责任报道"&lt;/a&gt; 
-- 就是私人报道
-- 和任何组织/国家/党派 无关
-- 涉及所有媒体资料, 各有各的许可协议
-- 哪个不妥,你吼,俺删 ;-)&lt;/p&gt;
-&lt;p&gt;再次, 感谢志愿团队 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;亲, 山高水长的一年后, 总算得以共聚在珠海, 认真分享了一天呢!&lt;/p&gt;
+&lt;li&gt;实到 …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;亲, 山高水长的一年后, 总算得以共聚在珠海, 认真分享了一天呢!&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon2014zhuhai-h500.jpg" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto/PyCon2014zhuhai-h500.png?imageView2/2/w/520"&gt;&lt;/p&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;p&gt;活动关键数据:&lt;/p&gt;
@@ -437,7 +364,6 @@
 &lt;li&gt;地点: 金山软件大厦 f1 会议厅&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--more--&gt;
-
 &lt;p&gt;所谓: &lt;a href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet/NullDutyPublish"&gt;"无责任报道"&lt;/a&gt; 
 - 就是私人报道
 - 和任何组织/国家/党派 无关
@@ -688,27 +614,7 @@
 &lt;li&gt;志愿者 18人&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;时间: 9:30~18:07&lt;/li&gt;
-&lt;li&gt;地点: 金山软件大厦 f15 瑜伽房&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;感谢志愿团队
-&lt;img alt="131209_pyconzh_volunteers" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131209_pyconzh_volunteers.png"&gt;&lt;/p&gt;
-&lt;p&gt;全部由北理工学生组成,担负了大会期间所有会务支持工作!&lt;/p&gt;
-&lt;h3&gt;PyCon2013China珠海场回访问卷统计&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="131211_PyCon2013China_zh_review_chart.png(PNG 图像,855x391 像素)" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131211_PyCon2013China_zh_review_chart.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;虽说意外不断,
-但! 整体算安定完成, 目测,不会有去年北京场的大规模不满了...&lt;/p&gt;
-&lt;p&gt;会场比较特殊, 是金山软件大厦的玻璃瑜珈房!
-&lt;img alt="131209_pyconzh_1_meetroom.png" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131209_pyconzh_,meetroom.png"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;大家不由想起无数金山MM 曾经在这儿反复折叠,不是就燃了起来&lt;/li&gt;
-&lt;li&gt;另外,有各路大神悄悄出没很是惊喜!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt="131209_pyconzh_wileishn_zq" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131209_pyconzh_wileishn_zq.png"&gt;&lt;/p&gt;
-&lt;h2&gt;流水&lt;/h2&gt;
-&lt;p&gt;(因不可抗力,果断有小范围变更)&lt;/p&gt;
-&lt;h3&gt;08:45 - 09:30   布展 …&lt;/h3&gt;</summary><content type="html">&lt;h1&gt;PyCon2013CHina 珠海场 小结&lt;/h1&gt;
+&lt;li&gt;时间: 9:30 …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;PyCon2013CHina 珠海场 小结&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="131209_pyconzh_bigpic.png" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131209_pyconzh_bigpic.png"&gt;&lt;/p&gt;
 &lt;p&gt;活动关键数据:&lt;/p&gt;
 &lt;ul&gt;
@@ -805,12 +711,11 @@
 &lt;p&gt;老潘也因此业务受阻,直到终于开悟,找到自个儿的兰海,认真作有老潘风格的企业办公云!&lt;/p&gt;
 &lt;p&gt;也逐渐从对国外大仙们的盲目崇拜变的越来越理智,懂得取舍,
 有了自个儿的开源项目靠谱度直觉.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;凡是承诺可以作一切的项目&lt;/span&gt;
-&lt;span class="err"&gt;基本不靠谱&lt;/span&gt;
-&lt;span class="err"&gt;凡是大而全的功能设定&lt;/span&gt;
-&lt;span class="err"&gt;基本不靠谱&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;凡是承诺可以作一切的项目
+基本不靠谱
+凡是大而全的功能设定
+基本不靠谱
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;所有过去10年,无论被动还是主动踩过的坑,老潘被迫在31分钟里讲完,
 实在是种罪过,大家都决定下次沙龙活动,给足4小时,让老潘尽情的回忆!&lt;/p&gt;
@@ -922,15 +827,14 @@
 &lt;li&gt;&lt;a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_12_wuvist.MP3"&gt;录音&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;从正面回答了 赖勇浩 在 11月19日 21:21 微博中提出的:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;#python#这两年有点尴尬,&lt;/span&gt;
-&lt;span class="err"&gt;搞 web 干不过#php#,&lt;/span&gt;
-&lt;span class="err"&gt;搞socket干不过#go#,&lt;/span&gt;
-&lt;span class="err"&gt;搞游戏逻辑干不过#lua#,&lt;/span&gt;
-&lt;span class="err"&gt;搞群众基础干不过#java#,&lt;/span&gt;
-&lt;span class="err"&gt;搞windows应用干不过#csharp#,&lt;/span&gt;
-&lt;span class="err"&gt;要肿么破?!&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;#python#这两年有点尴尬&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;搞&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;web&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;干不过#php&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;搞socket干不过#go&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;搞游戏逻辑干不过#lua&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;搞群众基础干不过#java&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;搞windows应用干不过#csharp&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;要肿么破&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="err"&gt;!&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;尴尬问题,曰 推荐系统,用Python 没有错!&lt;/p&gt;
 &lt;p&gt;哈哈哈! 其实今天的主题大会,最后发现变成了互黒大会&lt;/p&gt;
@@ -1040,11 +944,10 @@ PS:真人照片,不是星爷!&lt;/p&gt;
 &lt;p&gt;11.23GDG珠海HOA.5 上的:&lt;a href="http://zoomquiet.org/res/s5/131101-leo-china/"&gt;幻灯&lt;/a&gt;;&lt;a href="http://zoomq.qiniudn.com/ZHGDG/131123-hoa5/131123_6_leo.MP3"&gt;录音&lt;/a&gt;;&lt;/p&gt;
 &lt;p&gt;以上...&lt;/p&gt;
 &lt;p&gt;Happy Hacking:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;|_|0|_|&lt;/span&gt;
-&lt;span class="err"&gt;|_|_|0|&lt;/span&gt;
-&lt;span class="err"&gt;|0|0|0|&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;|_|0|_|
+|_|_|0|
+|0|0|0|
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;h3&gt;PS:&lt;/h3&gt;
 &lt;p&gt;若无意外,题图都是从原文提取或是通过 Google 图片&lt;/p&gt;

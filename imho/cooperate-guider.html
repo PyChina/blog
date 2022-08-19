@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="PyCon2014China 志愿者协同手册"/>
             <meta property="og:url" content="http://blog.pychina.org/imho/cooperate-guider.html"/>
-            <meta property="og:description" content="[TOC] 背景 参考: PyCon2014China 官网 PyCon 中国到今年是第四届了,以往志愿者基本只负责了现场会务, 而更加复杂长期的赞助/官网/宣传... 基本都是号称志愿者,实为义务组织者的少数人在支撑, 这不科学! CPyUG 列表可是聚集了 11K 行者哪! 所以,今年求上进! 任务 筹备期间,最要紧的任务有: 官网日常内容增补 官网E文版本翻译 宣传/纪念品设计 CSDN 等媒体合作渠道每周文案起草 而任务的并行解决,需要有完备/统一/固定的: 任务说明 执行支持 成果检验 任务管理 方案 参考: 制造开源软件 ~ 如何成功运营自由软件项目 将一次大会视作一个标准的开源软件项目来管理的话, 自然的形成了常见的工具链: 创建 CnPyCon-volunteer ~ 中国PyCon-志愿者 列表, 进行日常讨论 创建 PyConChina …"/>
+            <meta property="og:description" content="[TOC] 背景 参考: PyCon2014China 官网 PyCon 中国到今年是第四届了,以往志愿者基本只负责了现场会务, 而更加复杂长期的赞助/官网/宣传... 基本 …"/>
 
     <!-- Bootstrap -->
         <link rel="stylesheet" href="http://blog.pychina.org/theme/css/bootstrap.readable.min.css" type="text/css"/>
@@ -177,13 +177,12 @@
 <li><code>cn.pycon.org</code> 主机在国外</li>
 <li>相关配置为:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="err">location ^~ /2014/ {</span>
-<span class="err">    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span>
-<span class="err">    proxy_set_header Host pyconcn.qiniudn.com;</span>
-<span class="err">    proxy_pass  http://pyconcn.qiniudn.com/2014/ ;</span>
-<span class="err">}</span>
+<div class="highlight"><pre><span></span><code><span class="nt">location</span><span class="w"> </span><span class="o">^~</span><span class="w"> </span><span class="o">/</span><span class="nt">2014</span><span class="o">/</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="err">proxy_set_header</span><span class="w"> </span><span class="err">X-Forwarded-For</span><span class="w"> </span><span class="err">$proxy_add_x_forwarded_for</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="err">proxy_set_header</span><span class="w"> </span><span class="err">Host</span><span class="w"> </span><span class="err">pyconcn.qiniudn.com</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="err">proxy_pass</span><span class="w">  </span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">pyconcn</span><span class="o">.</span><span class="n">qiniudn</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="mi">2014</span><span class="o">/</span><span class="w"> </span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
 </code></pre></div>
-
 
 <p>所以,7牛空间的协同思路:</p>
 <ul>
@@ -203,7 +202,6 @@
 <span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span><span class="w"></span>
 </code></pre></div>
 
-
 <ul>
 <li>但是,在不同的志愿者本地, 目录可以是:</li>
 </ul>
@@ -214,7 +212,6 @@
 <span class="w">        </span><span class="o">+-</span><span class="w"> </span><span class="n">logo</span><span class="w"></span>
 <span class="w">        </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span><span class="w"></span>
 </code></pre></div>
-
 
 <ul>
 <li>因为, 7牛 不是 <code>Dropbox</code> 不是一种多点双向同步空间服务</li>
@@ -253,16 +250,14 @@
 <span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span><span class="w"></span>
 </code></pre></div>
 
-
 <ul>
 <li>当然的,本地的目录名,不用完全和这里的一样,关键要确保 <code>fabric</code> 可运行成功就好</li>
 <li>对应的配置项可以自行根据需求变更 <code>fabfile.py</code>: </li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="err">env.qiniu = &#39;/opt/bin/7niu_package_darwin_amd64/qrsync&#39;</span>
-<span class="err">env.qiniu_conf = &#39;../7niu-pycon.json&#39;</span>
-<span class="err">env.qiniu_path = &#39;../7niu.pyconcn&#39;</span>
+<div class="highlight"><pre><span></span><code>env.qiniu = &#39;/opt/bin/7niu_package_darwin_amd64/qrsync&#39;
+env.qiniu_conf = &#39;../7niu-pycon.json&#39;
+env.qiniu_path = &#39;../7niu.pyconcn&#39;
 </code></pre></div>
-
 
 <ul>
 <li>当然的,这种本地配置,就不用同步到协同仓库,所以,提醒,进行了个性化配置后,增补 <code>.gitignore</code> 忽略修订,以免意外扩散给小伙伴们.</li>
@@ -272,14 +267,13 @@
 <li>否则,将造成 7牛 空间相同目录浏览时,文件看不到,但是,可以使用的现象 </li>
 <li>合理配置 <code>7niu-pycon.json</code></li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="err">{</span>
-<span class="err">    &quot;src&quot;:          &quot;/path/2/your/sync_dir&quot;,</span>
-<span class="err">    &quot;dest&quot;:         &quot;qiniu:access_key=&lt;AccessKey&gt;&amp;secret_key=&lt;SecretKey&gt;&amp;bucket=&lt;Bucket&gt;&amp;key_prefix=&lt;KeyPrefix&gt;&amp;threshold=&lt;Threshold&gt;&quot;,</span>
-<span class="err">    &quot;deletable&quot;:    0,</span>
-<span class="err">    &quot;debug_level&quot;:  1</span>
-<span class="err">}</span>
+<div class="highlight"><pre><span></span><code>{
+    &quot;src&quot;:          &quot;/path/2/your/sync_dir&quot;,
+    &quot;dest&quot;:         &quot;qiniu:access_key=&lt;AccessKey&gt;&amp;secret_key=&lt;SecretKey&gt;&amp;bucket=&lt;Bucket&gt;&amp;key_prefix=&lt;KeyPrefix&gt;&amp;threshold=&lt;Threshold&gt;&quot;,
+    &quot;deletable&quot;:    0,
+    &quot;debug_level&quot;:  1
+}
 </code></pre></div>
-
 
 <ul>
 <li>正常情况下, 嘦调整 <code>"src"</code> 的内容,指向本地目录,即可</li>
@@ -290,7 +284,6 @@
 $ /path/2/local/qrsync -skipsym ../7niu-pycon.json
 ...
 </code></pre></div>
-
 
 <p>明确一切正当, 在 <code>http://pyconcn.qiniudn.com/[someone]</code> 中可以看到期望的文件.</p>
 <p>表示一切 KO 了.</p>
@@ -314,20 +307,19 @@ $ /path/2/local/qrsync -skipsym ../7niu-pycon.json
 <p><img alt="nopic" src="http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif"></p>
 <h2>小结</h2>
 <p>所以,整体上,目前的协同,非常简洁</p>
-<div class="highlight"><pre><span></span><code><span class="err">wechat|列表</span>
-<span class="err">~~~~~~~~~~  内部讨论|提醒</span>
-<span class="err"> ^      \</span>
-<span class="err"> |       +- gitcafe     协同平台                  </span>
-<span class="err"> |            |  \</span>
-<span class="err"> |            |   +- Repo.  制品管理</span>
-<span class="err"> |            |         \</span>
-<span class="err"> |            |          +- MkDocs  生成工具</span>
-<span class="err"> |            |                 \</span>
-<span class="err"> |            |                  +- 7niu    发布空间</span>
-<span class="err"> |            `- Issues     提案追踪</span>
-<span class="err">  \_______________/</span>
+<div class="highlight"><pre><span></span><code>wechat|列表
+~~~~~~~~~~  内部讨论|提醒
+ ^      \
+ |       +- gitcafe     协同平台                  
+ |            |  \
+ |            |   +- Repo.  制品管理
+ |            |         \
+ |            |          +- MkDocs  生成工具
+ |            |                 \
+ |            |                  +- 7niu    发布空间
+ |            `- Issues     提案追踪
+  \_______________/
 </code></pre></div>
-
 
 <h2>版本</h2>
 <ul>
@@ -379,12 +371,11 @@ var jiathis_config = {data_track_clickback:'true'};
 <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1518639" charset="utf-8"></script>
 <!-- JiaThis Button END -->
 
-<hr/>
+<hr />
 
 <h4>自怼圈/年度番新</h4>
-<img alt="DU22.4" 
-    src="https://ipic.zoomquiet.top/2022-04-30-220430DU6y_zip.jpg!/fw/420"/>
-<br/>
+<img alt="DU22.8" src="https://ipic.zoomquiet.top/2022-08-19-220819DU22.8.jpeg!/fw/420" />
+<br />
 <a href="https://du.101.camp/about/">关于 ~ DebugUself with DAMA ;-)</a>
 
 
@@ -485,26 +476,30 @@ var jiathis_config = {data_track_clickback:'true'};
 -->
 
 
-<hr/>
+<hr />
 点击注册~> 获得 <b>100$</b> 体验券:
-<a href="https://www.digitalocean.com/?refcode=e7b7cdc66376&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" /></a>
+<a
+    href="https://www.digitalocean.com/?refcode=e7b7cdc66376&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img
+        src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg"
+        alt="DigitalOcean Referral Badge" /></a>
 
-<hr/>
+<hr />
 
 
 <p>订阅 substack 体验古早写作:
-    <br/>
+    <br />
 
-<iframe src="https://zoomquiet.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://zoomquiet.substack.com/embed" width="480" height="320"
+        style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
 </p>
 
-<hr/>
+<hr />
 
 <p>关注公众号, 持续获得相关各种嗯哼:
-    <br/>
-<img alt="zoomquiet" 
-    src="https://ipic.zoomquiet.top/2021-12-27-zoomquiet-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88580.jpg"/>
+    <br />
+    <img alt="zoomquiet"
+        src="https://ipic.zoomquiet.top/2021-12-27-zoomquiet-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88580.jpg!/fw/420" />
 </p>
 
 
@@ -553,37 +548,35 @@ var jiathis_config = {data_track_clickback:'true'};
 -->
 
 
-<hr/>
+<hr />
 <h3>蟒营®编程思维提高班Python版</h3>
 **2021.01.11** 因大妈再次创业暂停定期开设, 转换为预约触发:
 
-<!--
 <ul>
     <li>
-+ 扫描预约入群, 学员每满 42 人即启动新一期训练营 ;-)
+        + 扫描预约入群, 学员每满 42 人即启动新一期训练营 ;-)
     </li>
 
     <li>
-<img alt="101camp21.7" 
-    src="http://ydlj.zoomquiet.top/ipic/2021-07-20-210704camp-pre-order_zip.jpg"/>
+        <img alt="101camp22.7" src="https://ipic.zoomquiet.top/2022-08-19-220819pre101camp.jpeg!/fw/420" />
     </li>
     <li>
-+  任何问题, 随时邮件提问可也:<pre>askdama@googlegroups.com</pre>
+        + 任何问题, 随时邮件提问可也:
+        <pre>askdama@googlegroups.com</pre>
     </li>
 </ul>
-
--->
-
+<!--
 <h4>追问</h4>
 <blockquote>
-<p>
-    任何问题, 随时邮件提问可也:
-<br/>
-    <i>
-    askdama@googlegroups.com
-    </i>
-</p>
-</blockquote>        </article>
+    <p>
+        任何问题, 随时邮件提问可也:
+        <br />
+        <i>
+            askdama@googlegroups.com
+        </i>
+    </p>
+</blockquote>
+-->        </article>
     </section>
 
         </div>

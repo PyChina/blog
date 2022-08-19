@@ -5,35 +5,7 @@
 &lt;p&gt;(幸好, 休息时, 大妈专门回访了一下小朋友们, 都表示听不懂...)&lt;/p&gt;
 &lt;h3&gt;流水帐:&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;按照时间顺序, 回忆现场内容...&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;暖场&lt;ul&gt;
-&lt;li&gt;录音: &lt;a href="http://pychina.up.zoomquiet.top/PyCon2019China/191026pyconnn/191026-00-start-133849.MP3"&gt;191026-00-start-133849.MP3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;习惯性开场, 唠叨点儿常规声明&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;自我介绍:&lt;ul&gt;
-&lt;li&gt;录音:&lt;a href="http://pychina.up.zoomquiet.top/PyCon2019China/191026pyconnn/191026-01-introself-134231.MP3"&gt;191026-01-introself-134231.MP3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;提前到场参与者福利 ;-)&lt;/li&gt;
-&lt;li&gt;基本都是程序猿, 可见南宁作为省会 IT 行业足够体量了&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt="room" src="http://ydlj.zoomquiet.top/ipic/2019-10-29-ScreenShot%202019-10-29%2021.23.21.jpg"&gt;
-(赞助商提供的房间不大, 但是设备非常好, 大家报名也积极, 完全填满了)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;主持人:&lt;ul&gt;
-&lt;li&gt;录音: &lt;a href="http://pychina.up.zoomquiet.top/PyCon2019China/191026pyconnn/191026-03-openning-135716.MP3"&gt;191026-03-openning-135716.MP3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;首次担当公开大型活动主持的 river&lt;/li&gt;
-&lt;li&gt;好在也创业多年, 开发团队领导发言也非常习惯&lt;/li&gt;
-&lt;li&gt;稳定完成...各种介绍&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;使用 Pytorch 和 Yolo 进行人流量分析&lt;ul&gt;
-&lt;li&gt;姜原, 优趣天下研发工程师 &lt;/li&gt;
-&lt;li&gt;录音: &lt;a href="http://pychina.up.zoomquiet.top/PyCon2019China/191026pyconnn/191026-04-yolo-141104.MP3"&gt;191026-04-yolo-141104.MP3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;自称非专业新鲜产品转换角色过来的程序猿 …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2&gt;成功举行&lt;/h2&gt;
+&lt;p&gt;按照时间顺序, 回忆现场 …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;h2&gt;成功举行&lt;/h2&gt;
 &lt;p&gt;现场的气氛...很有压力:
 &lt;img alt="kids" src="http://ydlj.zoomquiet.top/ipic/2019-10-29-ScreenShot%202019-10-29%2021.22.53.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;(幸好, 休息时, 大妈专门回访了一下小朋友们, 都表示听不懂...)&lt;/p&gt;
@@ -179,9 +151,7 @@
 &lt;p&gt;https://github.com/zoom-quiet/wiki&lt;/p&gt;
 &lt;p&gt;这种,也就多一步:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;建立分支 &lt;code&gt;git co -b hg_pages&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;复制为 &lt;code&gt;output&lt;/code&gt; 目录&lt;/li&gt;
-&lt;li&gt;定制 &lt;code&gt;fab&lt;/code&gt; 事务 ~ &lt;a href="https://github.com/zoom-quiet/wiki/blob/master/fabfile.py#L44"&gt;wiki/fabfile.py …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;gitcafe 2 GitHub&lt;/h1&gt;
+&lt;li&gt;建立 …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;gitcafe 2 GitHub&lt;/h1&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h2&gt;processing&lt;/h2&gt;
 &lt;h3&gt;UserName/Organization site&lt;/h3&gt;
@@ -222,23 +192,22 @@
 &lt;li&gt;DNSPod 的确是国内用户首选&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;完解析后的情景&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;༆&lt;/span&gt;  &lt;span class="nt"&gt;dig&lt;/span&gt; &lt;span class="nt"&gt;wiki&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;org&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;༆&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nt"&gt;dig&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;wiki&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;org&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-&lt;span class="o"&gt;;&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nt"&gt;DiG&lt;/span&gt; &lt;span class="nt"&gt;9&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;8&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;3-P1&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="nt"&gt;wiki&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;org&lt;/span&gt;
-&lt;span class="o"&gt;;;&lt;/span&gt; &lt;span class="nt"&gt;global&lt;/span&gt; &lt;span class="nt"&gt;options&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="nt"&gt;cmd&lt;/span&gt;
-&lt;span class="o"&gt;;;&lt;/span&gt; &lt;span class="nt"&gt;Got&lt;/span&gt; &lt;span class="nt"&gt;answer&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-&lt;span class="o"&gt;;;&lt;/span&gt; &lt;span class="nt"&gt;-&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class="nt"&gt;HEADER&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;-&lt;/span&gt; &lt;span class="nt"&gt;opcode&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nt"&gt;QUERY&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;status&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nt"&gt;NOERROR&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;id&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nt"&gt;61427&lt;/span&gt;
-&lt;span class="o"&gt;;;&lt;/span&gt; &lt;span class="nt"&gt;flags&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nt"&gt;qr&lt;/span&gt; &lt;span class="nt"&gt;rd&lt;/span&gt; &lt;span class="nt"&gt;ra&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt; &lt;span class="nt"&gt;QUERY&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nt"&gt;1&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;ANSWER&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nt"&gt;3&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;AUTHORITY&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nt"&gt;0&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nt"&gt;ADDITIONAL&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nt"&gt;0&lt;/span&gt;
+&lt;span class="o"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;DiG&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;9&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;8&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;3-P1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&amp;lt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;wiki&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;org&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;global&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;options&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="nt"&gt;cmd&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;Got&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;answer&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;-&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class="nt"&gt;HEADER&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;opcode&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;QUERY&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;status&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;NOERROR&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;id&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;61427&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;flags&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;qr&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;rd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;ra&lt;/span&gt;&lt;span class="o"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;QUERY&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;1&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;ANSWER&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;3&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;AUTHORITY&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;0&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;ADDITIONAL&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;0&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-&lt;span class="o"&gt;;;&lt;/span&gt; &lt;span class="nt"&gt;QUESTION&lt;/span&gt; &lt;span class="nt"&gt;SECTION&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-&lt;span class="o"&gt;;&lt;/span&gt;&lt;span class="nt"&gt;wiki&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;org&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;            &lt;span class="nt"&gt;IN&lt;/span&gt;  &lt;span class="nt"&gt;A&lt;/span&gt;
+&lt;span class="o"&gt;;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;QUESTION&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;SECTION&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="o"&gt;;&lt;/span&gt;&lt;span class="nt"&gt;wiki&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;org&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="nt"&gt;IN&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nt"&gt;A&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 
-&lt;span class="o"&gt;;;&lt;/span&gt; &lt;span class="nt"&gt;ANSWER&lt;/span&gt; &lt;span class="nt"&gt;SECTION&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-&lt;span class="nt"&gt;wiki&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;org&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;     &lt;span class="nt"&gt;600&lt;/span&gt; &lt;span class="nt"&gt;IN&lt;/span&gt;  &lt;span class="nt"&gt;CNAME&lt;/span&gt;   &lt;span class="nt"&gt;zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;io&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
-&lt;span class="nt"&gt;zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;io&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;    &lt;span class="nt"&gt;3600&lt;/span&gt;    &lt;span class="nt"&gt;IN&lt;/span&gt;  &lt;span class="nt"&gt;CNAME&lt;/span&gt;   &lt;span class="nt"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;map&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;fastly&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;net&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
-&lt;span class="nt"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;map&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;fastly&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;net&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;  &lt;span class="nt"&gt;27&lt;/span&gt;  &lt;span class="nt"&gt;IN&lt;/span&gt;  &lt;span class="nt"&gt;A&lt;/span&gt;   &lt;span class="nt"&gt;23&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;235&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;44&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;133&lt;/span&gt;
+&lt;span class="o"&gt;;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;ANSWER&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;SECTION&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="nt"&gt;wiki&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;org&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt;     &lt;/span&gt;&lt;span class="nt"&gt;600&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;IN&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nt"&gt;CNAME&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="nt"&gt;zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;io&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="nt"&gt;zhgdg&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;io&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;3600&lt;/span&gt;&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nt"&gt;IN&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nt"&gt;CNAME&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="nt"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;map&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;fastly&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;net&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="nt"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;map&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;fastly&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;net&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nt"&gt;27&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nt"&gt;IN&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="nt"&gt;A&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="nt"&gt;23&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;235&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;44&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;133&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;h3&gt;coding&lt;/h3&gt;
 &lt;ul&gt;
@@ -265,32 +234,7 @@
 &lt;h2&gt;背景&lt;/h2&gt;
 &lt;p&gt;参考: &lt;a href="http://cn.pycon.org/2014/"&gt;PyCon2014China&lt;/a&gt; 官网&lt;/p&gt;
 &lt;p&gt;PyCon 中国到今年是第四届了,以往志愿者基本只负责了现场会务,
-而更加复杂长期的赞助/官网/宣传... 基本都是号称志愿者,实为义务组织者的少数人在支撑,
-这不科学!&lt;/p&gt;
-&lt;p&gt;CPyUG 列表可是聚集了 11K 行者哪!&lt;/p&gt;
-&lt;p&gt;所以,今年求上进!&lt;/p&gt;
-&lt;h2&gt;任务&lt;/h2&gt;
-&lt;p&gt;筹备期间,最要紧的任务有:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;官网日常内容增补&lt;/li&gt;
-&lt;li&gt;官网E文版本翻译&lt;/li&gt;
-&lt;li&gt;宣传/纪念品设计&lt;/li&gt;
-&lt;li&gt;CSDN 等媒体合作渠道每周文案起草&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;而任务的并行解决,需要有完备/统一/固定的:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;任务说明&lt;/li&gt;
-&lt;li&gt;执行支持&lt;/li&gt;
-&lt;li&gt;成果检验&lt;/li&gt;
-&lt;li&gt;任务管理&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;方案&lt;/h2&gt;
-&lt;p&gt;参考: &lt;a href="http://producingoss.com/zh/"&gt;制造开源软件&lt;/a&gt; ~ 如何成功运营自由软件项目&lt;/p&gt;
-&lt;p&gt;将一次大会视作一个标准的开源软件项目来管理的话,
-自然的形成了常见的工具链:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;创建 &lt;a href="cnpycon-volunteer@googlegroups.com"&gt;CnPyCon-volunteer&lt;/a&gt; ~ 中国PyCon-志愿者 列表, 进行日常讨论&lt;/li&gt;
-&lt;li&gt;创建 &lt;a href="https://gitcafe.com/PyConChina"&gt;PyConChina …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;[TOC]&lt;/p&gt;
+而更加复杂长期的赞助/官网/宣传... 基本 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;[TOC]&lt;/p&gt;
 &lt;h2&gt;背景&lt;/h2&gt;
 &lt;p&gt;参考: &lt;a href="http://cn.pycon.org/2014/"&gt;PyCon2014China&lt;/a&gt; 官网&lt;/p&gt;
 &lt;p&gt;PyCon 中国到今年是第四届了,以往志愿者基本只负责了现场会务,
@@ -386,13 +330,12 @@
 &lt;li&gt;&lt;code&gt;cn.pycon.org&lt;/code&gt; 主机在国外&lt;/li&gt;
 &lt;li&gt;相关配置为:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;location ^~ /2014/ {&lt;/span&gt;
-&lt;span class="err"&gt;    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;&lt;/span&gt;
-&lt;span class="err"&gt;    proxy_set_header Host pyconcn.qiniudn.com;&lt;/span&gt;
-&lt;span class="err"&gt;    proxy_pass  http://pyconcn.qiniudn.com/2014/ ;&lt;/span&gt;
-&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nt"&gt;location&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;^~&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nt"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="err"&gt;proxy_set_header&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;X-Forwarded-For&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;$proxy_add_x_forwarded_for&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="err"&gt;proxy_set_header&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;Host&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;pyconcn.qiniudn.com&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="err"&gt;proxy_pass&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;http&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;//&lt;/span&gt;&lt;span class="n"&gt;pyconcn&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;qiniudn&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mi"&gt;2014&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;所以,7牛空间的协同思路:&lt;/p&gt;
 &lt;ul&gt;
@@ -412,7 +355,6 @@
 &lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;ul&gt;
 &lt;li&gt;但是,在不同的志愿者本地, 目录可以是:&lt;/li&gt;
 &lt;/ul&gt;
@@ -423,7 +365,6 @@
 &lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;logo&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;ul&gt;
 &lt;li&gt;因为, 7牛 不是 &lt;code&gt;Dropbox&lt;/code&gt; 不是一种多点双向同步空间服务&lt;/li&gt;
@@ -462,16 +403,14 @@
 &lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="o"&gt;+-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;...&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;ul&gt;
 &lt;li&gt;当然的,本地的目录名,不用完全和这里的一样,关键要确保 &lt;code&gt;fabric&lt;/code&gt; 可运行成功就好&lt;/li&gt;
 &lt;li&gt;对应的配置项可以自行根据需求变更 &lt;code&gt;fabfile.py&lt;/code&gt;: &lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;env.qiniu = &amp;#39;/opt/bin/7niu_package_darwin_amd64/qrsync&amp;#39;&lt;/span&gt;
-&lt;span class="err"&gt;env.qiniu_conf = &amp;#39;../7niu-pycon.json&amp;#39;&lt;/span&gt;
-&lt;span class="err"&gt;env.qiniu_path = &amp;#39;../7niu.pyconcn&amp;#39;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;env.qiniu = &amp;#39;/opt/bin/7niu_package_darwin_amd64/qrsync&amp;#39;
+env.qiniu_conf = &amp;#39;../7niu-pycon.json&amp;#39;
+env.qiniu_path = &amp;#39;../7niu.pyconcn&amp;#39;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;ul&gt;
 &lt;li&gt;当然的,这种本地配置,就不用同步到协同仓库,所以,提醒,进行了个性化配置后,增补 &lt;code&gt;.gitignore&lt;/code&gt; 忽略修订,以免意外扩散给小伙伴们.&lt;/li&gt;
@@ -481,14 +420,13 @@
 &lt;li&gt;否则,将造成 7牛 空间相同目录浏览时,文件看不到,但是,可以使用的现象 &lt;/li&gt;
 &lt;li&gt;合理配置 &lt;code&gt;7niu-pycon.json&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;{&lt;/span&gt;
-&lt;span class="err"&gt;    &amp;quot;src&amp;quot;:          &amp;quot;/path/2/your/sync_dir&amp;quot;,&lt;/span&gt;
-&lt;span class="err"&gt;    &amp;quot;dest&amp;quot;:         &amp;quot;qiniu:access_key=&amp;lt;AccessKey&amp;gt;&amp;amp;secret_key=&amp;lt;SecretKey&amp;gt;&amp;amp;bucket=&amp;lt;Bucket&amp;gt;&amp;amp;key_prefix=&amp;lt;KeyPrefix&amp;gt;&amp;amp;threshold=&amp;lt;Threshold&amp;gt;&amp;quot;,&lt;/span&gt;
-&lt;span class="err"&gt;    &amp;quot;deletable&amp;quot;:    0,&lt;/span&gt;
-&lt;span class="err"&gt;    &amp;quot;debug_level&amp;quot;:  1&lt;/span&gt;
-&lt;span class="err"&gt;}&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;{
+    &amp;quot;src&amp;quot;:          &amp;quot;/path/2/your/sync_dir&amp;quot;,
+    &amp;quot;dest&amp;quot;:         &amp;quot;qiniu:access_key=&amp;lt;AccessKey&amp;gt;&amp;amp;secret_key=&amp;lt;SecretKey&amp;gt;&amp;amp;bucket=&amp;lt;Bucket&amp;gt;&amp;amp;key_prefix=&amp;lt;KeyPrefix&amp;gt;&amp;amp;threshold=&amp;lt;Threshold&amp;gt;&amp;quot;,
+    &amp;quot;deletable&amp;quot;:    0,
+    &amp;quot;debug_level&amp;quot;:  1
+}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;ul&gt;
 &lt;li&gt;正常情况下, 嘦调整 &lt;code&gt;"src"&lt;/code&gt; 的内容,指向本地目录,即可&lt;/li&gt;
@@ -499,7 +437,6 @@
 $ /path/2/local/qrsync -skipsym ../7niu-pycon.json
 ...
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;明确一切正当, 在 &lt;code&gt;http://pyconcn.qiniudn.com/[someone]&lt;/code&gt; 中可以看到期望的文件.&lt;/p&gt;
 &lt;p&gt;表示一切 KO 了.&lt;/p&gt;
@@ -523,20 +460,19 @@ $ /path/2/local/qrsync -skipsym ../7niu-pycon.json
 &lt;p&gt;&lt;img alt="nopic" src="http://pyconcn.qiniudn.com/zoomquiet/stuff14/id/nopic.gif"&gt;&lt;/p&gt;
 &lt;h2&gt;小结&lt;/h2&gt;
 &lt;p&gt;所以,整体上,目前的协同,非常简洁&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;wechat|列表&lt;/span&gt;
-&lt;span class="err"&gt;~~~~~~~~~~  内部讨论|提醒&lt;/span&gt;
-&lt;span class="err"&gt; ^      \&lt;/span&gt;
-&lt;span class="err"&gt; |       +- gitcafe     协同平台                  &lt;/span&gt;
-&lt;span class="err"&gt; |            |  \&lt;/span&gt;
-&lt;span class="err"&gt; |            |   +- Repo.  制品管理&lt;/span&gt;
-&lt;span class="err"&gt; |            |         \&lt;/span&gt;
-&lt;span class="err"&gt; |            |          +- MkDocs  生成工具&lt;/span&gt;
-&lt;span class="err"&gt; |            |                 \&lt;/span&gt;
-&lt;span class="err"&gt; |            |                  +- 7niu    发布空间&lt;/span&gt;
-&lt;span class="err"&gt; |            `- Issues     提案追踪&lt;/span&gt;
-&lt;span class="err"&gt;  \_______________/&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;wechat|列表
+~~~~~~~~~~  内部讨论|提醒
+ ^      \
+ |       +- gitcafe     协同平台                  
+ |            |  \
+ |            |   +- Repo.  制品管理
+ |            |         \
+ |            |          +- MkDocs  生成工具
+ |            |                 \
+ |            |                  +- 7niu    发布空间
+ |            `- Issues     提案追踪
+  \_______________/
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;h2&gt;版本&lt;/h2&gt;
 &lt;ul&gt;
@@ -556,27 +492,7 @@ $ /path/2/local/qrsync -skipsym ../7niu-pycon.json
 &lt;li&gt;志愿者 18人&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;时间: 9:30~18:07&lt;/li&gt;
-&lt;li&gt;地点: 金山软件大厦 f15 瑜伽房&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;感谢志愿团队
-&lt;img alt="131209_pyconzh_volunteers" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131209_pyconzh_volunteers.png"&gt;&lt;/p&gt;
-&lt;p&gt;全部由北理工学生组成,担负了大会期间所有会务支持工作!&lt;/p&gt;
-&lt;h3&gt;PyCon2013China珠海场回访问卷统计&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="131211_PyCon2013China_zh_review_chart.png(PNG 图像,855x391 像素)" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131211_PyCon2013China_zh_review_chart.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;虽说意外不断,
-但! 整体算安定完成, 目测,不会有去年北京场的大规模不满了...&lt;/p&gt;
-&lt;p&gt;会场比较特殊, 是金山软件大厦的玻璃瑜珈房!
-&lt;img alt="131209_pyconzh_1_meetroom.png" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131209_pyconzh_,meetroom.png"&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;大家不由想起无数金山MM 曾经在这儿反复折叠,不是就燃了起来&lt;/li&gt;
-&lt;li&gt;另外,有各路大神悄悄出没很是惊喜!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt="131209_pyconzh_wileishn_zq" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131209_pyconzh_wileishn_zq.png"&gt;&lt;/p&gt;
-&lt;h2&gt;流水&lt;/h2&gt;
-&lt;p&gt;(因不可抗力,果断有小范围变更)&lt;/p&gt;
-&lt;h3&gt;08:45 - 09:30   布展 …&lt;/h3&gt;</summary><content type="html">&lt;h1&gt;PyCon2013CHina 珠海场 小结&lt;/h1&gt;
+&lt;li&gt;时间: 9:30 …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;PyCon2013CHina 珠海场 小结&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="131209_pyconzh_bigpic.png" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131209_pyconzh_bigpic.png"&gt;&lt;/p&gt;
 &lt;p&gt;活动关键数据:&lt;/p&gt;
 &lt;ul&gt;
@@ -673,12 +589,11 @@ $ /path/2/local/qrsync -skipsym ../7niu-pycon.json
 &lt;p&gt;老潘也因此业务受阻,直到终于开悟,找到自个儿的兰海,认真作有老潘风格的企业办公云!&lt;/p&gt;
 &lt;p&gt;也逐渐从对国外大仙们的盲目崇拜变的越来越理智,懂得取舍,
 有了自个儿的开源项目靠谱度直觉.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;凡是承诺可以作一切的项目&lt;/span&gt;
-&lt;span class="err"&gt;基本不靠谱&lt;/span&gt;
-&lt;span class="err"&gt;凡是大而全的功能设定&lt;/span&gt;
-&lt;span class="err"&gt;基本不靠谱&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;凡是承诺可以作一切的项目
+基本不靠谱
+凡是大而全的功能设定
+基本不靠谱
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;所有过去10年,无论被动还是主动踩过的坑,老潘被迫在31分钟里讲完,
 实在是种罪过,大家都决定下次沙龙活动,给足4小时,让老潘尽情的回忆!&lt;/p&gt;
@@ -790,15 +705,14 @@ $ /path/2/local/qrsync -skipsym ../7niu-pycon.json
 &lt;li&gt;&lt;a href="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131208_pycon_zh_12_wuvist.MP3"&gt;录音&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;从正面回答了 赖勇浩 在 11月19日 21:21 微博中提出的:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;#python#这两年有点尴尬,&lt;/span&gt;
-&lt;span class="err"&gt;搞 web 干不过#php#,&lt;/span&gt;
-&lt;span class="err"&gt;搞socket干不过#go#,&lt;/span&gt;
-&lt;span class="err"&gt;搞游戏逻辑干不过#lua#,&lt;/span&gt;
-&lt;span class="err"&gt;搞群众基础干不过#java#,&lt;/span&gt;
-&lt;span class="err"&gt;搞windows应用干不过#csharp#,&lt;/span&gt;
-&lt;span class="err"&gt;要肿么破?!&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;#python#这两年有点尴尬&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;搞&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;web&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;干不过#php&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;搞socket干不过#go&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;搞游戏逻辑干不过#lua&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;搞群众基础干不过#java&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;搞windows应用干不过#csharp&lt;/span&gt;&lt;span class="err"&gt;#&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;要肿么破&lt;/span&gt;&lt;span class="vm"&gt;?&lt;/span&gt;&lt;span class="err"&gt;!&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;尴尬问题,曰 推荐系统,用Python 没有错!&lt;/p&gt;
 &lt;p&gt;哈哈哈! 其实今天的主题大会,最后发现变成了互黒大会&lt;/p&gt;
@@ -908,11 +822,10 @@ PS:真人照片,不是星爷!&lt;/p&gt;
 &lt;p&gt;11.23GDG珠海HOA.5 上的:&lt;a href="http://zoomquiet.org/res/s5/131101-leo-china/"&gt;幻灯&lt;/a&gt;;&lt;a href="http://zoomq.qiniudn.com/ZHGDG/131123-hoa5/131123_6_leo.MP3"&gt;录音&lt;/a&gt;;&lt;/p&gt;
 &lt;p&gt;以上...&lt;/p&gt;
 &lt;p&gt;Happy Hacking:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;|_|0|_|&lt;/span&gt;
-&lt;span class="err"&gt;|_|_|0|&lt;/span&gt;
-&lt;span class="err"&gt;|0|0|0|&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;|_|0|_|
+|_|_|0|
+|0|0|0|
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;h3&gt;PS:&lt;/h3&gt;
 &lt;p&gt;若无意外,题图都是从原文提取或是通过 Google 图片&lt;/p&gt;
@@ -925,7 +838,10 @@ PS:真人照片,不是星爷!&lt;/p&gt;
 &lt;li&gt;G+ 社群: &lt;a href="http://gplus.to/zhGDG"&gt;ZhuHai GDG&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;微博: &lt;a href="http://weibo.com/gdgzh"&gt;@GDG珠海&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;微信: GDG珠海 &lt;img alt="qrcode_for_gh_5e32c47b5b23_258.jpg" src="http://zoomq.qiniudn.com/ZHGDG/design/qrcode_for_gh_5e32c47b5b23_258.jpg"&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="events"></category><category term="gdg"></category><category term="PyCon"></category><category term="event"></category><category term="summary"></category></entry><entry><title>Sting Chen</title><link href="http://blog.pychina.org/volunteer/sting_chen.html" rel="alternate"></link><published>2013-12-09T00:00:00+08:00</published><updated>2015-08-07T12:08:11+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:blog.pychina.org,2013-12-09:/volunteer/sting_chen.html</id><content type="html">&lt;h1&gt;StingChen(陈世欣)&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="events"></category><category term="gdg"></category><category term="PyCon"></category><category term="event"></category><category term="summary"></category></entry><entry><title>Sting Chen</title><link href="http://blog.pychina.org/volunteer/sting_chen.html" rel="alternate"></link><published>2013-12-09T00:00:00+08:00</published><updated>2015-08-07T12:08:11+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:blog.pychina.org,2013-12-09:/volunteer/sting_chen.html</id><summary type="html">&lt;h1&gt;StingChen(陈世欣)&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="chenshixin_2013" src="http://pyconcn.qiniudn.com/images/volunteer/chenshixin_2013.png"&gt;&lt;/p&gt;
+&lt;p&gt;永泰红磡养老产业投资集团的信息技术总监&lt;/p&gt;
+&lt;p&gt;在14年的互联网生涯后，投身到到永泰红磡养老产业投资集团做 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;StingChen(陈世欣)&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="chenshixin_2013" src="http://pyconcn.qiniudn.com/images/volunteer/chenshixin_2013.png"&gt;&lt;/p&gt;
 &lt;p&gt;永泰红磡养老产业投资集团的信息技术总监&lt;/p&gt;
 &lt;p&gt;在14年的互联网生涯后，投身到到永泰红磡养老产业投资集团做夕阳事业，跨界发展。&lt;/p&gt;
@@ -939,19 +855,7 @@ PS:真人照片,不是星爷!&lt;/p&gt;
 &lt;p&gt;Python中文社区创始人(之一) / 管理员,
 热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://code.google.com/p/openbookproject/"&gt;O.B.P&lt;/a&gt;
-(Open Book Proj.~中文蟒样开放图书计划)
-及
-蟒营(&lt;a href="http://code.google.com/p/kcpycamp/wiki/PythoniCamp"&gt;PythoniCamp&lt;/a&gt;)
-工程设计者 /主持人;
-参与并主持各种线上 / 线下活动;
-主持编撰了
-&lt;a href="http://book.douban.com/subject/3884108/"&gt;&amp;lt;&amp;lt;可爱的Python&amp;gt;&amp;gt;&lt;/a&gt;
-坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造...&lt;/p&gt;
-&lt;p&gt;目前就职于金山网络。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;G+:   https://plus.google.com/+ZoomQuiet/&lt;/li&gt;
-&lt;li&gt;Blog: http://blog.zoomquiet.org/&lt;/li&gt;
-&lt;li&gt;微博:  http://weibo.com/zoomquiet …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
+(Open Book Proj.~中文蟒样开 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="ZQ" src="http://pyconcn.qiniudn.com/images/volunteer/zhouqi.png"&gt;&lt;/p&gt;
 &lt;p&gt;Python中文社区创始人(之一) / 管理员,
 热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";&lt;/p&gt;

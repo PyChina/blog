@@ -2,68 +2,19 @@
 <rss version="2.0"><channel><title>blog.PyChina.org - CPyUG Pythoneer</title><link>http://blog.pychina.org/</link><description>蠎中国社区 blog</description><lastBuildDate>Mon, 10 Dec 2018 21:23:02 +0800</lastBuildDate><item><title>PyCon2017中国大会议题征集</title><link>http://blog.pychina.org/events/pycon2017china-sh.html</link><description>&lt;h1&gt;第6届了&lt;/h1&gt;
 &lt;p&gt;今年，IEEE Spectrum 发布了第四届顶级编程语言排行榜，Python高居首位。&lt;/p&gt;
 &lt;p&gt;谁会成为AI 和大数据时代的第一开发语言？ &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;在Facebook 开源了 PyTorch 之后，&lt;/span&gt;
-&lt;span class="err"&gt;Python 作为 AI 时代头牌语言的位置基本确立。&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Python也被称为大数据全栈式开发语言。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;因为Python在云基础设施，&lt;/span&gt;
-&lt;span class="err"&gt;DevOps，大数据处理等领域都是炙手可热的语言。&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;在区块链领域，更有人用50行代码做出一个原型，充分体现了Python的高效。&lt;/p&gt;
-&lt;p&gt;Python 也早就成为Web 开发、游戏脚本、计算机视觉、物联网管理和机器人开发的主流语言之一，&lt;/p&gt;
-&lt;p&gt;Python 用户在超预期的增长中，也越来越多元化。&lt;/p&gt;
-&lt;h2&gt;所以&lt;/h2&gt;
-&lt;p&gt;2017年，PyConChina将于10月22日在上海和杭州举办大会，
-用高质量的直播让更多人远程参与。&lt;/p&gt;
-&lt;p&gt;具体讲什么呢？
-期待各类Python技术高手们的分享，尤其是代表了AI、大数据和区块链等新领域的主题，让更多人了解未来Python的应用发展趋势。&lt;/p&gt;
-&lt;h2&gt;申报+门票&lt;/h2&gt;
-&lt;p&gt;~ 关键链接&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://jinshuju.net/f/2ag6QB"&gt;--&amp;gt; 主题申报&lt;/a&gt;&lt;/strong&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.huodongxing.com/event/3403439712600?td=8211933664158"&gt;---&amp;gt; 门票购买&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG Pythoneer</dc:creator><pubDate>Mon, 11 Sep 2017 11:11:11 +0800</pubDate><guid isPermaLink="false">tag:blog.pychina.org,2017-09-11:/events/pycon2017china-sh.html</guid><category>events</category><category>gdg</category><category>PyCon</category><category>event</category></item><item><title>PyCon2015中国大会议题征集</title><link>http://blog.pychina.org/events/pycon2015china-bj.html</link><description>&lt;p&gt;一年一度的PyCon2015即将召开, 目前已经有3座城市举办时间已定:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;在Facebook 开源 …&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG Pythoneer</dc:creator><pubDate>Mon, 11 Sep 2017 11:11:11 +0800</pubDate><guid isPermaLink="false">tag:blog.pychina.org,2017-09-11:/events/pycon2017china-sh.html</guid><category>events</category><category>gdg</category><category>PyCon</category><category>event</category></item><item><title>PyCon2015中国大会议题征集</title><link>http://blog.pychina.org/events/pycon2015china-bj.html</link><description>&lt;p&gt;一年一度的PyCon2015即将召开, 目前已经有3座城市举办时间已定:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;9.12 @上海;&lt;/li&gt;
 &lt;li&gt;9.13 @广州;&lt;/li&gt;
 &lt;li&gt;9.19 @北京;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;过往四届,总是有对分享主题不够干货的报怨. 所以,今年大会将&lt;strong&gt;强化议题评审.&lt;/strong&gt;
-提前两个月公开征集议题,分享一年来的 Pythonic 体验.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2015年, 互联网+, 大数据, 云计算.. Python无处不在, 最佳实践成功案例却鲜为人知,&lt;/li&gt;
-&lt;li&gt;2015年, 年度最具争议的话题Python2 还是Python3? Python3到底是不是毁掉了Python?&lt;/li&gt;
-&lt;li&gt;2015年, 虚拟现实, 人工智能火遍全球, Python从中起到什么作用?&lt;/li&gt;
-&lt;li&gt;当然, 还有官方建议话题参考 &lt;a href="#1-"&gt;附录1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;其他与Python有关的主题, 想法, 创意&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;如果你对上述话题有足矣自得的见解, 当然最好符合从业者的心声 &lt;a href="#2-"&gt;附录2&lt;/a&gt;, 请向大会提交主题/工作坊:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;栽培: 2015.8.15 23 …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG Pythoneer</dc:creator><pubDate>Tue, 14 Jul 2015 14:05:06 +0800</pubDate><guid isPermaLink="false">tag:blog.pychina.org,2015-07-14:/events/pycon2015china-bj.html</guid><category>events</category><category>gdg</category><category>PyCon</category><category>event</category></item><item><title>PyCon2014China-北京场 小意回顾</title><link>http://blog.pychina.org/events/pycon2014china-bj.html</link><description>&lt;p&gt;&lt;img alt="bj-all-0.jpg(JPEG 图像,636x200 像素)" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto_bj/bj-all-0.jpg?imageView2/2/h/200"&gt;&lt;/p&gt;
+&lt;p&gt;过往四届,总是有对分享主题不 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG Pythoneer</dc:creator><pubDate>Tue, 14 Jul 2015 14:05:06 +0800</pubDate><guid isPermaLink="false">tag:blog.pychina.org,2015-07-14:/events/pycon2015china-bj.html</guid><category>events</category><category>gdg</category><category>PyCon</category><category>event</category></item><item><title>PyCon2014China-北京场 小意回顾</title><link>http://blog.pychina.org/events/pycon2014china-bj.html</link><description>&lt;p&gt;&lt;img alt="bj-all-0.jpg(JPEG 图像,636x200 像素)" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto_bj/bj-all-0.jpg?imageView2/2/h/200"&gt;&lt;/p&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;p&gt;DMMA    亲, 又一年 "帝都" 场,又被大规模吐糟了,
 但素, PyConChina 怎么能放弃 "帝都" 呢?!
 141124-pyconbj-bigpic.png
 所以, 大妈代表组委会~ &lt;code&gt;倡议&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;真诚回答: &lt;a href="http://www.zhihu.com/question/26764444"&gt;如何在北京办好 PyCon2015China 大会? - 知乎&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;针对 PyCon2014China 北京场 的各种问题&lt;/li&gt;
-&lt;li&gt;请在以上 知乎 专用问题中回复,给出合理化建议&lt;/li&gt;
-&lt;li&gt;要求给出尽可能详细的执行说明和相关资源描述和接口人&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!--more--&gt;
-
-&lt;p&gt;截止 12/12 前,最有可行性的, 点赞最多的, top 4.2 个回复,奖励:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2014版 苦短衫一件&lt;/li&gt;
-&lt;li&gt;2015北京场 VIP 门票一张&lt;/li&gt;
-&lt;li&gt;Python 技术图书一册&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;倡议报名 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG Pythoneer</dc:creator><pubDate>Tue, 25 Nov 2014 11:11:00 +0800</pubDate><guid isPermaLink="false">tag:blog.pychina.org,2014-11-25:/events/pycon2014china-bj.html</guid><category>events</category><category>gdg</category><category>PyCon</category><category>event</category><category>summary</category><category>beijing</category></item><item><title>PyCon2014China-珠海场 无负责报道</title><link>http://blog.pychina.org/events/pycon2014china-zh.html</link><description>&lt;p&gt;亲, 山高水长的一年后, 总算得以共聚在珠海, 认真分享了一天呢!&lt;/p&gt;
+&lt;p&gt;真诚回答: &lt;a href="http://www.zhihu.com/question/26764444"&gt;如何在北京 …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG Pythoneer</dc:creator><pubDate>Tue, 25 Nov 2014 11:11:00 +0800</pubDate><guid isPermaLink="false">tag:blog.pychina.org,2014-11-25:/events/pycon2014china-bj.html</guid><category>events</category><category>gdg</category><category>PyCon</category><category>event</category><category>summary</category><category>beijing</category></item><item><title>PyCon2014China-珠海场 无负责报道</title><link>http://blog.pychina.org/events/pycon2014china-zh.html</link><description>&lt;p&gt;亲, 山高水长的一年后, 总算得以共聚在珠海, 认真分享了一天呢!&lt;/p&gt;
 &lt;p&gt;&lt;img alt="PyCon2014zhuhai-h500.jpg" src="http://zoomq.qiniudn.com/CPyUG/PyCon2014China/_foto/PyCon2014zhuhai-h500.png?imageView2/2/w/520"&gt;&lt;/p&gt;
 &lt;p&gt;[TOC]&lt;/p&gt;
 &lt;p&gt;活动关键数据:&lt;/p&gt;
@@ -71,22 +22,7 @@
 &lt;li&gt;参会人数: &lt;code&gt;133&lt;/code&gt; , 其中:&lt;ul&gt;
 &lt;li&gt;报名 159 位&lt;/li&gt;
 &lt;li&gt;赠票 2 位&lt;/li&gt;
-&lt;li&gt;实到 109 位 (现场报名3人)&lt;/li&gt;
-&lt;li&gt;讲师 9+1 位 (线上一位台湾弟兄 ;-)&lt;/li&gt;
-&lt;li&gt;志愿者 15 人&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;时间: 9:30~18:07&lt;/li&gt;
-&lt;li&gt;地点: 金山软件大厦 f1 会议厅&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!--more--&gt;
-
-&lt;p&gt;所谓: &lt;a href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet/NullDutyPublish"&gt;"无责任报道"&lt;/a&gt; 
-- 就是私人报道
-- 和任何组织/国家/党派 无关
-- 涉及所有媒体资料, 各有各的许可协议
-- 哪个不妥,你吼,俺删 ;-)&lt;/p&gt;
-&lt;p&gt;再次, 感谢志愿团队 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG Pythoneer</dc:creator><pubDate>Tue, 18 Nov 2014 19:19:00 +0800</pubDate><guid isPermaLink="false">tag:blog.pychina.org,2014-11-18:/events/pycon2014china-zh.html</guid><category>events</category><category>gdg</category><category>PyCon</category><category>event</category><category>summary</category><category>zhuhai</category></item><item><title>Pythonic口号的Pivot</title><link>http://blog.pychina.org/imho/140916-pycon-slogen.html</link><description>&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;li&gt;实到 …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG Pythoneer</dc:creator><pubDate>Tue, 18 Nov 2014 19:19:00 +0800</pubDate><guid isPermaLink="false">tag:blog.pychina.org,2014-11-18:/events/pycon2014china-zh.html</guid><category>events</category><category>gdg</category><category>PyCon</category><category>event</category><category>summary</category><category>zhuhai</category></item><item><title>Pythonic口号的Pivot</title><link>http://blog.pychina.org/imho/140916-pycon-slogen.html</link><description>&lt;p&gt;[TOC]&lt;/p&gt;
 &lt;p&gt;&lt;img alt="SimpleIsBeautiful(PNG 图像,731x681 像素)" src="http://wiki.woodpecker.org.cn/moin/SimpleIsBeautiful?action=AttachFile&amp;amp;do=get&amp;amp;target=130416-zq-simple-is-beautiful.png"&gt;&lt;/p&gt;
 &lt;p&gt;可记得去年的&lt;a href="http://python-china.org/topic/544#reply5"&gt;蠎年蠎衫(PythonisT-shirt)设计大赛! — Python China&lt;/a&gt;
 ?&lt;/p&gt;
@@ -95,13 +31,4 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://sebsauvage.net/python/"&gt;"Life is short
 (You need Python)"~sebsauvage.net - Python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.zhihu.com/question/20830223"&gt;"Life is short, use Python" 最初是谁在什么情况下说的? - 知乎&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;是的,一句无意间的代码注释,在 2007年,演化为 CPyUG 社区纪念TEE 的设计出处:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;演化成了: &lt;code&gt;Life is short, use Python!&lt;/code&gt; &lt;/li&gt;
-&lt;li&gt;Gudio 那年也穿上了身&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt="LpyAttachZoomq(JPEG 图像,800x533 像素)" src="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython/LpyAttachZoomq?action=AttachFile&amp;amp;do=get&amp;amp;target=beginning-1-zeuux-fashion-guido.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;然后,就没有然后了,,,因为 ZEUUX 的沉默,
-做到 2013年, PyConChina 才在北京 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG Pythoneer</dc:creator><pubDate>Tue, 16 Sep 2014 19:42:42 +0800</pubDate><guid isPermaLink="false">tag:blog.pychina.org,2014-09-16:/imho/140916-pycon-slogen.html</guid><category>IMHO</category><category>DAMA</category><category>Pythoneer</category><category>PyCon</category></item></channel></rss>
+&lt;li&gt;&lt;a href="http://www.zhihu.com/question/20830223"&gt;"Life is short, use Python" 最初是谁在什么情况 …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">CPyUG Pythoneer</dc:creator><pubDate>Tue, 16 Sep 2014 19:42:42 +0800</pubDate><guid isPermaLink="false">tag:blog.pychina.org,2014-09-16:/imho/140916-pycon-slogen.html</guid><category>IMHO</category><category>DAMA</category><category>Pythoneer</category><category>PyCon</category></item></channel></rss>

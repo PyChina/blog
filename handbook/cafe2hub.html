@@ -16,7 +16,7 @@
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="从 gitcafe 迁移回 github"/>
             <meta property="og:url" content="http://blog.pychina.org/handbook/cafe2hub.html"/>
-            <meta property="og:description" content="gitcafe 2 GitHub [TOC] processing UserName/Organization site https://github.com/DevRela/devrela.github.io 这种比较简单: 追加 CNAME ~ devrel.info DNSPod 修订 CNAME @ ~ devrela.github.io KO Project site https://github.com/zoom-quiet/wiki 这种,也就多一步: 建立分支 git co -b hg_pages 复制为 output 目录 定制 fab 事务 ~ wiki/fabfile.py …"/>
+            <meta property="og:description" content="gitcafe 2 GitHub [TOC] processing UserName/Organization site https://github.com/DevRela/devrela.github.io 这种比较简单: 追加 CNAME ~ devrel.info DNSPod 修订 CNAME @ ~ devrela.github.io KO Project site https://github.com/zoom-quiet/wiki 这种,也就多一步: 建立 …"/>
 
     <!-- Bootstrap -->
         <link rel="stylesheet" href="http://blog.pychina.org/theme/css/bootstrap.readable.min.css" type="text/css"/>
@@ -122,23 +122,22 @@
 <li>DNSPod 的确是国内用户首选</li>
 </ul>
 <p>完解析后的情景</p>
-<div class="highlight"><pre><span></span><code><span class="err">༆</span>  <span class="nt">dig</span> <span class="nt">wiki</span><span class="p">.</span><span class="nc">zhgdg</span><span class="p">.</span><span class="nc">org</span>
+<div class="highlight"><pre><span></span><code><span class="err">༆</span><span class="w">  </span><span class="nt">dig</span><span class="w"> </span><span class="nt">wiki</span><span class="p">.</span><span class="nc">zhgdg</span><span class="p">.</span><span class="nc">org</span><span class="w"></span>
 
-<span class="o">;</span> <span class="o">&lt;&lt;&gt;&gt;</span> <span class="nt">DiG</span> <span class="nt">9</span><span class="p">.</span><span class="nc">8</span><span class="p">.</span><span class="nc">3-P1</span> <span class="o">&lt;&lt;&gt;&gt;</span> <span class="nt">wiki</span><span class="p">.</span><span class="nc">zhgdg</span><span class="p">.</span><span class="nc">org</span>
-<span class="o">;;</span> <span class="nt">global</span> <span class="nt">options</span><span class="o">:</span> <span class="o">+</span><span class="nt">cmd</span>
-<span class="o">;;</span> <span class="nt">Got</span> <span class="nt">answer</span><span class="o">:</span>
-<span class="o">;;</span> <span class="nt">-</span><span class="o">&gt;&gt;</span><span class="nt">HEADER</span><span class="o">&lt;&lt;</span><span class="nt">-</span> <span class="nt">opcode</span><span class="o">:</span> <span class="nt">QUERY</span><span class="o">,</span> <span class="nt">status</span><span class="o">:</span> <span class="nt">NOERROR</span><span class="o">,</span> <span class="nt">id</span><span class="o">:</span> <span class="nt">61427</span>
-<span class="o">;;</span> <span class="nt">flags</span><span class="o">:</span> <span class="nt">qr</span> <span class="nt">rd</span> <span class="nt">ra</span><span class="o">;</span> <span class="nt">QUERY</span><span class="o">:</span> <span class="nt">1</span><span class="o">,</span> <span class="nt">ANSWER</span><span class="o">:</span> <span class="nt">3</span><span class="o">,</span> <span class="nt">AUTHORITY</span><span class="o">:</span> <span class="nt">0</span><span class="o">,</span> <span class="nt">ADDITIONAL</span><span class="o">:</span> <span class="nt">0</span>
+<span class="o">;</span><span class="w"> </span><span class="o">&lt;&lt;&gt;&gt;</span><span class="w"> </span><span class="nt">DiG</span><span class="w"> </span><span class="nt">9</span><span class="p">.</span><span class="nc">8</span><span class="p">.</span><span class="nc">3-P1</span><span class="w"> </span><span class="o">&lt;&lt;&gt;&gt;</span><span class="w"> </span><span class="nt">wiki</span><span class="p">.</span><span class="nc">zhgdg</span><span class="p">.</span><span class="nc">org</span><span class="w"></span>
+<span class="o">;;</span><span class="w"> </span><span class="nt">global</span><span class="w"> </span><span class="nt">options</span><span class="o">:</span><span class="w"> </span><span class="o">+</span><span class="nt">cmd</span><span class="w"></span>
+<span class="o">;;</span><span class="w"> </span><span class="nt">Got</span><span class="w"> </span><span class="nt">answer</span><span class="o">:</span><span class="w"></span>
+<span class="o">;;</span><span class="w"> </span><span class="nt">-</span><span class="o">&gt;&gt;</span><span class="nt">HEADER</span><span class="o">&lt;&lt;</span><span class="nt">-</span><span class="w"> </span><span class="nt">opcode</span><span class="o">:</span><span class="w"> </span><span class="nt">QUERY</span><span class="o">,</span><span class="w"> </span><span class="nt">status</span><span class="o">:</span><span class="w"> </span><span class="nt">NOERROR</span><span class="o">,</span><span class="w"> </span><span class="nt">id</span><span class="o">:</span><span class="w"> </span><span class="nt">61427</span><span class="w"></span>
+<span class="o">;;</span><span class="w"> </span><span class="nt">flags</span><span class="o">:</span><span class="w"> </span><span class="nt">qr</span><span class="w"> </span><span class="nt">rd</span><span class="w"> </span><span class="nt">ra</span><span class="o">;</span><span class="w"> </span><span class="nt">QUERY</span><span class="o">:</span><span class="w"> </span><span class="nt">1</span><span class="o">,</span><span class="w"> </span><span class="nt">ANSWER</span><span class="o">:</span><span class="w"> </span><span class="nt">3</span><span class="o">,</span><span class="w"> </span><span class="nt">AUTHORITY</span><span class="o">:</span><span class="w"> </span><span class="nt">0</span><span class="o">,</span><span class="w"> </span><span class="nt">ADDITIONAL</span><span class="o">:</span><span class="w"> </span><span class="nt">0</span><span class="w"></span>
 
-<span class="o">;;</span> <span class="nt">QUESTION</span> <span class="nt">SECTION</span><span class="o">:</span>
-<span class="o">;</span><span class="nt">wiki</span><span class="p">.</span><span class="nc">zhgdg</span><span class="p">.</span><span class="nc">org</span><span class="o">.</span>            <span class="nt">IN</span>  <span class="nt">A</span>
+<span class="o">;;</span><span class="w"> </span><span class="nt">QUESTION</span><span class="w"> </span><span class="nt">SECTION</span><span class="o">:</span><span class="w"></span>
+<span class="o">;</span><span class="nt">wiki</span><span class="p">.</span><span class="nc">zhgdg</span><span class="p">.</span><span class="nc">org</span><span class="o">.</span><span class="w">            </span><span class="nt">IN</span><span class="w">  </span><span class="nt">A</span><span class="w"></span>
 
-<span class="o">;;</span> <span class="nt">ANSWER</span> <span class="nt">SECTION</span><span class="o">:</span>
-<span class="nt">wiki</span><span class="p">.</span><span class="nc">zhgdg</span><span class="p">.</span><span class="nc">org</span><span class="o">.</span>     <span class="nt">600</span> <span class="nt">IN</span>  <span class="nt">CNAME</span>   <span class="nt">zhgdg</span><span class="p">.</span><span class="nc">github</span><span class="p">.</span><span class="nc">io</span><span class="o">.</span>
-<span class="nt">zhgdg</span><span class="p">.</span><span class="nc">github</span><span class="p">.</span><span class="nc">io</span><span class="o">.</span>    <span class="nt">3600</span>    <span class="nt">IN</span>  <span class="nt">CNAME</span>   <span class="nt">github</span><span class="p">.</span><span class="nc">map</span><span class="p">.</span><span class="nc">fastly</span><span class="p">.</span><span class="nc">net</span><span class="o">.</span>
-<span class="nt">github</span><span class="p">.</span><span class="nc">map</span><span class="p">.</span><span class="nc">fastly</span><span class="p">.</span><span class="nc">net</span><span class="o">.</span>  <span class="nt">27</span>  <span class="nt">IN</span>  <span class="nt">A</span>   <span class="nt">23</span><span class="p">.</span><span class="nc">235</span><span class="p">.</span><span class="nc">44</span><span class="p">.</span><span class="nc">133</span>
+<span class="o">;;</span><span class="w"> </span><span class="nt">ANSWER</span><span class="w"> </span><span class="nt">SECTION</span><span class="o">:</span><span class="w"></span>
+<span class="nt">wiki</span><span class="p">.</span><span class="nc">zhgdg</span><span class="p">.</span><span class="nc">org</span><span class="o">.</span><span class="w">     </span><span class="nt">600</span><span class="w"> </span><span class="nt">IN</span><span class="w">  </span><span class="nt">CNAME</span><span class="w">   </span><span class="nt">zhgdg</span><span class="p">.</span><span class="nc">github</span><span class="p">.</span><span class="nc">io</span><span class="o">.</span><span class="w"></span>
+<span class="nt">zhgdg</span><span class="p">.</span><span class="nc">github</span><span class="p">.</span><span class="nc">io</span><span class="o">.</span><span class="w">    </span><span class="nt">3600</span><span class="w">    </span><span class="nt">IN</span><span class="w">  </span><span class="nt">CNAME</span><span class="w">   </span><span class="nt">github</span><span class="p">.</span><span class="nc">map</span><span class="p">.</span><span class="nc">fastly</span><span class="p">.</span><span class="nc">net</span><span class="o">.</span><span class="w"></span>
+<span class="nt">github</span><span class="p">.</span><span class="nc">map</span><span class="p">.</span><span class="nc">fastly</span><span class="p">.</span><span class="nc">net</span><span class="o">.</span><span class="w">  </span><span class="nt">27</span><span class="w">  </span><span class="nt">IN</span><span class="w">  </span><span class="nt">A</span><span class="w">   </span><span class="nt">23</span><span class="p">.</span><span class="nc">235</span><span class="p">.</span><span class="nc">44</span><span class="p">.</span><span class="nc">133</span><span class="w"></span>
 </code></pre></div>
-
 
 <h3>coding</h3>
 <ul>
@@ -205,12 +204,11 @@ var jiathis_config = {data_track_clickback:'true'};
 <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1518639" charset="utf-8"></script>
 <!-- JiaThis Button END -->
 
-<hr/>
+<hr />
 
 <h4>自怼圈/年度番新</h4>
-<img alt="DU22.4" 
-    src="https://ipic.zoomquiet.top/2022-04-30-220430DU6y_zip.jpg!/fw/420"/>
-<br/>
+<img alt="DU22.8" src="https://ipic.zoomquiet.top/2022-08-19-220819DU22.8.jpeg!/fw/420" />
+<br />
 <a href="https://du.101.camp/about/">关于 ~ DebugUself with DAMA ;-)</a>
 
 
@@ -311,26 +309,30 @@ var jiathis_config = {data_track_clickback:'true'};
 -->
 
 
-<hr/>
+<hr />
 点击注册~> 获得 <b>100$</b> 体验券:
-<a href="https://www.digitalocean.com/?refcode=e7b7cdc66376&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" /></a>
+<a
+    href="https://www.digitalocean.com/?refcode=e7b7cdc66376&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img
+        src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg"
+        alt="DigitalOcean Referral Badge" /></a>
 
-<hr/>
+<hr />
 
 
 <p>订阅 substack 体验古早写作:
-    <br/>
+    <br />
 
-<iframe src="https://zoomquiet.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://zoomquiet.substack.com/embed" width="480" height="320"
+        style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
 </p>
 
-<hr/>
+<hr />
 
 <p>关注公众号, 持续获得相关各种嗯哼:
-    <br/>
-<img alt="zoomquiet" 
-    src="https://ipic.zoomquiet.top/2021-12-27-zoomquiet-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88580.jpg"/>
+    <br />
+    <img alt="zoomquiet"
+        src="https://ipic.zoomquiet.top/2021-12-27-zoomquiet-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88580.jpg!/fw/420" />
 </p>
 
 
@@ -379,37 +381,35 @@ var jiathis_config = {data_track_clickback:'true'};
 -->
 
 
-<hr/>
+<hr />
 <h3>蟒营®编程思维提高班Python版</h3>
 **2021.01.11** 因大妈再次创业暂停定期开设, 转换为预约触发:
 
-<!--
 <ul>
     <li>
-+ 扫描预约入群, 学员每满 42 人即启动新一期训练营 ;-)
+        + 扫描预约入群, 学员每满 42 人即启动新一期训练营 ;-)
     </li>
 
     <li>
-<img alt="101camp21.7" 
-    src="http://ydlj.zoomquiet.top/ipic/2021-07-20-210704camp-pre-order_zip.jpg"/>
+        <img alt="101camp22.7" src="https://ipic.zoomquiet.top/2022-08-19-220819pre101camp.jpeg!/fw/420" />
     </li>
     <li>
-+  任何问题, 随时邮件提问可也:<pre>askdama@googlegroups.com</pre>
+        + 任何问题, 随时邮件提问可也:
+        <pre>askdama@googlegroups.com</pre>
     </li>
 </ul>
-
--->
-
+<!--
 <h4>追问</h4>
 <blockquote>
-<p>
-    任何问题, 随时邮件提问可也:
-<br/>
-    <i>
-    askdama@googlegroups.com
-    </i>
-</p>
-</blockquote>        </article>
+    <p>
+        任何问题, 随时邮件提问可也:
+        <br />
+        <i>
+            askdama@googlegroups.com
+        </i>
+    </p>
+</blockquote>
+-->        </article>
     </section>
 
         </div>
