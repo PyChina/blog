@@ -154,7 +154,8 @@
 &lt;/ul&gt;</content><category term="events"></category><category term="PyCon"></category><category term="event"></category></entry><entry><title>PyCon2017中国大会议题征集</title><link href="http://blog.pychina.org/events/pycon2017china-sh.html" rel="alternate"></link><published>2017-09-11T11:11:11+08:00</published><updated>2017-09-14T08:46:56+08:00</updated><author><name>CPyUG Pythoneer</name></author><id>tag:blog.pychina.org,2017-09-11:/events/pycon2017china-sh.html</id><summary type="html">&lt;h1&gt;第6届了&lt;/h1&gt;
 &lt;p&gt;今年，IEEE Spectrum 发布了第四届顶级编程语言排行榜，Python高居首位。&lt;/p&gt;
 &lt;p&gt;谁会成为AI 和大数据时代的第一开发语言？ &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;在Facebook 开源 …&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;第6届了&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;在Facebook 开源了 PyTorch 之后，
+Python 作 …&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;第6届了&lt;/h1&gt;
 &lt;p&gt;今年，IEEE Spectrum 发布了第四届顶级编程语言排行榜，Python高居首位。&lt;/p&gt;
 &lt;p&gt;谁会成为AI 和大数据时代的第一开发语言？ &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;在Facebook 开源了 PyTorch 之后，
@@ -282,7 +283,7 @@ DevOps，大数据处理等领域都是炙手可热的语言。
 &lt;li&gt;9.13 @广州;&lt;/li&gt;
 &lt;li&gt;9.19 @北京;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;过往四届,总是有对分享主题不 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;一年一度的PyCon2015即将召开, 目前已经有3座城市举办时间已定:&lt;/p&gt;
+&lt;p&gt;过往四届,总是有对分享主题不够干货的报怨. 所以,今年大会将 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;一年一度的PyCon2015即将召开, 目前已经有3座城市举办时间已定:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;9.12 @上海;&lt;/li&gt;
 &lt;li&gt;9.13 @广州;&lt;/li&gt;
@@ -1093,7 +1094,8 @@ $ /path/2/local/qrsync -skipsym ../7niu-pycon.json
 &lt;li&gt;志愿者 18人&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;时间: 9:30 …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;PyCon2013CHina 珠海场 小结&lt;/h1&gt;
+&lt;li&gt;时间: 9:30~18:07&lt;/li&gt;
+&lt;li&gt;地点: 金山 …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;PyCon2013CHina 珠海场 小结&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="131209_pyconzh_bigpic.png" src="http://zoomq.qiniudn.com/CPyUG/PyCon2013China/131209_pyconzh_bigpic.png"&gt;&lt;/p&gt;
 &lt;p&gt;活动关键数据:&lt;/p&gt;
 &lt;ul&gt;
@@ -1442,7 +1444,7 @@ PS:真人照片,不是星爷!&lt;/p&gt;
 &lt;/ul&gt;</content><category term="events"></category><category term="gdg"></category><category term="PyCon"></category><category term="event"></category><category term="summary"></category></entry><entry><title>Sting Chen</title><link href="http://blog.pychina.org/volunteer/sting_chen.html" rel="alternate"></link><published>2013-12-09T00:00:00+08:00</published><updated>2015-08-07T12:08:11+08:00</updated><author><name>Zoom.Quiet</name></author><id>tag:blog.pychina.org,2013-12-09:/volunteer/sting_chen.html</id><summary type="html">&lt;h1&gt;StingChen(陈世欣)&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="chenshixin_2013" src="http://pyconcn.qiniudn.com/images/volunteer/chenshixin_2013.png"&gt;&lt;/p&gt;
 &lt;p&gt;永泰红磡养老产业投资集团的信息技术总监&lt;/p&gt;
-&lt;p&gt;在14年的互联网生涯后，投身到到永泰红磡养老产业投资集团做 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;StingChen(陈世欣)&lt;/h1&gt;
+&lt;p&gt;在14年的互联网生涯后，投身到到永泰红磡养老产业投资集团做夕阳事业，跨界发展 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;StingChen(陈世欣)&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="chenshixin_2013" src="http://pyconcn.qiniudn.com/images/volunteer/chenshixin_2013.png"&gt;&lt;/p&gt;
 &lt;p&gt;永泰红磡养老产业投资集团的信息技术总监&lt;/p&gt;
 &lt;p&gt;在14年的互联网生涯后，投身到到永泰红磡养老产业投资集团做夕阳事业，跨界发展。&lt;/p&gt;
@@ -1456,7 +1458,9 @@ PS:真人照片,不是星爷!&lt;/p&gt;
 &lt;p&gt;Python中文社区创始人(之一) / 管理员,
 热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://code.google.com/p/openbookproject/"&gt;O.B.P&lt;/a&gt;
-(Open Book Proj.~中文蟒样开 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
+(Open Book Proj.~中文蟒样开放图书计划)
+及
+蟒 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Zoom.Quiet (大妈)&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="ZQ" src="http://pyconcn.qiniudn.com/images/volunteer/zhouqi.png"&gt;&lt;/p&gt;
 &lt;p&gt;Python中文社区创始人(之一) / 管理员,
 热心于 Python 等等社区的公益事业, 大家熟知的社区"大妈";&lt;/p&gt;
