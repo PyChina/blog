@@ -177,11 +177,11 @@
 <li><code>cn.pycon.org</code> 主机在国外</li>
 <li>相关配置为:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="nt">location</span><span class="w"> </span><span class="o">^~</span><span class="w"> </span><span class="o">/</span><span class="nt">2014</span><span class="o">/</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">    </span><span class="err">proxy_set_header</span><span class="w"> </span><span class="err">X-Forwarded-For</span><span class="w"> </span><span class="err">$proxy_add_x_forwarded_for</span><span class="p">;</span><span class="w"></span>
-<span class="w">    </span><span class="err">proxy_set_header</span><span class="w"> </span><span class="err">Host</span><span class="w"> </span><span class="err">pyconcn.qiniudn.com</span><span class="p">;</span><span class="w"></span>
-<span class="w">    </span><span class="err">proxy_pass</span><span class="w">  </span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">pyconcn</span><span class="o">.</span><span class="n">qiniudn</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="mi">2014</span><span class="o">/</span><span class="w"> </span><span class="p">;</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="nt">location</span><span class="w"> </span><span class="o">^~</span><span class="w"> </span><span class="o">/</span><span class="nt">2014</span><span class="o">/</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="err">proxy_set_header</span><span class="w"> </span><span class="err">X-Forwarded-For</span><span class="w"> </span><span class="err">$proxy_add_x_forwarded_for</span><span class="p">;</span>
+<span class="w">    </span><span class="err">proxy_set_header</span><span class="w"> </span><span class="err">Host</span><span class="w"> </span><span class="err">pyconcn.qiniudn.com</span><span class="p">;</span>
+<span class="w">    </span><span class="err">proxy_pass</span><span class="w">  </span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">pyconcn</span><span class="o">.</span><span class="n">qiniudn</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="mi">2014</span><span class="o">/</span><span class="w"> </span><span class="p">;</span>
+<span class="p">}</span>
 </code></pre></div>
 
 <p>所以,7牛空间的协同思路:</p>
@@ -190,27 +190,27 @@
 <li>其它目录, 确保唯一即可</li>
 <li>e.g. 在 7牛 空间中可以是:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="nl">http</span><span class="p">:</span><span class="o">//</span><span class="n">pyconcn</span><span class="p">.</span><span class="n">qiniudn</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="w"></span>
-<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="mi">2014</span><span class="o">/</span><span class="w"></span>
-<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="n">zoomquiet</span><span class="o">/</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="mi">2011</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="mi">2012</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="mi">2013</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="err">`</span><span class="o">-</span><span class="w"> </span><span class="n">stuff14</span><span class="w"></span>
-<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="o">[</span><span class="n">someone</span><span class="o">]</span><span class="w"></span>
-<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="nl">http</span><span class="p">:</span><span class="o">//</span><span class="n">pyconcn</span><span class="p">.</span><span class="n">qiniudn</span><span class="p">.</span><span class="n">com</span><span class="o">/</span>
+<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="mi">2014</span><span class="o">/</span>
+<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="n">zoomquiet</span><span class="o">/</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="mi">2011</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="mi">2012</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="mi">2013</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="err">`</span><span class="o">-</span><span class="w"> </span><span class="n">stuff14</span>
+<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="o">[</span><span class="n">someone</span><span class="o">]</span>
+<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span>
 </code></pre></div>
 
 <ul>
 <li>但是,在不同的志愿者本地, 目录可以是:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="nl">http</span><span class="p">:</span><span class="o">//</span><span class="n">pyconcn</span><span class="p">.</span><span class="n">qiniudn</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="w"></span>
-<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="mi">2014</span><span class="o">/</span><span class="w"></span>
-<span class="w">    </span><span class="err">`</span><span class="o">-</span><span class="w"> </span><span class="o">[</span><span class="n">someone</span><span class="o">]</span><span class="w"></span>
-<span class="w">        </span><span class="o">+-</span><span class="w"> </span><span class="n">foto</span><span class="w"></span>
-<span class="w">        </span><span class="o">+-</span><span class="w"> </span><span class="n">logo</span><span class="w"></span>
-<span class="w">        </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="nl">http</span><span class="p">:</span><span class="o">//</span><span class="n">pyconcn</span><span class="p">.</span><span class="n">qiniudn</span><span class="p">.</span><span class="n">com</span><span class="o">/</span>
+<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="mi">2014</span><span class="o">/</span>
+<span class="w">    </span><span class="err">`</span><span class="o">-</span><span class="w"> </span><span class="o">[</span><span class="n">someone</span><span class="o">]</span>
+<span class="w">        </span><span class="o">+-</span><span class="w"> </span><span class="n">foto</span>
+<span class="w">        </span><span class="o">+-</span><span class="w"> </span><span class="n">logo</span>
+<span class="w">        </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span>
 </code></pre></div>
 
 <ul>
@@ -229,34 +229,34 @@
 <ul>
 <li>安排好工作目录, 类似:</li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="k">path</span><span class="o">/</span><span class="mi">2</span><span class="o">/</span><span class="n">ur</span><span class="o">/</span><span class="k">local</span><span class="o">/</span><span class="n">cn</span><span class="p">.</span><span class="n">pycon</span><span class="o">/</span><span class="w"></span>
-<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="mi">7</span><span class="n">niu</span><span class="o">-</span><span class="n">pycon</span><span class="p">.</span><span class="n">json</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="o">/</span><span class="k">path</span><span class="o">/</span><span class="mi">2</span><span class="o">/</span><span class="n">ur</span><span class="o">/</span><span class="k">local</span><span class="o">/</span><span class="n">cn</span><span class="p">.</span><span class="n">pycon</span><span class="o">/</span>
+<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="mi">7</span><span class="n">niu</span><span class="o">-</span><span class="n">pycon</span><span class="p">.</span><span class="n">json</span>
 <span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="mi">7</span><span class="n">niu</span><span class="p">.</span><span class="n">pyconcn</span><span class="o">/</span><span class="w"> </span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="mi">2014</span><span class="o">/</span><span class="w"> </span><span class="o">&lt;~~~~~+</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="o">[</span><span class="n">someone</span><span class="o">]</span><span class="w">   </span><span class="o">|</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span><span class="w">         </span><span class="o">|</span><span class="w"></span>
-<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span><span class="w">             </span><span class="o">|</span><span class="w"></span>
-<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="n">MkDoc4PyCon</span><span class="o">/</span><span class="w">    </span><span class="o">|</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="p">.</span><span class="n">git</span><span class="o">/</span><span class="w">     </span><span class="k">ln</span><span class="w"> </span><span class="o">-</span><span class="n">s</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">_theme</span><span class="o">/</span><span class="w">     </span><span class="o">|</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">docs</span><span class="o">/</span><span class="w">       </span><span class="o">|</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">site</span><span class="o">/</span><span class="w"> </span><span class="o">~~~~~~+</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="p">.</span><span class="n">gitignore</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">fabfile</span><span class="p">.</span><span class="n">py</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">footer</span><span class="o">-</span><span class="mi">7</span><span class="n">niu</span><span class="p">.</span><span class="n">html</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">gen4idx</span><span class="p">.</span><span class="n">py</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">mkdocs</span><span class="p">.</span><span class="n">yml</span><span class="w"></span>
-<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span><span class="w"></span>
-<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span><span class="w"></span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="mi">2014</span><span class="o">/</span><span class="w"> </span><span class="o">&lt;~~~~~+</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="o">[</span><span class="n">someone</span><span class="o">]</span><span class="w">   </span><span class="o">|</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span><span class="w">         </span><span class="o">|</span>
+<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span><span class="w">             </span><span class="o">|</span>
+<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="n">MkDoc4PyCon</span><span class="o">/</span><span class="w">    </span><span class="o">|</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="p">.</span><span class="n">git</span><span class="o">/</span><span class="w">     </span><span class="k">ln</span><span class="w"> </span><span class="o">-</span><span class="n">s</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">_theme</span><span class="o">/</span><span class="w">     </span><span class="o">|</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">docs</span><span class="o">/</span><span class="w">       </span><span class="o">|</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">site</span><span class="o">/</span><span class="w"> </span><span class="o">~~~~~~+</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="p">.</span><span class="n">gitignore</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">fabfile</span><span class="p">.</span><span class="n">py</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">footer</span><span class="o">-</span><span class="mi">7</span><span class="n">niu</span><span class="p">.</span><span class="n">html</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">gen4idx</span><span class="p">.</span><span class="n">py</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="n">mkdocs</span><span class="p">.</span><span class="n">yml</span>
+<span class="w">    </span><span class="o">|</span><span class="w">   </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span>
+<span class="w">    </span><span class="o">+-</span><span class="w"> </span><span class="p">...</span>
 </code></pre></div>
 
 <ul>
 <li>当然的,本地的目录名,不用完全和这里的一样,关键要确保 <code>fabric</code> 可运行成功就好</li>
 <li>对应的配置项可以自行根据需求变更 <code>fabfile.py</code>: </li>
 </ul>
-<div class="highlight"><pre><span></span><code>env.qiniu = &#39;/opt/bin/7niu_package_darwin_amd64/qrsync&#39;
-env.qiniu_conf = &#39;../7niu-pycon.json&#39;
-env.qiniu_path = &#39;../7niu.pyconcn&#39;
+<div class="highlight"><pre><span></span><code><span class="nx">env</span><span class="p">.</span><span class="nx">qiniu</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="err">&#39;</span><span class="o">/</span><span class="nx">opt</span><span class="o">/</span><span class="nx">bin</span><span class="o">/</span><span class="mi">7</span><span class="nx">niu_package_darwin_amd64</span><span class="o">/</span><span class="nx">qrsync</span><span class="err">&#39;</span>
+<span class="nx">env</span><span class="p">.</span><span class="nx">qiniu_conf</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="err">&#39;</span><span class="p">..</span><span class="o">/</span><span class="mi">7</span><span class="nx">niu</span><span class="o">-</span><span class="nx">pycon</span><span class="p">.</span><span class="nx">json</span><span class="err">&#39;</span>
+<span class="nx">env</span><span class="p">.</span><span class="nx">qiniu_path</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="err">&#39;</span><span class="p">..</span><span class="o">/</span><span class="mi">7</span><span class="nx">niu</span><span class="p">.</span><span class="nx">pyconcn</span><span class="err">&#39;</span>
 </code></pre></div>
 
 <ul>
@@ -279,9 +279,9 @@ env.qiniu_path = &#39;../7niu.pyconcn&#39;
 <li>正常情况下, 嘦调整 <code>"src"</code> 的内容,指向本地目录,即可</li>
 </ul>
 <p>然后,可以手工在本地的 7牛 目录中,模拟 <code>fab pub2cafe</code> 的行为,运行:</p>
-<div class="highlight"><pre><span></span><code>$ python gen4idx.py ./ footer-7niu.html <span class="m">2014</span>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>python<span class="w"> </span>gen4idx.py<span class="w"> </span>./<span class="w"> </span>footer-7niu.html<span class="w"> </span><span class="m">2014</span>
 ...
-$ /path/2/local/qrsync -skipsym ../7niu-pycon.json
+$<span class="w"> </span>/path/2/local/qrsync<span class="w"> </span>-skipsym<span class="w"> </span>../7niu-pycon.json
 ...
 </code></pre></div>
 
@@ -478,6 +478,8 @@ var jiathis_config = {data_track_clickback:'true'};
 -->
 
 
+<!----
+
 <hr />
 点击注册~> 获得 <b>100$</b> 体验券:
 <a
@@ -492,14 +494,17 @@ var jiathis_config = {data_track_clickback:'true'};
     <br />
 <a href="https://zoomquiet.substack.com/p/pycoder587">Zoom.Quiet’s Chaos42 | Substack</a>
 
-<!----
     <iframe src="https://zoomquiet.substack.com/embed" width="360" 
         style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
+</p>
 -->
 
-</p>
 
+
+
+
+<!--
 <hr />
 
 <p>关注公众号, 持续获得相关各种嗯哼:
@@ -507,10 +512,6 @@ var jiathis_config = {data_track_clickback:'true'};
     <img alt="zoomquiet"
         src="https://ipic.zoomquiet.top/2021-12-27-zoomquiet-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88580.jpg!/fw/420" />
 </p>
-
-
-
-<!--
 
     ![](https://ipic.zoomquiet.top/2022-03-31-2020-10-21-zoomquiet-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88580.jpg)
 <blockquote><p>
@@ -550,10 +551,6 @@ var jiathis_config = {data_track_clickback:'true'};
 </ul>
 </p></blockquote>
 
-
--->
-
-
 <hr />
 <h3>蟒营®编程思维提高班Python版</h3>
 **2021.01.11** 因大妈再次创业暂停定期开设, 转换为预约触发:
@@ -564,6 +561,19 @@ var jiathis_config = {data_track_clickback:'true'};
         <pre>askdama@googlegroups.com</pre>
     </li>
 </ul>
+
+-->
+
+
+<hr />
+<h3>任何问题</h3>
+随时邮件提问可也:
+<pre>askdama@googlegroups.com</pre>
+
+
+<hr />
+<script src="https://liberapay.com/zoomquiet/widgets/button.js"></script>
+<noscript><a href="https://liberapay.com/zoomquiet/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
 <!--
     <li>
         + 扫描预约入群, 学员每满 42 人即启动新一期训练营 ;-)
